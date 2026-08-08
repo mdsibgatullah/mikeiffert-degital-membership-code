@@ -1,0 +1,232 @@
+<style>
+  .ilm-variant-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .ilm-variant-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 14px 16px;
+    transition: border-color 0.2s;
+  }
+
+  .ilm-variant-card:has(.ilm-variant-checkbox:checked) {
+    border-color: #999;
+  }
+
+  .ilm-variant-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .ilm-variant-checkbox {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+
+  .ilm-variant-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #1a1a1a;
+  }
+
+  .ilm-variant-title em {
+    color: #999;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .ilm-variant-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .ilm-qty-select {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 50px;
+  }
+
+  .ilm-variant-price {
+    font-weight: 600;
+    font-size: 14px;
+    color: #1c64f2;
+    min-width: 70px;
+    text-align: right;
+  }
+
+  .ilm-total-row {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 4px;
+  }
+
+  .ilm-add-btn {
+    background: #f68b1feb;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .ilm-add-btn:hover {
+    background: #f68b1f;
+  }
+
+  .ilm-add-btn.ilm-view-cart {
+    background: #16a34a;
+  }
+
+  .ilm-add-btn.ilm-view-cart:hover {
+    background: #128a3e;
+  }
+
+  .ilm-status-msg {
+    font-size: 13px;
+    color: #dc2626;
+    min-height: 16px;
+    margin-top: 4px;
+  }
+</style>
+
+{% paginate collections.all.products by 250 %}
+  <div class="ilm-variant-selector">
+    {% for product in collections.all.products %}
+      {% assign variant = product.selected_or_first_available_variant %}
+      <div class="ilm-variant-card" data-variant-id="{{ variant.id }}" data-price="{{ variant.price }}">
+        <label class="ilm-variant-left">
+          <input
+            type="checkbox"
+            class="ilm-variant-checkbox"
+            value="{{ variant.id }}"
+            {% unless product.available %}
+              disabled
+            {% endunless %}
+          >
+          <span class="ilm-variant-title">
+            {{ product.title }}
+            {% unless product.available %}
+              <em>(Sold out)</em>
+            {%- endunless %}
+          </span>
+        </label>
+
+        <div class="ilm-variant-right">
+          <select class="ilm-qty-select">
+            {% for i in (1..10) %}
+              <option value="{{ i }}">{{ i }}</option>
+            {% endfor %}
+          </select>
+          <span class="ilm-variant-price">{{ variant.price | money }}</span>
+        </div>
+      </div>
+    {% endfor %}
+
+    <div class="ilm-total-row">
+      <span>Total:</span>
+      <span id="ilm-total-price-value">{{ 0 | money }}</span>
+    </div>
+
+    <button id="ilm-add-selected-to-cart" class="ilm-add-btn">Add to Cart</button>
+    <div id="ilm-status-msg" class="ilm-status-msg"></div>
+  </div>
+{% endpaginate %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const cards = document.querySelectorAll('.ilm-variant-card');
+    const totalPriceEl = document.getElementById('ilm-total-price-value');
+    const addBtn = document.getElementById('ilm-add-selected-to-cart');
+    const statusMsg = document.getElementById('ilm-status-msg');
+
+    function formatMoney(cents) {
+      return (cents / 100).toFixed(2) + '€';
+    }
+
+    function calculateTotal() {
+      let total = 0;
+      cards.forEach(function (card) {
+        const checkbox = card.querySelector('.ilm-variant-checkbox');
+        const qtySelect = card.querySelector('.ilm-qty-select');
+        const price = parseInt(card.dataset.price, 10);
+
+        if (checkbox.checked) {
+          const qty = parseInt(qtySelect.value, 10);
+          total += price * qty;
+        }
+      });
+      totalPriceEl.textContent = formatMoney(total);
+    }
+
+    cards.forEach(function (card) {
+      const checkbox = card.querySelector('.ilm-variant-checkbox');
+      const qtySelect = card.querySelector('.ilm-qty-select');
+
+      checkbox.addEventListener('change', calculateTotal);
+      qtySelect.addEventListener('change', calculateTotal);
+    });
+
+    addBtn.addEventListener('click', function () {
+
+      const items = [];
+
+      cards.forEach(function (card) {
+        const checkbox = card.querySelector('.ilm-variant-checkbox');
+        const qtySelect = card.querySelector('.ilm-qty-select');
+
+        if (checkbox.checked) {
+          items.push({
+            id: parseInt(checkbox.value, 10),
+            quantity: parseInt(qtySelect.value, 10),
+          });
+        }
+      });
+
+      if (items.length === 0) {
+        statusMsg.textContent = 'Please select at least one product.';
+        return;
+      }
+
+      statusMsg.textContent = '';
+      addBtn.disabled = true;
+      addBtn.textContent = 'Adding...';
+
+      fetch('/cart/add.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ items: items }),
+      })
+        .then(function (response) {
+          if (!response.ok) throw new Error('Add to cart failed');
+          return response.json();
+        })
+        .then(function () {
+        addBtn.textContent = 'Redirecting...';
+        window.location.href = '/cart';
+        })
+        .catch(function (error) {
+          console.error(error);
+          addBtn.disabled = false;
+          addBtn.textContent = 'Add to Cart';
+          statusMsg.textContent = 'Something went wrong, please try again.';
+        });
+    });
+  });
+</script>

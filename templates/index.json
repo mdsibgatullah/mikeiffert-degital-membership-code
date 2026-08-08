@@ -1,0 +1,2015 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1621243260e1af0c20": {
+      "type": "slider",
+      "blocks": {
+        "1621243260e1af0c20-0": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify://shop_images/banner_4.webp",
+            "content_in_container": false,
+            "content_position": "center middle",
+            "text_alignment": "center",
+            "text_size": "large",
+            "text_color": "white",
+            "subheading": "Valuable hotels stay worldwide",
+            "title": "<mark>One smart Hotel pass. </mark> <br>Endless Possibilities.",
+            "description": "<p>Travel your way with flexible hotel stays in more than 50,000 participating hotels around the world. Choose your destination and travel dates whenever you're ready.</p>",
+            "image_link": "",
+            "button_text": "Explore Hotel Passes",
+            "button_link": "/#m-section-template--27181112394057__rich_text_VhkUtP",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "second_button_text": "How It Works",
+            "second_button_link": "/#m-section-template--27181112394057__rich_text_bBXUzJ",
+            "second_button_style": "m-button--primary",
+            "second_button_size": "",
+            "show_footer": true,
+            "footer_alignment": "center",
+            "footer_text": "<ul><li><strong>50,000</strong>+ Hotels globally</li><li><strong>Official </strong>Sales Platform</li><li><strong>High </strong>Accommodations Value</li><li><strong>Secure </strong>Checkout</li><li><strong>Digital</strong> Delivery</li></ul>",
+            "footer_button": "",
+            "footer_link": "",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "1621243260e1af0c20-0"
+      ],
+      "custom_css": [
+        "p {max-width: 850px; margin: 0 auto;}",
+        "h5,h4 {color: white;}",
+        "a.m-slide__button-second.m-button.m-button--primary {background-color: #014081ad; border-color: #014081ad;}",
+        "a.m-slide__button-second.m-button.m-button--primary:hover {box-shadow: 0 0 0 3px #014081ad;}",
+        ".m-button {border: unset; padding: 13px 26px;}",
+        ".m-slide__content {max-width: 1500px; width: 100%;}",
+        "@media (min-width: 1920px) {h2 {font-size: 110px; } p, .h5 {font-size: 26px; }}"
+      ],
+      "settings": {
+        "container": "w-full",
+        "slideshow_height": "fullscreen",
+        "show_overlay": true,
+        "dots_position": "right",
+        "dots_color": "light",
+        "show_dots": false,
+        "show_arrows": false,
+        "autorotate": false,
+        "autorotate_speed": 4,
+        "use_content_above": true,
+        "custom_class": "sf-home__slideshow",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_U9jyUG": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_qWjYP4": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/product_3_1.webp",
+            "image_by_url": "",
+            "title": "Skiing weekend",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_MNUzK7": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/product_4_1.webp",
+            "image_by_url": "",
+            "title": "Hiking days",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_YhmRcX": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/product_10.webp",
+            "image_by_url": "",
+            "title": "Countryside days",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_YHbhHX": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/product_12.webp",
+            "image_by_url": "",
+            "title": "Romantic hideaway",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_pDRzT3": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/product_9.webp",
+            "image_by_url": "",
+            "title": "Beach vacation",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_M8Q8z9": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/product_6.webp",
+            "image_by_url": "",
+            "title": "Family holiday",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_caiKEV": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/product_7.webp",
+            "image_by_url": "",
+            "title": "City trip",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_m8gYMJ": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/product_11.webp",
+            "image_by_url": "",
+            "title": "Adventure travel",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_qWjYP4",
+        "iconbox_MNUzK7",
+        "iconbox_YhmRcX",
+        "iconbox_YHbhHX",
+        "iconbox_pDRzT3",
+        "iconbox_M8Q8z9",
+        "iconbox_caiKEV",
+        "iconbox_m8gYMJ"
+      ],
+      "custom_css": [
+        ".m-icon-box {border-radius: 10px; height: 100%; border: 1px solid #f68b1f50;}",
+        ".m-icon-box__content {margin-top: 0 !important; padding: 5px 10px;}",
+        "p {max-width: 750px; margin: 0 auto;}",
+        ".m-icon-box__inner {position: relative;}",
+        "h3 {color: white;}",
+        ".m-icon-box__content {position: absolute; bottom: 0; width: 100%; background: linear-gradient(transparent, black); padding-top: 11px; border-radius: 0 0 10px 10px;}"
+      ],
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "heading": "Where Will Your Next Journey Begin?",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "<p>Whether you're dreaming of relaxing beaches, exciting city breaks, unforgettable family holidays or romantic escapes, your smart Hotel Pass gives you the & flexibility freedom to explore the world on your own terms,</p>",
+        "header_alignment": "center",
+        "item_per_row": 4,
+        "item_gap": 20,
+        "item_gap_mobile": 16,
+        "card_style": "vertical",
+        "image_max_width": "",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 50,
+        "padding_bottom": 20,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_PqpqHe": {
+      "type": "rich-text",
+      "blocks": {
+        "button_YCxkK4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Your Perfect Hotel Pass",
+            "button_link": "/#m-section-template--27181112394057__rich_text_VhkUtP",
+            "button_style": "m-button--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_YCxkK4"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "container": "container",
+        "color_scheme": "default",
+        "content_alignment": "center",
+        "padding_top": 20,
+        "padding_bottom": 60,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_bBXUzJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mtLYXU": {
+          "type": "heading",
+          "settings": {
+            "heading": "See How <mark>Easy It Is</mark>",
+            "heading_size": "h2"
+          }
+        },
+        "subheading_kXg4rR": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Watch how the Hotel Pass works in less than two minutes and discover why thousands of travellers choose our partner Gutscheinreisen24 for flexible hotel stays around the world."
+          }
+        }
+      },
+      "block_order": [
+        "heading_mtLYXU",
+        "subheading_kXg4rR"
+      ],
+      "custom_css": [
+        "p {max-width: 950px; margin: 0 auto; margin-top: 20px; font-size: 20px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "container": "container",
+        "color_scheme": "footer",
+        "content_alignment": "center",
+        "padding_top": 52,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "video_bmwBpJ": {
+      "type": "video",
+      "custom_css": [
+        ".m-video__inner.m\\:blocks-radius {border-radius: 10px;}",
+        ".m-video__wrapper.m-scroll-trigger.animate--fade-in-up {width: 840px !important;}",
+        ".m-video__play svg {width: 50px; height: 50px; margin-left: 7px;}",
+        "span.deferred-media__poster-button.m-video__play {width: 100px; height: 100px;}"
+      ],
+      "name": "Video",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "footer",
+        "video_type": "shopify",
+        "shopify_video": "shopify://files/videos/Hotel Voucher.mp4",
+        "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "ratio": "16:9",
+        "image": "shopify://shop_images/cover.webp",
+        "video_title": "",
+        "text_size": "medium",
+        "text_color": "inherit",
+        "play_style": "solid",
+        "play_size": "medium",
+        "width": "650px",
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "show_controls": true,
+        "padding_top": 36,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_nQQpah": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_yGT83T": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/email-icon.png",
+            "image_by_url": "",
+            "title": "Choose Your Hotel Pass",
+            "description": "<p>Select the Hotel pass that best matches your travel plans.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_YEe3X4": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/logo_7.png",
+            "image_by_url": "",
+            "title": "Activate Your Pass",
+            "description": "<p>Complete your purchase and activate your Hotel Pass</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_Arr6w4": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/flexible-redemption.png",
+            "image_by_url": "",
+            "title": "Select Your Hotel",
+            "description": "<p>Browse thousands of participating hotels worldwide.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_EqABmr": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/logo_3.png",
+            "image_by_url": "",
+            "title": "Book Your Stay",
+            "description": "<p>Use either Booking Request or Instant Booking depending on hotel availability.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_6QQUmP": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/meal-allowance-icon.png",
+            "image_by_url": "",
+            "title": "Settle Meals & Additional Services fees",
+            "description": "<p>Pay a mandatory meal & service fee per person/night dependance of the hotel category to cover the service cost of the hotel.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_nbp3PD": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/logo_4.png",
+            "image_by_url": "",
+            "title": "Enjoy Your Hotel Stay",
+            "description": "<p>Travel with complete flexibility and enjoy your stay.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_yGT83T",
+        "iconbox_YEe3X4",
+        "iconbox_Arr6w4",
+        "iconbox_EqABmr",
+        "iconbox_6QQUmP",
+        "iconbox_nbp3PD"
+      ],
+      "custom_css": [],
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "heading": "How It<mark> Works.</mark>",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "<h4>Start Your Journey in 6 Simple Steps</h4>",
+        "header_alignment": "center",
+        "item_per_row": 3,
+        "item_gap": 20,
+        "item_gap_mobile": 26,
+        "card_style": "vertical",
+        "image_max_width": "50px",
+        "content_alignment": "center",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 50,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_VhkUtP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WUdm8b": {
+          "type": "heading",
+          "settings": {
+            "heading": "<mark>Choose Your</mark> Perfect Hotel Pass",
+            "heading_size": "h2"
+          }
+        },
+        "text_wq4TwV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose the Hotel Pass that perfectly fits your next adventure.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WUdm8b",
+        "text_wq4TwV"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "container": "container",
+        "color_scheme": "footer",
+        "content_alignment": "center",
+        "padding_top": 44,
+        "padding_bottom": 36,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_2_LLkWcn": {
+      "type": "image-with-text-2",
+      "custom_css": [
+        "{background: #fef7ef;}",
+        "ul {margin-top: 0;}",
+        "p {margin: 0;}",
+        "p strong {font-size: 22px;}",
+        "em strong {color: #ffc000; text-shadow: 0.5px 0.5px #000000ba; font-style: normal; font-size: 28px; line-height: 1.5;}"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "color_scheme": "footer",
+        "container": "container-fluid",
+        "hero_size": "adapt",
+        "show_overlay": false,
+        "image": "shopify://shop_images/banner_7.webp",
+        "image_link": "shopify://products/365-nights-for-2-people-unlimited-people",
+        "parallax": false,
+        "parallax_direction": "vertical",
+        "content_in_container": false,
+        "content_position": "left middle",
+        "text_alignment": "left",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "♛ Premium Product",
+        "text": "<h3>365 Hotel Nights</h3><p>For those who believe that flexibility is the greatest luxury, the <strong>365 Nights Smart Hotel Pass </strong>offers a completely....</p><ul><li>Unlimited Number Of Travelers</li><li>Unlimited Stay Duration</li><li>Annual Pass</li></ul><p><strong>Your Value* €1999,00</strong><em><strong><br/>Our price: €249,00</strong></em></p>",
+        "button_label": "Get Your Hotel pass",
+        "button_link": "shopify://products/365-nights-for-2-people-unlimited-people",
+        "button_style": "m-button--primary",
+        "button_size": "m-button--large",
+        "text_alignment_mobile": "left",
+        "mb_image": "shopify://shop_images/banner_7.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true,
+        "enable_preload_image": false
+      }
+    },
+    "featured_collection_VewKcB": {
+      "type": "featured-collection",
+      "custom_css": [
+        "p {max-width: 860px; margin: 0 auto;}",
+        ".m-product-card__action {display: block;}",
+        "a.m-product-card__name {font-size: 26px;}"
+      ],
+      "name": "Featured collection",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "footer",
+        "container": "container-fluid",
+        "collection": "frontpage",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 4,
+        "items_per_row": 3,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "show_button_on_header": false,
+        "button_type": "link",
+        "button_text": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": true,
+        "use_scroll_mobile": false,
+        "item_gap_mobile": 26,
+        "padding_top": 36,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collection_tabs_fbhbG4": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_fMK9Kj": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/banner1.webp",
+            "heading": "Hotels <mark>with instant</mark> online booking",
+            "heading_size": "h4",
+            "text": "<p><a href=\"https://www.gutscheinreisen24.de/check-hotels\" target=\"_blank\" title=\"https://www.gutscheinreisen24.de/check-hotels\"><strong>50,000+ Hotels Available</strong></a><strong><br/></strong>Enjoy instant access to a worldwide hotel selection with direct booking options.</p><h4>How It Works</h4><p><strong>1. Register Your Membership Code</strong><br/>Receive your personal Membership Code and register it once on our booking platform.</p><p><strong>2. Search Your Preferred Hotel</strong><br/>Browse through more than <strong>50,000 hotels worldwide</strong> and find your ideal stay.</p><p><strong>3. Enter Your Travel Details</strong><br/>Simply provide:</p><ul><li>Destination</li><li>Travel dates</li><li>Number of guests</li></ul><p><strong>4. View Available Hotels</strong><br/>The system will instantly display available hotels based on your preferences.</p><p><strong>5. Book Instantly & Enjoy Your Stay</strong><br/>Choose your preferred hotel and complete your booking directly through the platform.</p><p><a href=\"https://Gutscheinreisen24.de\" title=\"https://Gutscheinreisen24.de\"><em>Search & Book Hotels</em></a></p>",
+            "icon": "shopify://shop_images/logo_5_069021ae-4290-4756-a3be-75256f460e3c.png"
+          }
+        },
+        "collection_aP6jca": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/banner1.webp",
+            "heading": "Hotels <mark>requiring advance</mark>booking",
+            "heading_size": "h4",
+            "text": "<p><a href=\"https://www.gutscheinreisen24.de/hoteluebersicht.html\" target=\"_blank\" title=\"https://www.gutscheinreisen24.de/hoteluebersicht.html\"><strong>1,700+ Hotels Available</strong></a><strong><br/></strong>Choose from our exclusive hotel selection and request your preferred stay.</p><h4>How it works:</h4><p><strong>01 — Register Your Membership Code</strong><br/>Enter your Membership Code on our booking platform.</p><p><strong>02 — Choose Your Hotel</strong><br/>Browse the \"Hotels with Advance Booking\" collection and select your preferred hotel.</p><p><strong>03 — Request Your Booking</strong><br/>Submit your preferred travel dates and booking request online.</p><p><strong>04 — Availability Confirmation</strong><br/>We contact the hotel to confirm availability.</p><p><strong>05 — Enjoy Your Stay</strong><br/>Receive your booking confirmation and present it at the hotel upon arrival.<br/><br/><a href=\"https://Gutscheinreisen24.de\" title=\"https://Gutscheinreisen24.de\"><em>Search & Book Hotels</em></a></p>",
+            "icon": "shopify://shop_images/logo_4_36b75116-78e2-4f40-8d77-6417d40a03ff.png"
+          }
+        }
+      },
+      "block_order": [
+        "collection_fMK9Kj",
+        "collection_aP6jca"
+      ],
+      "custom_css": [
+        ".m-collection-tab__content {padding: 0 20px;}",
+        ".collapsible__button-text.h3 {font-weight: 600;}",
+        "mark {font-style: normal; font-weight: 600;}",
+        "a {color: blue;}",
+        "collapsible-tab {box-shadow: 1px 1px 5px #d3d3d3; padding: 0px 20px; border-radius: 10px; margin-bottom: 13px;}",
+        ".collapsible__content-inner {padding: 0 0px 15px 0px; border-top: 1px solid gray; padding-top: 20px;}",
+        "a em {background: #f68b1f; padding: 10px 20px; border-radius: 50pc; color: white; font-weight: bold; transition: 0.4s;}",
+        "a em:hover {background: #e97500;}",
+        "a:before,a:after {display: none;}"
+      ],
+      "name": "Collection tabs",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "header_alignment": "left",
+        "heading": "<mark>Get inspired.</mark><br> Discover our Hotel partner.",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "<p>Take a look at the participating hotels of our service provider* WCS before making your purchase and explore the extensive selection of destinations available worldwide.</p>",
+        "image_position": "right",
+        "image_ratio": "4/3",
+        "prefix_header": "icon",
+        "trigger_behavior": "click",
+        "autoplay": false,
+        "autoplay_duration": 5,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_3PPpdf": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_CzryUA": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/logo_8.png",
+            "image_by_url": "",
+            "title": "Flexible Travel Planning",
+            "description": "<p><strong>01. </strong>Travel when it suits you. <strong>02. </strong>No pressure.<br/><strong>03. </strong>No fixed dates at the time of purchase.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_VmViRQ": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/4.png",
+            "image_by_url": "",
+            "title": "Worldwide Hotel Selection",
+            "description": "<p>Choose from thousands of participating hotels in popular destinations across the globe.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_RtfPNz": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/logo_10.png",
+            "image_by_url": "",
+            "title": "Excellent Value",
+            "description": "<p>Enjoy significant savings compared to standard hotel rates while keeping maximum flexibility.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_XpHEyR": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/logo_9.png",
+            "image_by_url": "",
+            "title": "Simple Purchasing & Booking",
+            "description": "<p>Start planning your next adventure by purchasing your individual hotel pass and booking your stay through our easy booking process.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_7XPjGH": {
+          "type": "iconbox",
+          "disabled": true,
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/logo_10.png",
+            "image_by_url": "",
+            "title": "A Gift That Creates Lasting Memories",
+            "description": "<p>The 365 Nights Hotel Pass is the perfect gift for birthdays, weddings, anniversaries, Christmas or simply to surprise someone special.<br/><strong>01. </strong>It also makes an excellent reward for employees, valued clients and business partners.<br/><strong>02.</strong> Before activation, the pass remains fully transferable.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_CzryUA",
+        "iconbox_VmViRQ",
+        "iconbox_RtfPNz",
+        "iconbox_XpHEyR",
+        "iconbox_7XPjGH"
+      ],
+      "custom_css": [
+        ".m-icon-box {box-shadow: 0 0 4px #cfcfcf; padding: 15px 10px; border-radius: 10px; height: 100%; border: 1px solid #eb7f47;}",
+        "p {max-width: 800px; margin: 0 auto;}"
+      ],
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container",
+        "color_scheme": "footer",
+        "heading": "More <mark>freedom.</mark> More <mark>flexibility.</mark> More <mark>hotel stays.</mark>",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "<p>The smart Hotel Pass gives you the flexibility to travel on your own schedule while enjoying a wide selection of participating hotels around the world.</p>",
+        "header_alignment": "center",
+        "item_per_row": 2,
+        "item_gap": 20,
+        "item_gap_mobile": 26,
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_qaqzeU": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_6C8fJf": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/verified-partner-hotels.png",
+            "image_by_url": "",
+            "title": "Official Sales Platform",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_KFT8MF": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/flexible-redemption.png",
+            "image_by_url": "",
+            "title": "Experienced Travel Partner since 1984",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_768wV7": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/logo_3.png",
+            "image_by_url": "",
+            "title": "More than 100,000 satisfied travellers",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_QDG96L": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/logo_7.png",
+            "image_by_url": "",
+            "title": "More than 50,000 participating hotels",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_XnTfWq": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/customer-support.png",
+            "image_by_url": "",
+            "title": "Dedicated Customer Support",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_6C8fJf",
+        "iconbox_KFT8MF",
+        "iconbox_768wV7",
+        "iconbox_QDG96L",
+        "iconbox_XnTfWq"
+      ],
+      "custom_css": [
+        ".m-icon-box {padding: 25px 10px; height: 100%; border: 1px solid #eb7f4750;}",
+        ".m-icon-box__icon {overflow: unset; background-color: #f58b1f; border-radius: 10px; padding: 5px;}",
+        ".m-mixed-layout__inner {display: flex; flex-wrap: wrap; justify-content: center;}",
+        ".m\\:column {width: 33%; min-width: 350px;}"
+      ],
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "heading": "Your Trusted Partner for <br><mark>Flexible Hotel Travel</mark>",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "<p>Gutscheinereisen24 is the official sales plattform for our smart Hotel Pass. To ensure a smooth booking experience, we work together with WCS, an experienced travel company that has been organising hotel stays for travellers since 1984 Together we combine modem online booking with decades of tourism expertise. Whether you choose a short city break or an extended holiday, you can rely on a professional booking process and dedicated customer support</p>",
+        "header_alignment": "center",
+        "item_per_row": 1,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "vertical",
+        "image_max_width": "45px",
+        "content_alignment": "center",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": true,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_qqtnwt": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_AfTQei": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/logo_7.png",
+            "image_by_url": "",
+            "title": "More than 50,000 participating hotels",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_QgJe8V": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/customer-support.png",
+            "image_by_url": "",
+            "title": "Dedicated Customer Support",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_AfTQei",
+        "iconbox_QgJe8V"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".m-icon-box.m-icon-box--vertical {padding: 25px 10px; height: 100%;}",
+        ".m-icon-box__icon {overflow: unset; background-color: #f58b1f; border-radius: 10px; padding: 5px;}",
+        ".m-mixed-layout__inner {max-width: 950px; margin: 0 auto;}"
+      ],
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "footer",
+        "heading": "",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "item_per_row": 2,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "vertical",
+        "image_max_width": "45px",
+        "content_alignment": "center",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": true,
+        "padding_top": 36,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_9Q67rb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DPxXFF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unlimited flexibility for every journey.",
+            "heading_size": "h2"
+          }
+        },
+        "text_PHVCar": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The 365 Hotel Pass gives you complete travel freedom throughout the year.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DPxXFF",
+        "text_PHVCar"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {margin-bottom: 0px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "container": "container",
+        "color_scheme": "footer",
+        "content_alignment": "center",
+        "padding_top": 72,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "new_featured_product_AAy6mg": {
+      "type": "new-featured-product",
+      "blocks": {
+        "title_CfTBRj": {
+          "type": "title",
+          "settings": {}
+        },
+        "description_Jp3KaP": {
+          "type": "description",
+          "settings": {}
+        },
+        "custom_bundle_BPaUNk": {
+          "type": "custom-bundle",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_CfTBRj",
+        "description_Jp3KaP",
+        "custom_bundle_BPaUNk"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "ol,ul {margin-top: 0;}",
+        "p {margin-bottom: 0px;}"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "container": "container",
+        "color_scheme": "footer",
+        "featured_product": "365-nights-for-2-people-unlimited-people",
+        "enable_variant_group_images": false,
+        "column_gap": 50,
+        "column_gap_mobile": 30,
+        "image_placement": "left",
+        "padding_top": 40,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_NDBLkW": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_wM36RV": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/logo.png",
+            "image_by_url": "",
+            "title": "Hotel pass",
+            "description": "<p>Choose yourinternational hotelvoucher conviently –your access to anaffordable trip</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_K3C6N7": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/ChatGPT_Image_Jul_15_2026_09_31_59_AM.png",
+            "image_by_url": "",
+            "title": "Mealallowance",
+            "description": "<p>The mandatory meal fee applies to every voucher holder. The amount varies depending on the hotel category selected.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_c6h9hT": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/logo_1.png",
+            "image_by_url": "",
+            "title": "Hotel choice",
+            "description": "<p>Discover over 50Kverified hotels world wide – from charming botiques to 5star resorts</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_wM36RV",
+        "iconbox_K3C6N7",
+        "iconbox_c6h9hT"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "footer",
+        "heading": "<mark>Smart choice.</mark> Stay smarter. <br>Valuable access",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "<p>Your smart choice to acces a premium hotel for less.Ttransparent and easy pricing with high return. Your flexible way of traveling around the world.</p>",
+        "header_alignment": "center",
+        "item_per_row": 3,
+        "item_gap": 20,
+        "item_gap_mobile": 26,
+        "card_style": "vertical",
+        "image_max_width": "50px",
+        "content_alignment": "center",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 70,
+        "padding_bottom": 30,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_7tR7Bx": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".m-image-with-text__content {background-color: #fff;}",
+        ".m-content-box {padding: 25px;}",
+        ".m-image-with-text__image-first {border-radius: 0;}",
+        ".m-image-with-text__inner {border-radius: 10px; overflow: hidden; border: 1px solid #f68b1f50;}",
+        ".m-image-with-text__image-first,responsive-image {height: 100%;}",
+        "img {object-position: left;}",
+        "p {margin: 0;}",
+        "p strong {color: red; font-weight: normal;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "container": "container-fluid",
+        "color_scheme": "footer",
+        "item_gap": 0,
+        "item_gap_mobile": 0,
+        "layout": "right",
+        "image_column_size": "6",
+        "image_overlap": false,
+        "show_image_reverse": false,
+        "hover_effect": false,
+        "image_animation": "none",
+        "image": "shopify://shop_images/ChatGPT_Image_Jul_16_2026_11_16_36_AM.png",
+        "link": "shopify://pages/student-form",
+        "link_2": "shopify://pages/student-form",
+        "second_image_offset_top": 10,
+        "title": "Students Save 25%",
+        "sub_title": "",
+        "text": "<p>Students receive an exclusive 25% discount on all Hotel Passes. Simply verity your student status before purchasing and enjoy the same flexibility at an even better price.</p><p><strong>*Students need to be 18 years old, student status can be verified via a valid student ID or a signed school certificate from the respective University or school.</strong></p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Verity Student Status",
+        "button_link": "shopify://pages/student-form",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_74aMjP": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_CFAre9": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/pexels-fotodruk-38440276.webp",
+            "image_by_url": "",
+            "title": "Spend a weekend in Italy.",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_zfQdmA": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/pexels-satheesh-cholakkal-17628918-6437645.webp",
+            "image_by_url": "",
+            "title": "Enjoy four relaxing days by the sea.",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_Can7wW": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/pexels-wolfgang-weiser-467045605-30762819.webp",
+            "image_by_url": "",
+            "title": "Take a week in the Austrian Alps.",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_UNhknd": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/pexels-masoodaslami-18701437.webp",
+            "image_by_url": "",
+            "title": "Plan several city breaks across Europe.",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_qgMQRQ": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/pexels-charan-sai-437193-2874998.webp",
+            "image_by_url": "",
+            "title": "Or simply travel whenever inspiration strikes.",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_QizdPV": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/pexels-charan-sai-437193-2874998.webp",
+            "image_by_url": "",
+            "title": "You choose your destination, your travel dates and the length of your stay — always subject to hotel availability",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_CFAre9",
+        "iconbox_zfQdmA",
+        "iconbox_Can7wW",
+        "iconbox_UNhknd",
+        "iconbox_qgMQRQ",
+        "iconbox_QizdPV"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".m-icon-box {height: 100%; border: 1px solid #eb7f47; border-radius: 10px; background: #f58b1f10;}",
+        ".m-icon-box__icon {background-color: #f58b1f; border-radius: 10px 0 0 10px;}",
+        "p {max-width: 700px; margin: 0 auto;}",
+        ".m\\:blocks-radius {overflow: unset; -webkit-mask-image: unset;}",
+        ".m-icon-box__content {align-self: center; padding-right: 10px;}",
+        "responsive-image,.m-icon-box__inner,.m-hover-box__wrapper {height: 100%;}",
+        "@media (max-width: 992px) {.m-mixed-layout__inner {grid-template-columns: 1fr; max-width: 600px; margin: 0 auto; }}"
+      ],
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "heading": "<mark> One Pass.</mark> Endless Possibilities.",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "<p><strong>The 365 Nights Hotel Pass offers a completely new way to travel.</strong><br/>Throughout your validity period, you are free to spread your hotel nights across as many trips as you like.</p>",
+        "header_alignment": "center",
+        "item_per_row": 2,
+        "item_gap": 20,
+        "item_gap_mobile": 26,
+        "card_style": "horizontal",
+        "image_max_width": "270px",
+        "content_alignment": "start",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_DikR4J": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_g4Gcej": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/logo_6.png",
+            "image_by_url": "",
+            "title": "Hotel Reservations",
+            "description": "<p>Hotel reservations are made exclusively through our official booking partner, WCS*</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_rEtqNY": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/logo_7.png",
+            "image_by_url": "",
+            "title": "Hotel Availability",
+            "description": "<p> All bookings are subject to hotel availability.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_fen9pb": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/logo_5.png",
+            "image_by_url": "",
+            "title": "Meals & Additional Services",
+            "description": "<p>The mandatory meal fee applies to every voucher holder. The amount varies depending on the hotel category selected.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_4GMJRa": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/logo_4.png",
+            "image_by_url": "",
+            "title": "Travel & Transportation",
+            "description": "<p>Transportation to and from the hotel is not included.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_GMLXjD": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/logo_3.png",
+            "image_by_url": "",
+            "title": "Local Taxes & Fees",
+            "description": "<p>Any applicable local taxes or tourist fees must be paid directly at the destination.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_g4Gcej",
+        "iconbox_rEtqNY",
+        "iconbox_fen9pb",
+        "iconbox_4GMJRa",
+        "iconbox_GMLXjD"
+      ],
+      "custom_css": [
+        ".m-icon-box {box-shadow: 0 0 4px #cfcfcf; border-radius: 10px; height: 100%; padding: 15px 10px; border: 1px solid #eb7f4750;}",
+        ".m-icon-box__icon {background-color: #f58b1f; border-radius: 50%; padding: 5px;}",
+        ".m-mixed-layout__inner {display: flex; flex-wrap: wrap; justify-content: center;}",
+        ".m\\:column {width: 33.3%; min-width: 350px;}"
+      ],
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "heading": "<mark>Important</mark> Information",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "<p>To ensure the best experience, please keep the following details in mind before booking your stay.</p>",
+        "header_alignment": "center",
+        "item_per_row": 1,
+        "item_gap": 20,
+        "item_gap_mobile": 26,
+        "card_style": "vertical",
+        "image_max_width": "60px",
+        "content_alignment": "center",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collapsible_tabs_twTdYh": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "item_YiprmB": {
+          "type": "item",
+          "settings": {
+            "header": "Wie lange ist die Jahreskarte gültig?",
+            "text_size": "h5",
+            "content": "<p>Die Jahreskarte kann innerhalb von 365 Tagen nach der Online Registrierung/Aktivierung unbegrenzt genutzt werden. Gutscheine aller Kategorien sind ab Kaufdatum 3 Jahre einlösbar.</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_b4i7zm": {
+          "type": "item",
+          "settings": {
+            "header": "Für wie viele Tage und Personen gilt die Jahreskarte?",
+            "text_size": "h5",
+            "content": "<p>Die Jahreskarte berechtigt eine unbegrenzte Anzahl an Personen zu einer beliebigen Anzahl von Übernachtungen in einem Doppelzimmer oder mehreren Doppelzimmern in einem oder mehreren WTS-Travel Partnerhotels innerhalb von 365 Tagen ab Registrierung des 365 Nights VIP Hotel Pass, sofern der Inhaber der Jahreskarte immer persönlich an der Reise teilnimmt.</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_KBzJgE": {
+          "type": "item",
+          "settings": {
+            "header": "Muss ich zwingend mindestens 4 Wochen im Voraus buchen?",
+            "text_size": "h5",
+            "content": "<p>Die Vorlaufzeit von 4 Wochen (Verfügbarkeit vorausgesetzt) for the “advanced booking” process Anfragen ist grundsätzlich erforderlich um die Buchungsabwicklung komfortabel zu Jahreskartenkonditionen durchzuführen.</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_tBpHg3": {
+          "type": "item",
+          "settings": {
+            "header": "Wie funktioniert die Buchung?",
+            "text_size": "h5",
+            "content": "<p>Diese Information betrifft Hotels mit erforderlicher Vorabbuchung (Advanced Booking).<br/><br/>Wählen Sie auf dieser Website Ihr Wunschhotel aus und senden Sie über Ihr Benutzerkonto eine Buchungsanfrage. Unsere Buchungsabteilung bearbeitet Ihre Anfrage und setzt sich nach Rückmeldung des Hotels per E-Mail mit Ihnen in Verbindung.</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_8UwLhW": {
+          "type": "item",
+          "settings": {
+            "header": "Ich bekomme keine Antwort auf meine Buchungsanfrage – was ist zu tun?",
+            "text_size": "h5",
+            "content": "<p>Diese Information betrifft Hotels mit erforderlicher Vorabbuchung (Advanced Booking). Es kann daran liegen, dass unsere Buchungsabteilung noch keine Rückmeldung vom Hotel erhalten hat. Dies kann je nach Saison und gewünschtem Reisetermin vereinzelt etwas länger dauern. Bei Fragen zum Bearbeitungsstand können Sie sich jederzeit an unsere Buchungsabteilung wenden. Bitte prüfen Sie auch Ihren Spam-Ordner, bevor Sie eine weitere Anfrage senden.</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_e8mBTc": {
+          "type": "item",
+          "settings": {
+            "header": "Wie viele Nächte können in einem Hotel verbracht werden?",
+            "text_size": "h5",
+            "content": "<p>Die Anzahl der möglichen Übernachtungen richtet sich nach dem gewählten Hotel Pass und der Verfügbarkeit des jeweiligen Hotels.</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_HhLgCB": {
+          "type": "item",
+          "settings": {
+            "header": "Wie hoch sind die Kosten der Verpflegungspauschale?",
+            "text_size": "h5",
+            "content": "<p>Die Verpflegungspauschale richtet sich nach dem Niveau der Hotels. Die \"ab\" Preise sind bei den Hoteldetails aufgeführt. Es handelt sich um eine Pauschale, die nicht zwingend den reinen Kosten für die Halbpension laut Speisekarte/Preisliste entsprechen muss.</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_AMAgdE": {
+          "type": "item",
+          "settings": {
+            "header": "Was genau muss ich im Hotel noch verpflichtend bezahlen?",
+            "text_size": "h5",
+            "content": "<p>Diese Informationen finden Sie beim jeweiligen Hotel bzw. Angebot.<br/><br/>Eventuelle zusätzliche Kosten, wie beispielsweise Kurtaxe oder lokale Gebühren, können direkt vor Ort im Hotel anfallen.<br/><br/>Bereits vorab bezahlte Leistungen, wie z.B. eine Verpflegungspauschale, müssen nicht erneut vor Ort bezahlt werden.</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_eanURX": {
+          "type": "item",
+          "settings": {
+            "header": "Warum bestätigt das Hotel meinen Wunschtermin nicht?",
+            "text_size": "h5",
+            "content": "<p>Zu gewissen Zeiten, insbesondere während Urlaubszeiten oder bei hoher Nachfrage, kann es zu einer eingeschränkten Verfügbarkeit freier Zimmer kommen. Alle Buchungen sind abhängig von der Anzahl der verfügbaren Zimmer im jeweiligen Hotel. Hotels stellen ihre Zimmerkontingente verschiedenen Reiseveranstaltern zur Verfügung. Daher kann es vorkommen, dass das Zimmerkontingent für Gutscheine bereits ausgeschöpft ist, während über andere Veranstalter oder direkt beim Hotel noch Zimmer verfügbar sind.</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_PDmLbP": {
+          "type": "item",
+          "settings": {
+            "header": "Warum ist das Hotel oder Extraangebot, das ich mir ausgesucht hatte, jetzt nicht mehr in der Auswahl?",
+            "text_size": "h5",
+            "content": "<p>Alle aktuell verfügbaren Hotels bzw. Extraangebote werden auf der Buchungsseite von WCS präsentiert.<br/><br/>Die Verfügbarkeit ausgewählter Hotels kann sich aufgrund einer hohen Anzahl von Buchungsanfragen oder weiterer Reisekunden jederzeit ändern.<br/><br/>Zudem können Extraangebote bzw. günstige Hotelangebote zeitlich begrenzt sein oder aufgrund von Änderungen im Hotelprogramm vollständig entfernt werden.</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_Ma9biA": {
+          "type": "item",
+          "settings": {
+            "header": "Was passiert, wenn ich den gebuchten Aufenthalt nicht antreten kann?",
+            "text_size": "h5",
+            "content": "<p>Bitte informieren Sie unsere Buchungsabteilung über den HelpDesk in Ihrem Kundenkonto oder über unsere Kontaktmöglichkeiten so schnell wie möglich darüber, dass Sie den gebuchten Aufenthalt nicht antreten können.<br/><br/>Die Stornobedingungen finden Sie in Ihrer Buchungsbestätigung sowie in den Informationen des jeweiligen Hotels oder Angebots.<br/><br/>Die Stornogebühren können je nach Hotel oder Extraangebot unterschiedlich sein. Eventuelle Zusatzkosten richten sich nach den jeweiligen Stornobedingungen.</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_teMnn8": {
+          "type": "item",
+          "settings": {
+            "header": "Ich habe meine Zugangsdaten bzw. mein Passwort vergessen – was kann ich tun?",
+            "text_size": "h5",
+            "content": "<p>Nutzen Sie die Funktion „Passwort vergessen“ auf der Login-Seite Ihres Kundenkontos.<br/><br/>Folgen Sie den Anweisungen und Sie erhalten ein neues Passwort an die in Ihrem Kundenkonto hinterlegte Mailadresse gesendet.<br/><br/>Bitte prüfen Sie auch Ihren Spam-Ordner.</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_9Ahb4q": {
+          "type": "item",
+          "settings": {
+            "header": "Wie wird die Verpflegungspauschale gezahlt?",
+            "text_size": "h5",
+            "content": "<p>Wie wird die Verpflegungspauschale gezahlt?</p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_AJEw4k": {
+          "type": "item",
+          "settings": {
+            "header": "Wannkann ich den Studentrabatt in Anspruch nehmen?",
+            "text_size": "h5",
+            "content": "<p>Um als Student oder Schüler den Studentenrabatt in Anspruch nehmen zu können, musst du mindestens 18 Jahre alt sein und eine aktuelle Schülerbescheinigung (inkl. Geburtsdatum) deiner jeweiligen Schule bzw. einen gültigen Studentenausweis (inkl. Geburtsdatum) einreichen.  Nutze dazu das upload Feld mit den dort  angezeigten Formaten. Danach erhältst du an deine angegebene e-mail Adresse einen Rabattcode. Dieser Rabattcode ist nicht Übertrag. Bei Missachtung wird der betroffene<br/>Gutschein gesperrt.</p>",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "item_YiprmB",
+        "item_b4i7zm",
+        "item_KBzJgE",
+        "item_tBpHg3",
+        "item_8UwLhW",
+        "item_e8mBTc",
+        "item_HhLgCB",
+        "item_AMAgdE",
+        "item_eanURX",
+        "item_PDmLbP",
+        "item_Ma9biA",
+        "item_teMnn8",
+        "item_9Ahb4q",
+        "item_AJEw4k"
+      ],
+      "custom_css": [
+        ".is-expanded h3.m-collapsible--button.h5 {border-bottom: unset; border-radius: 10px 10px 0 0;}",
+        "h3.m-collapsible--button.h5 {border-bottom: 1px solid transparent;}",
+        "h3.m-collapsible--button.h5 {border: 1.5px solid #f5f5f5; border-radius: 10px; background-color: #fdefe0; padding: 15px;}",
+        ".m-collapsible--content {background-color: #dedede; padding: 0 15px; margin-bottom: 10px; border-radius: 0 0 10px 10px;}",
+        ".m-collapsible--content__inner {padding-bottom: 15px !important; color: #014081;}"
+      ],
+      "name": "Collapsible tabs",
+      "settings": {
+        "container": "container",
+        "color_scheme": "footer",
+        "image_position": "left",
+        "column_gap": 100,
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 70,
+        "enable_preload_image": false,
+        "animations": "inherit",
+        "custom_class": ""
+      }
+    },
+    "banner_with_slider_bFc89C": {
+      "type": "banner-with-slider",
+      "blocks": {
+        "item_slide_AFgngH": {
+          "type": "item_slide",
+          "disabled": true,
+          "settings": {
+            "item_image": "shopify://shop_images/pexels-asadphoto-11340077.jpg",
+            "color_scheme": "",
+            "content_text_color": "black",
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "subheading": "Hot this week",
+            "heading": "Chenille sweater with<br> raglan sleeves",
+            "description": "",
+            "text_size": "h2",
+            "button_text": "Shop Now",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "item_slide_6dPCBR": {
+          "type": "item_slide",
+          "settings": {
+            "item_image": "shopify://shop_images/Untitled_design_2.png",
+            "color_scheme": "",
+            "content_text_color": "black",
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "subheading": "",
+            "heading": "",
+            "description": "",
+            "text_size": "h2",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_slide_AFgngH",
+        "item_slide_6dPCBR"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "m-banner-with-slide.md\\:m\\:grid.md\\:m\\:grid-2-cols {gap: 10px;}",
+        ".m-mixed-layout__inner {gap: 10px;}",
+        ".m-slider-controls {display: none;}"
+      ],
+      "name": "Image with slider 2",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "header_alignment": "center",
+        "layout": "layout-2",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "slide_autoplay": false,
+        "pagination_position": "left",
+        "autorotate_speed": 5,
+        "columns_mobile": "2",
+        "use_scroll_mobile": false,
+        "banner_image_1": "shopify://shop_images/pexels-asadphoto-11340077.jpg",
+        "button_text_1": "",
+        "button_link_1": "",
+        "button_style_1": "m-button--white",
+        "button_size_1": "",
+        "banner_image_2": "shopify://shop_images/pexels-leticia-alvares-1805702-33359330.jpg",
+        "button_text_2": "",
+        "button_link_2": "",
+        "button_style_2": "m-button--white",
+        "button_size_2": "",
+        "banner_image_3": "shopify://shop_images/pexels-instasky-10539885.jpg",
+        "button_text_3": "",
+        "button_link_3": "",
+        "button_style_3": "m-button--white",
+        "button_size_3": "",
+        "banner_image_4": "shopify://shop_images/pexels-asadphoto-7663604.jpg",
+        "button_text_4": "",
+        "button_link_4": "",
+        "button_style_4": "m-button--white",
+        "button_size_4": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "testimonials_FyYnRA": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_ETRQaC": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "description": "<p><em>\"Short dress in a printed viscose weave with a round neckline, opening with a button at the back of the Seams with small frill trims at the waist and on the sleeves and skirt. Unlined.\"</em></p>",
+            "footer": "",
+            "image": "shopify://shop_images/pexels-instasky-10539885.jpg",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_jXpMm6": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "description": "<p><em>\"Short dress in a printed viscose weave with a round neckline, opening with a button at the back of the Seams with small frill trims at the waist and on the sleeves and skirt. Unlined.\"</em></p>",
+            "footer": "",
+            "image": "shopify://shop_images/pexels-instasky-10539885.jpg",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_RwiJAh": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "description": "<p><em>\"Short dress in a printed viscose weave with a round neckline, opening with a button at the back of the Seams with small frill trims at the waist and on the sleeves and skirt. Unlined.\"</em></p>",
+            "footer": "",
+            "image": "shopify://shop_images/pexels-instasky-10539885.jpg",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_tdcnMB": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "description": "<p><em>\"Short dress in a printed viscose weave with a round neckline, opening with a button at the back of the Seams with small frill trims at the waist and on the sleeves and skirt. Unlined.\"</em></p>",
+            "footer": "",
+            "image": "shopify://shop_images/pexels-instasky-10539885.jpg",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_3FCqBN": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "description": "<p><em>\"Short dress in a printed viscose weave with a round neckline, opening with a button at the back of the Seams with small frill trims at the waist and on the sleeves and skirt. Unlined.\"</em></p>",
+            "footer": "",
+            "image": "shopify://shop_images/pexels-leticia-alvares-1805702-33359330.jpg",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_LQLmth": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "description": "<p><em>\"Short dress in a printed viscose weave with a round neckline, opening with a button at the back of the Seams with small frill trims at the waist and on the sleeves and skirt. Unlined.\"</em></p>",
+            "footer": "",
+            "image": "shopify://shop_images/pexels-leticia-alvares-1805702-33359330.jpg",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ETRQaC",
+        "testimonial_jXpMm6",
+        "testimonial_RwiJAh",
+        "testimonial_tdcnMB",
+        "testimonial_3FCqBN",
+        "testimonial_LQLmth"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "mark {font-style: normal;}",
+        ".m-testimonials--layout-2 .m-testimonial__wrapper {text-align: start; padding: 20px;}",
+        ".m-testimonials--layout-2 .m-stars {justify-content: start; margin-bottom: 18px;}",
+        ".swiper-container.swiper-container-initialized {padding: 20px 0;}",
+        ".m-testimonial.m-scroll-trigger.animate--fade-in-up {border: 1px solid #e5e7eb; box-shadow: 0 4px 6px #0000001a;}",
+        "p {font-size: 16px;}",
+        "@media (min-width: 7768px) {responsive-image.m-image {width: 56px; height: 56px; border-radius: 50%; }}"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "heading": "<mark>\nWhat our customers say –</mark><br>\nabout Smart Hotel Pass",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "color_scheme": "default",
+        "design": "testimonials-2",
+        "show_stars": true,
+        "autorotate": false,
+        "show_navigation": true,
+        "show_pagination": true,
+        "star_color": "#fbbf24",
+        "item_color_scheme": "footer",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_PycMiX": {
+      "type": "image-with-text",
+      "disabled": true,
+      "custom_css": [
+        ".m-image-with-text__content {background-color: #fff;}",
+        ".m-content-box {padding: 25px;}",
+        ".m-image-with-text__image-first {border-radius: 0px;}",
+        ".m-image-with-text__inner {border-radius: 10px; border: 1px solid #f68b1f50; overflow: hidden;}",
+        ".m-image-with-text__image-first,responsive-image.m-image {height: 100%;}",
+        ".m-image-with-text__image {padding: 0px !important;}",
+        "@media screen and (max-width: 768px) {.m-content-box {padding: 15px; }}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "container": "container-fluid",
+        "color_scheme": "footer",
+        "item_gap": 0,
+        "item_gap_mobile": 0,
+        "layout": "left",
+        "image_column_size": "6",
+        "image_overlap": false,
+        "show_image_reverse": false,
+        "hover_effect": false,
+        "image_animation": "none",
+        "image": "shopify://shop_images/pexels-mikhail-nilov-8319468.jpg",
+        "link": "",
+        "link_2": "",
+        "second_image_offset_top": 10,
+        "title": "What's Included",
+        "sub_title": "",
+        "text": "<p><strong>Your 365 Nights Hotel Pass includes:</strong></p><ol><li>Hotel accommodation for <strong>2 guests </strong></li><li>Flexible use throughout a <strong>365-day</strong> travel period</li><li>Access to <strong>50,000+ hotels </strong>worldwide</li><li>Hotels in <strong>180+ countries</strong></li><li>Properties up to<strong> 5-star</strong> standard</li><li>Freedom to divide your hotel nights across multiple trips</li><li>Instant <strong>digital delivery</strong> by email</li><li>Fully transferable before activation</li><li>Registration period of at least <strong>5 years</strong></li><li>No shipping or handling fees</li></ol>",
+        "text_size": "small",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--link",
+        "button_size": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_QwymkU": {
+      "type": "image-with-text",
+      "disabled": true,
+      "custom_css": [
+        ".m-image-with-text__content {background-color: #fff;}",
+        ".m-content-box {padding: 25px;}",
+        ".m-image-with-text__image-first {border-radius: 0px;}",
+        ".m-image-with-text__inner {border-radius: 10px; overflow: hidden;}",
+        ".m-image-with-text__image-first,responsive-image.m-image {height: 100%;}",
+        ".m-image-with-text__image {padding: 0px !important;}",
+        "@media screen and (max-width: 768px) {.m-content-box {padding: 15px; }}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "container": "container-fluid",
+        "color_scheme": "footer",
+        "item_gap": 0,
+        "item_gap_mobile": 0,
+        "layout": "right",
+        "image_column_size": "6",
+        "image_overlap": false,
+        "show_image_reverse": false,
+        "hover_effect": false,
+        "image_animation": "none",
+        "image": "shopify://shop_images/Untitled_1000_x_650_px.png",
+        "link": "",
+        "link_2": "",
+        "second_image_offset_top": 10,
+        "title": "Trusted by More Than 100,000 Travellers Since 1984",
+        "sub_title": "",
+        "text": "<p>For over four decades, we have helped travellers discover exceptional hotel experiences around the world.<br/>Reliable. Flexible. Worldwide.</p>",
+        "text_size": "small",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--link",
+        "button_size": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_mqrkHQ": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_TJn3K9": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/Monaco_3.jpg",
+            "image_by_url": "",
+            "title": "Choose your Value",
+            "description": "<p>1. select student or regular pass<br/>2. Choose your hotel pass for 2, 3, 5, or 7 nights</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_Kb6Nne": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/Vietnam.jpg",
+            "image_by_url": "",
+            "title": "Buy your Voucher",
+            "description": "<p>1. Pay your hotel pass<br/>2. You’ll receive your voucher instantly via email</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_htBTir": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/Sudafrika_2.jpg",
+            "image_by_url": "",
+            "title": "Select your hotel",
+            "description": "<p>1. direct bookable<br/>2. Hotels with lead time</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_TJn3K9",
+        "iconbox_Kb6Nne",
+        "iconbox_htBTir"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".m-icon-box {box-shadow: 0 0 4px #cfcfcf; padding-bottom: 20px; border-radius: 10px; height: 100%;}",
+        ".m-icon-box__icon {border-radius: 10px 10px 0 0;}"
+      ],
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "heading": "<mark>Your smart hotel pass process</mark><br> easy transparent pricing\n<br><br>\n<h4>\n<mark>\nChoose your value – buy your voucher – select your hotel</mark> enjoy your trip\n</h4>",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "item_per_row": 3,
+        "item_gap": 20,
+        "item_gap_mobile": 30,
+        "card_style": "vertical",
+        "image_max_width": "",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 70,
+        "padding_bottom": 40,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "1621243260e1af0c20",
+    "icon_box_U9jyUG",
+    "rich_text_PqpqHe",
+    "rich_text_bBXUzJ",
+    "video_bmwBpJ",
+    "icon_box_nQQpah",
+    "rich_text_VhkUtP",
+    "image_with_text_2_LLkWcn",
+    "featured_collection_VewKcB",
+    "collection_tabs_fbhbG4",
+    "icon_box_3PPpdf",
+    "icon_box_qaqzeU",
+    "icon_box_qqtnwt",
+    "rich_text_9Q67rb",
+    "new_featured_product_AAy6mg",
+    "icon_box_NDBLkW",
+    "image_with_text_7tR7Bx",
+    "icon_box_74aMjP",
+    "icon_box_DikR4J",
+    "collapsible_tabs_twTdYh",
+    "banner_with_slider_bFc89C",
+    "testimonials_FyYnRA",
+    "image_with_text_PycMiX",
+    "image_with_text_QwymkU",
+    "icon_box_mqrkHQ"
+  ]
+}

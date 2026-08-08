@@ -1,0 +1,710 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "text_alignment": "center",
+        "hide_current": false,
+        "hide_on_mb": false,
+        "animations": "inherit"
+      }
+    },
+    "1784094098f8f7da21": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_22bd079_j7QmBJ": {
+          "type": "ai_gen_block_22bd079",
+          "settings": {
+            "section_title": "Choose Your Perfect Hotel Voucher",
+            "container_width": 1200,
+            "section_padding": 60,
+            "main_image": "shopify://shop_images/pexels-leticia-alvares-1805702-33359330.jpg",
+            "thumbnail_2": "shopify://shop_images/Vietnam.jpg",
+            "thumbnail_3": "shopify://shop_images/Vietnam.jpg",
+            "thumbnail_4": "shopify://shop_images/Thailand_10.jpg",
+            "thumbnail_5": "shopify://shop_images/Rome_7.jpg",
+            "trust_1_number": "50,000+",
+            "trust_1_text": "Hotels",
+            "trust_2_number": "40+",
+            "trust_2_text": "Countries",
+            "trust_3_number": "100%",
+            "trust_3_text": "Covered",
+            "info_box_title": "Trusted 5 Star Provider since 1982",
+            "feature_1": "Delivered instantly via email",
+            "feature_2": "5-year validity",
+            "feature_3": "14-day right of withdrawal",
+            "feature_4": "Up to 5-Star comfort",
+            "feature_5": "Transferable: Perfect for gifting or sharing",
+            "feature_6": "",
+            "selector_title": "Select Your Bundle",
+            "bundle_1_name": "3 Nights - 2 People",
+            "bundle_1_desc": "",
+            "bundle_1_price": "€299",
+            "bundle_1_variant_id": "",
+            "bundle_2_name": "7 Nights - 2 People",
+            "bundle_2_desc": "",
+            "bundle_2_price": "€599",
+            "bundle_2_variant_id": "",
+            "bundle_3_name": "14 Nights - 2 People",
+            "bundle_3_desc": "",
+            "bundle_3_price": "€999",
+            "bundle_3_variant_id": "",
+            "bundle_4_name": "365 Nights - Unlimited People",
+            "bundle_4_desc": "",
+            "bundle_4_price": "€1999",
+            "bundle_4_variant_id": "",
+            "add_to_cart_label": "Add to Cart",
+            "background_color": "#ffffff",
+            "heading_color": "#014081",
+            "text_color": "#484848",
+            "accent_color": "#f68b1f",
+            "right_panel_bg": "#ffffff",
+            "info_box_bg": "#fef7ef",
+            "trust_bar_bg": "#f5f5f5",
+            "option_bg": "#ffffff",
+            "option_selected_bg": "#fef7ef",
+            "option_border": "#eeeeee",
+            "button_bg": "#f68b1f",
+            "button_hover_bg": "#e07a0e",
+            "button_text_color": "#ffffff",
+            "nav_button_bg": "#f5f5f5",
+            "nav_button_hover_bg": "#014081",
+            "nav_button_color": "#484848",
+            "nav_button_hover_color": "#ffffff",
+            "image_border_radius": 12,
+            "thumbnail_border_radius": 8,
+            "panel_border_radius": 12,
+            "trust_bar_radius": 8,
+            "option_border_radius": 8,
+            "button_border_radius": 8,
+            "title_size": 32
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_22bd079_j7QmBJ"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_XxNYbh": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "custom_liquid_GApPbQ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<mark class=\"pd_page_mark\"><b>incl. VAT and digital delivery</b></mark>"
+          }
+        },
+        "description_qx7WRP": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_title": "Size"
+          }
+        },
+        "collapsible_tab_kMPKfW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Exceptional Value",
+            "content": "{{ product.metafields.custom.exceptional_values | metafield_tag }}",
+            "ilm_collaps_icons": "shopify://shop_images/logo_da2b03f8-114c-4937-ac95-18a72f380377.png",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_QMXRhA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Perfect for Yourself — or Someone Special",
+            "content": "{{ product.metafields.custom.perfect_for_yourself_or_someone_special | metafield_tag }}",
+            "ilm_collaps_icons": "shopify://shop_images/logo_2_aae1bad3-345e-498a-85d1-f2a4ed23ebaf.png",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_87PUJa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Included Benefits",
+            "content": "{{ product.metafields.custom.included_benefits | metafield_tag }}",
+            "ilm_collaps_icons": "shopify://shop_images/logo_3_004b6d3c-8cb7-467c-8f02-77fd9f361441.png",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_7cPJVF": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Hotels requiring advance booking",
+            "content": "<p><a href=\"https://www.gutscheinreisen24.de/hoteluebersicht.html\" target=\"_blank\" title=\"https://www.gutscheinreisen24.de/hoteluebersicht.html\"><strong>1,700+ Hotels Available</strong></a><strong><br/></strong>Choose from our exclusive hotel selection and request your preferred stay.</p><h4>How it works:</h4><p><strong>01 — Register Your Membership Code</strong><br/>Enter your Membership Code on our booking platform.</p><p><strong>02 — Choose Your Hotel</strong><br/>Browse the \"Hotels with Advance Booking\" collection and select your preferred hotel.</p><p><strong>03 — Request Your Booking</strong><br/>Submit your preferred travel dates and booking request online.</p><p><strong>04 — Availability Confirmation</strong><br/>We contact the hotel to confirm availability.</p><p><strong>05 — Enjoy Your Stay</strong><br/>Receive your booking confirmation and present it at the hotel upon arrival.<br/><br/><a href=\"https://Gutscheinreisen24.de\" target=\"_blank\" title=\"https://Gutscheinreisen24.de\">Search Hotels & Book Now</a></p>",
+            "ilm_collaps_icons": "shopify://shop_images/logo_4_36b75116-78e2-4f40-8d77-6417d40a03ff.png",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_pCdJjA": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Hotels with instant online booking",
+            "content": "<p><a href=\"https://www.gutscheinreisen24.de/check-hotels\" target=\"_blank\" title=\"https://www.gutscheinreisen24.de/check-hotels\"><strong>50,000+ Hotels Available</strong></a><strong><br/></strong>Enjoy instant access to a worldwide hotel selection with direct booking options.</p><h4>How It Works</h4><p><strong>1. Register Your Membership Code</strong><br/>Receive your personal Membership Code and register it once on our booking platform.</p><p><strong>2. Search Your Preferred Hotel</strong><br/>Browse through more than <strong>50,000 hotels worldwide</strong> and find your ideal stay.</p><p><strong>3. Enter Your Travel Details</strong><br/>Simply provide:</p><ul><li>Destination</li><li>Travel dates</li><li>Number of guests</li></ul><p><strong>4. View Available Hotels</strong><br/>The system will instantly display available hotels based on your preferences.</p><p><strong>5. Book Instantly & Enjoy Your Stay</strong><br/>Choose your preferred hotel and complete your booking directly through the platform.<br/><a href=\"https://Gutscheinreisen24.de\" target=\"_blank\" title=\"https://Gutscheinreisen24.de\">Search Hotels & Book Now</a></p>",
+            "ilm_collaps_icons": "shopify://shop_images/logo_5_069021ae-4290-4756-a3be-75256f460e3c.png",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "image_Qwi4AA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jul_16_2026_11_16_36_AM.png",
+            "image_link": "shopify://pages/student-form",
+            "image_width": 100,
+            "image_alignment": "start"
+          }
+        },
+        "addons": {
+          "type": "addons",
+          "settings": {
+            "show_atcp": false,
+            "show_ask_a_question": false,
+            "show_social": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "custom_liquid_GApPbQ",
+        "description_qx7WRP",
+        "variant_picker",
+        "collapsible_tab_kMPKfW",
+        "collapsible_tab_QMXRhA",
+        "collapsible_tab_87PUJa",
+        "collapsible_tab_7cPJVF",
+        "collapsible_tab_pCdJjA",
+        "buy_buttons",
+        "image_Qwi4AA",
+        "addons"
+      ],
+      "custom_css": [
+        "p {margin-bottom: 10px;}",
+        "button.m-collapsible--button {color: black;}",
+        ".m-collapsible--button {border-bottom-color: transparent;}",
+        ".m-collapsible[open=\"true\"] .m-collapsible--button,.collapsible[open=\"true\"] .m-collapsible--button {border-bottom-color: rgb(var(--color-foreground));}",
+        ".main-product__block.main-product__block-collapsible_tab {margin-top: 15px;}",
+        ".m-product-collapsible {box-shadow: 1px 1px 5px #d3d3d3; padding: 0px 20px; border-radius: 10px;}",
+        ".m-product-wishlist {display: none;}"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "layout": "layout-4",
+        "show_atwl": true,
+        "enable_history_state": true,
+        "enable_variant_group_images": false,
+        "disable_selected_variant_default": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": false,
+        "show_pagination_mobile": false,
+        "use_sticky_atc": false,
+        "use_sticky_atc_on_mobile": false,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false,
+        "heading": "If you like less overnight stays (like 3,7 or 14), please choose"
+      }
+    },
+    "product_recommendations_fBqPrc": {
+      "type": "product-recommendations",
+      "name": "Product recommendations",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "remove_params": false,
+        "heading": "You may also be interested in these products",
+        "heading_size": "h3",
+        "text_align": "left",
+        "limit": 3,
+        "columns": 3,
+        "column_gap": 30,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "use_scroll_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_Y6FcWN": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_QMd4be": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/logo.png",
+            "image_by_url": "",
+            "title": "Hotel pass",
+            "description": "<p>Choose your international hotel voucher conveniently –your access to an affordable trip</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_HBTaqt": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/ChatGPT_Image_Jul_15_2026_09_31_59_AM.png",
+            "image_by_url": "",
+            "title": "Mealallowance",
+            "description": "<p>The mandatory meal fee applies to every voucher holder. The amount varies depending on the hotel category selected.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_NpcypC": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image": "shopify://shop_images/logo_1.png",
+            "image_by_url": "",
+            "title": "Hotel choice",
+            "description": "<p>Discover over 50K verified hotels worldwide – from charming boutiques to 5-star resorts</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_QMd4be",
+        "iconbox_HBTaqt",
+        "iconbox_NpcypC"
+      ],
+      "custom_css": [
+        ".m-icon-box {height: 100%; border: 1px solid #eb7f47; border-radius: 10px; background: #f58b1f10; padding: 15px 5px;}",
+        ".m-icon-box__icon {background-color: #f58b1f; border-radius: 50px; padding: 5px;}",
+        "p {max-width: 700px; margin: 0 auto;}"
+      ],
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "heading": "<mark>Smart choice.</mark> Stay smarter. <br>Valuable access",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "<p>Your smart choice to acces a premium hotel for less.Ttransparent and easy pricing with high return. Your flexible way of traveling around the world.</p>",
+        "header_alignment": "center",
+        "item_per_row": 3,
+        "item_gap": 20,
+        "item_gap_mobile": 26,
+        "card_style": "vertical",
+        "image_max_width": "50px",
+        "content_alignment": "center",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 10,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "video_gxBznW": {
+      "type": "video",
+      "disabled": true,
+      "custom_css": [
+        ".m-video__inner.m\\:blocks-radius {border-radius: 10px;}"
+      ],
+      "name": "Video",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "default",
+        "video_type": "shopify",
+        "shopify_video": "shopify://files/videos/Hotel Voucher.mp4",
+        "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "ratio": "16:9",
+        "image": "shopify://shop_images/Rome_7.jpg",
+        "video_title": "",
+        "text_size": "medium",
+        "text_color": "inherit",
+        "play_style": "solid",
+        "play_size": "medium",
+        "width": "650px",
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "show_controls": true,
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_TBkgg8": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_PQpGxH": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/Monaco_3.jpg",
+            "image_by_url": "",
+            "title": "Choose your Value",
+            "description": "<p>1. select student or regular pass<br/>2. Choose your hotel pass for 2, 3, 5, or 7 nights</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_EWRkWf": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/Vietnam.jpg",
+            "image_by_url": "",
+            "title": "Buy your Voucher",
+            "description": "<p>1. Pay your hotel pass<br/>2. You’ll receive your voucher instantly via email</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_TLxL3T": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/Sudafrika_2.jpg",
+            "image_by_url": "",
+            "title": "Select your hotel",
+            "description": "<p>1. direct bookable<br/>2. Hotels with lead time</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_PQpGxH",
+        "iconbox_EWRkWf",
+        "iconbox_TLxL3T"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "heading": "Your smart hotel pass processeasy transparent pricing",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "<h4>Choose your value – buy your voucher – select your hotel enjoy your trip</h4>",
+        "header_alignment": "center",
+        "item_per_row": 3,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "vertical",
+        "image_max_width": "",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_4DAjHf": {
+      "type": "rich-text",
+      "blocks": {
+        "button_8MHDXY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Enjoy Your trip",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_8MHDXY"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 72,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_KJPFRj": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_CgbKbt": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/Monaco_3.jpg",
+            "image_by_url": "",
+            "title": "",
+            "description": "<p><strong>Premium quality — </strong>verified accommodations</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_dVn37W": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/Vietnam.jpg",
+            "image_by_url": "",
+            "title": "",
+            "description": "<p><strong>Global variety </strong>— 50,000+<br/>hotels in 240 countries</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_XYg7YC": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/Sudafrika_2.jpg",
+            "image_by_url": "",
+            "title": "Peak- and off- saison -",
+            "description": "<p>all saisons are bookable, if<br/>available. Best opportunity is off-<br/>saison</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_CgbKbt",
+        "iconbox_dVn37W",
+        "iconbox_XYg7YC"
+      ],
+      "disabled": true,
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "heading": "Your smart hotel pass –exclusive hotels, handpicked for you",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "<p>PREVIEW participating hotels of our provider * WCS</p>",
+        "header_alignment": "center",
+        "item_per_row": 3,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "start",
+        "hover_effect": "scaling-up",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "banner_with_slider_btJN6R": {
+      "type": "banner-with-slider",
+      "blocks": {
+        "item_slide_FfDWCp": {
+          "type": "item_slide",
+          "settings": {
+            "item_image": "shopify://shop_images/Thailand_6.jpg",
+            "color_scheme": "",
+            "content_text_color": "black",
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "subheading": "",
+            "heading": "",
+            "description": "",
+            "text_size": "h2",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_slide_FfDWCp"
+      ],
+      "disabled": true,
+      "name": "Image with slider 2",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "header_alignment": "center",
+        "layout": "layout-2",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "slide_autoplay": false,
+        "pagination_position": "left",
+        "autorotate_speed": 5,
+        "columns_mobile": "2",
+        "use_scroll_mobile": false,
+        "banner_image_1": "shopify://shop_images/pexels-leticia-alvares-1805702-33359330.jpg",
+        "button_text_1": "",
+        "button_link_1": "",
+        "button_style_1": "m-button--white",
+        "button_size_1": "",
+        "banner_image_2": "shopify://shop_images/pexels-asadphoto-9598901_684f0e5c-53be-4a49-b9d8-2dbbe5deec8e.jpg",
+        "button_text_2": "",
+        "button_link_2": "",
+        "button_style_2": "m-button--white",
+        "button_size_2": "",
+        "banner_image_3": "shopify://shop_images/Malediven_2.jpg",
+        "button_text_3": "",
+        "button_link_3": "",
+        "button_style_3": "m-button--white",
+        "button_size_3": "",
+        "banner_image_4": "shopify://shop_images/pexels-asadphoto-11340077.jpg",
+        "button_text_4": "",
+        "button_link_4": "",
+        "button_style_4": "m-button--white",
+        "button_size_4": "",
+        "padding_top": 20,
+        "padding_bottom": 50,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.</p><p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.</p>",
+            "content_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "tab"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".m-tabs__header {justify-content: flex-start;}"
+      ],
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "default_open": true,
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "1784094098f8f7da21",
+    "rich_text_XxNYbh",
+    "main",
+    "product_recommendations_fBqPrc",
+    "icon_box_Y6FcWN",
+    "video_gxBznW",
+    "icon_box_TBkgg8",
+    "rich_text_4DAjHf",
+    "icon_box_KJPFRj",
+    "banner_with_slider_btJN6R",
+    "product-details-tabs"
+  ]
+}

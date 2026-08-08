@@ -1,0 +1,262 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "custom_content_HTt97w": {
+      "type": "custom-content",
+      "blocks": {
+        "image_TULKip": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_Transparent_15d86cb3-6380-42ba-95cc-f3a5709d81d8.png",
+            "link": "",
+            "width": "100%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit",
+            "enable_preload_image": false
+          }
+        },
+        "image_with_text_Xh4xPf": {
+          "type": "image_with_text",
+          "settings": {
+            "width": "50%",
+            "image": "shopify://shop_images/phone-icon.png",
+            "link": "",
+            "layout": "left",
+            "image_column_size": "2",
+            "hover_effect": false,
+            "title": "Phone",
+            "sub_title": "",
+            "text": "<p>0121 573 0233</p>",
+            "text_size": "small",
+            "content_alignment": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit",
+            "enable_preload_image": false
+          }
+        },
+        "image_with_text_Myi6X3": {
+          "type": "image_with_text",
+          "settings": {
+            "width": "50%",
+            "image": "shopify://shop_images/email-icon.png",
+            "link": "",
+            "layout": "left",
+            "image_column_size": "2",
+            "hover_effect": false,
+            "title": "Email",
+            "sub_title": "",
+            "text": "<p>info@gutscheinreisen24.com</p>",
+            "text_size": "small",
+            "content_alignment": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit",
+            "enable_preload_image": false
+          }
+        },
+        "text_KkxMwx": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "<p>© 2025<strong>Gutscheinreisen24</strong>. All rights reserved.</p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_TULKip",
+        "image_with_text_Xh4xPf",
+        "image_with_text_Myi6X3",
+        "text_KkxMwx"
+      ],
+      "disabled": true,
+      "name": "Custom content",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "color_scheme": "dark",
+        "content_color_scheme": "dark",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 15,
+        "gap_mobile": 15,
+        "use_scroll_mobile": false,
+        "padding_top": 70,
+        "padding_bottom": 100,
+        "enable_preload_image": false,
+        "custom_class": ""
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "custom_text_XRhLCF": {
+          "type": "custom_text",
+          "settings": {
+            "title": "Contact",
+            "image_max": "200px",
+            "description": "<p>Customer Support<br/>Email<br/>Telephone<br/>Business Hours</p>",
+            "width": "25%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "menu_JLKrBr": {
+          "type": "menu",
+          "settings": {
+            "menu": "navigatuions",
+            "title": "Quick View",
+            "width": "25%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "menu_jxVkeE": {
+          "type": "menu",
+          "settings": {
+            "menu": "company",
+            "title": "Service",
+            "width": "25%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "newsletter_CVGfVp": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Subscribe",
+            "description": "Stay inspired with exclusive travel offers, new destinations and Hotel Pass updates.",
+            "email_placeholder": "Enter your email",
+            "show_icon_input": true,
+            "button_label": "",
+            "button_position": "inline",
+            "button_style": "m-button--blank",
+            "form_style": "bordered",
+            "show_social": true,
+            "show_agree_checkbox": false,
+            "width": "33%",
+            "order_first": true,
+            "open_default": true
+          }
+        }
+      },
+      "block_order": [
+        "custom_text_XRhLCF",
+        "menu_JLKrBr",
+        "menu_jxVkeE",
+        "newsletter_CVGfVp"
+      ],
+      "custom_css": [
+        "span.m-footer__copyright {font-size: 20px !important;}"
+      ],
+      "settings": {
+        "color_scheme": "dark",
+        "design": "footer-1",
+        "container": "container-fluid",
+        "bordered": false,
+        "copyright": "© 2026 Gutscheinreisen24. All rights reserved.",
+        "show_country_selector": false,
+        "show_currency_selector": false,
+        "show_language_selector": false,
+        "show_social_links": false,
+        "enable_follow_on_shop": true,
+        "show_payment_icons": true,
+        "payment_icons_width": 300,
+        "footer_bottom_color_scheme": "badge-new",
+        "footer_bottom_menu": "",
+        "show_menu_item_divider": true
+      }
+    },
+    "mobile-sticky-bar": {
+      "type": "mobile-sticky-bar",
+      "disabled": true,
+      "settings": {
+        "show_mobile_sticky": true,
+        "show_home_icon": true,
+        "show_collection_icon": true,
+        "show_cart_icon": true,
+        "show_search_icon": true,
+        "show_account_icon": false,
+        "show_wishlist_icon": false
+      }
+    },
+    "age-verifier-popup": {
+      "type": "age-verifier-popup",
+      "blocks": {
+        "block-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Confirm your age"
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you 18 years old or older?</p>"
+          }
+        },
+        "block-3": {
+          "type": "buttons",
+          "settings": {
+            "decline_button": "No, I'm not",
+            "approve_button": "Yes, I am"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_mode": false,
+        "enable": false,
+        "bg_blur": true,
+        "decline_heading": "Come back when you're older",
+        "decline_content": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.</p>",
+        "return_button": "Oops, I entered incorrectly"
+      }
+    }
+  },
+  "order": [
+    "custom_content_HTt97w",
+    "footer",
+    "mobile-sticky-bar",
+    "age-verifier-popup"
+  ]
+}

@@ -1,0 +1,109 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page-contact",
+      "disabled": true,
+      "settings": {
+        "container": "container"
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "container": "w-full",
+        "title": "We would love to hear from you.",
+        "description": "<p>If you’ve got great products your making or looking to work with us then drop us a line.</p>",
+        "show_name": true,
+        "show_phone": false,
+        "show_signup_email": true,
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_RaeJJD": {
+      "type": "image-with-text",
+      "disabled": true,
+      "custom_css": [
+        ".m-image-with-text__content {background-color: #fff;}",
+        ".m-content-box {padding: 25px;}",
+        ".m-image-with-text__image-first {border-radius: 0;}",
+        ".m-image-with-text__inner {border-radius: 10px; overflow: hidden; border: 1px solid #f68b1f50;}",
+        ".m-image-with-text__image-first,responsive-image {height: 100%;}",
+        "img {object-position: left;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "container": "container-fluid",
+        "color_scheme": "footer",
+        "item_gap": 0,
+        "item_gap_mobile": 0,
+        "layout": "right",
+        "image_column_size": "6",
+        "image_overlap": false,
+        "show_image_reverse": false,
+        "hover_effect": false,
+        "image_animation": "none",
+        "image": "shopify://shop_images/ChatGPT_Image_Jul_16_2026_11_16_36_AM.png",
+        "link": "",
+        "link_2": "",
+        "second_image_offset_top": 10,
+        "title": "Student Discount",
+        "sub_title": "",
+        "text": "<p>Current students can enjoy an exclusive <strong>25% discount on hotel vouchers</strong>. Simply verify your student status using a valid student ID or the required information to claim the offer. Complete your verification today and book your preferred hotel at a discounted rate.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "padding_top": 70,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "17846963255c882e38": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_kiYnaJ": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTU2MDgz\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_kiYnaJ"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#FFFFFF",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact-form",
+    "image_with_text_RaeJJD",
+    "17846963255c882e38"
+  ]
+}

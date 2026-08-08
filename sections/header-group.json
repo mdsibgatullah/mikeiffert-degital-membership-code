@@ -1,0 +1,62 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "custom_css": [
+        ".m-topbar a[href*=\"facebook\"] {order: 2;}",
+        ".social-media-links {column-gap: 30px;}",
+        ".m-section__header {margin-bottom: 50px;}",
+        "@media (max-width: 576px) {.m-mixed-layout__inner {grid-template-columns: 1fr !important; } .swiper-slide {max-width: 350px; margin: 0 auto; }}",
+        "header.m-header__mobile {justify-content: center;}",
+        "span.m-menu-button {display: none;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "color_scheme_menu": "",
+        "header_design": "logo-center-menu-left",
+        "container": "container-fluid",
+        "sticky_header": "on_scroll_up",
+        "transparent_on_top": true,
+        "transparent_text_color": "#ffffff",
+        "logo_text": "Gutscheinreisen24",
+        "logo": "shopify://shop_images/Logo_Transparent.png",
+        "logo_svg": "",
+        "logo_mobile_svg": "",
+        "logo_transparent_svg": "",
+        "logo_max_width": 300,
+        "sticky_logo_max_width": 300,
+        "mobile_logo_max_width": 300,
+        "main_menu": "",
+        "secondary_menu": "",
+        "mobile_menu": "",
+        "uppercase_parent_level": false,
+        "show_menu_column_divider": false,
+        "search": "hide",
+        "show_account_icon": false,
+        "show_cart_icon": true,
+        "show_wishlist_icon": false,
+        "show_compare_icon": false,
+        "show_currency_switcher": false,
+        "show_country_selector": false,
+        "show_language_switcher": false,
+        "mb_show_currency_switcher": false,
+        "mb_show_country_selector": false,
+        "mb_show_language_switcher": false
+      }
+    }
+  },
+  "order": [
+    "header"
+  ]
+}

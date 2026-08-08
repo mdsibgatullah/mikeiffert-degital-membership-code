@@ -1,0 +1,1379 @@
+{% doc %}
+  @prompt
+    Create a custom Shopify product bundle selection section similar to the provided reference image.
+    
+    Requirements:
+    
+    - Build a responsive product bundle/variant selector section for a hotel voucher product.
+    - The layout should have a clean premium travel booking style.
+    
+    Left Side:
+    - Large product image/gallery section.
+    - Main hotel image with rounded corners.
+    - Thumbnail image slider below the main image.
+    - Arrow navigation buttons on the image slider.
+    - Add a trust information bar below the gallery with 3 items:
+      1. 50,000+ Hotels
+      2. 40+ Countries
+      3. 100% Covered
+    - Each item should have an icon, large number, and small description.
+    
+    Right Side:
+    - Product title:
+      "Choose Your Perfect Hotel Voucher"
+    - Add a highlighted information box below the title:
+      - Trusted 5 Star Provider since 1982
+      - Delivered instantly via email
+      - 5-year validity
+      - 14-day right of withdrawal
+      - Up to 5-Star comfort
+      - Transferable: Perfect for gifting or sharing
+    
+    - Create a custom voucher bundle selection box.
+    
+    Bundle options:
+    1. 3 Nights - 2 People
+       Price: €299
+    
+    2. 7 Nights - 2 People
+       Price: €599
+    
+    3. 14 Nights - 2 People
+       Price: €999
+    
+    4. 365 Nights - Unlimited People
+       Price: €1999
+    
+    Bundle selector requirements:
+    - Each option should have:
+      - Custom checkbox/radio selection
+      - Bundle name
+      - Quantity dropdown
+      - Price aligned on the right
+    - Selected option should have active styling.
+    - Only one bundle can be selected at a time.
+    - When customer selects a bundle, update the Shopify cart with the correct product variant or bundle item.
+    
+    Shopify functionality:
+    - Make this a customizable Shopify theme section.
+    - Allow merchant to edit:
+      - Product images
+      - Bundle names
+      - Prices
+      - Features text
+      - Icons
+      - Colors
+    - Use Shopify Liquid, HTML, CSS, and JavaScript only.
+    - No external app dependency.
+    
+    Design:
+    - Match the reference:
+      - White background
+      - Premium hotel/travel feel
+      - Rounded cards
+      - Soft shadows
+      - Blue heading color
+      - Orange accent color
+      - Clean modern typography
+    - Fully responsive for desktop, tablet, and mobile.
+    - Keep spacing, alignment, and card structure similar to the reference image.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-bundle-section-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    background-color: {{ block.settings.background_color }};
+    padding: {{ block.settings.section_padding }}px 0;
+  }
+
+  .ai-bundle-container-{{ ai_gen_id }} {
+    max-width: {{ block.settings.container_width }}px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .ai-bundle-grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+  }
+
+  .ai-bundle-left-{{ ai_gen_id }} {
+    position: sticky;
+    top: 20px;
+  }
+
+  .ai-bundle-main-image-{{ ai_gen_id }} {
+    width: 100%;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .ai-bundle-main-image-{{ ai_gen_id }} img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .ai-bundle-thumbnails-{{ ai_gen_id }} {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .ai-bundle-thumbnails-wrapper-{{ ai_gen_id }} {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    flex: 1;
+  }
+
+  .ai-bundle-thumbnails-wrapper-{{ ai_gen_id }}::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ai-bundle-thumbnail-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: {{ block.settings.thumbnail_border_radius }}px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+
+  .ai-bundle-thumbnail-{{ ai_gen_id }}.active {
+    border-color: {{ block.settings.accent_color }};
+  }
+
+  .ai-bundle-thumbnail-{{ ai_gen_id }} img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-bundle-nav-btn-{{ ai_gen_id }} {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: {{ block.settings.nav_button_bg }};
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+    color: {{ block.settings.nav_button_color }};
+  }
+
+  .ai-bundle-nav-btn-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.nav_button_hover_bg }};
+    color: {{ block.settings.nav_button_hover_color }};
+  }
+
+  .ai-bundle-nav-btn-{{ ai_gen_id }}:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+
+  .ai-bundle-trust-bar-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    padding: 25px;
+    background-color: {{ block.settings.trust_bar_bg }};
+    border-radius: {{ block.settings.trust_bar_radius }}px;
+  }
+
+  .ai-bundle-trust-item-{{ ai_gen_id }} {
+    text-align: center;
+  }
+
+  .ai-bundle-trust-icon-{{ ai_gen_id }} {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 10px;
+    color: {{ block.settings.accent_color }};
+  }
+
+  .ai-bundle-trust-number-{{ ai_gen_id }} {
+    font-size: 24px;
+    font-weight: 700;
+    color: {{ block.settings.heading_color }};
+    margin-bottom: 4px;
+  }
+
+  .ai-bundle-trust-text-{{ ai_gen_id }} {
+    font-size: 14px;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-bundle-right-{{ ai_gen_id }} {
+    padding: 40px;
+    background-color: {{ block.settings.right_panel_bg }};
+    border-radius: {{ block.settings.panel_border_radius }}px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  }
+
+  .ai-bundle-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_size }}px;
+    font-weight: 700;
+    color: {{ block.settings.heading_color }};
+    margin: 0 0 24px;
+    line-height: 1.3;
+  }
+
+  .ai-bundle-info-box-{{ ai_gen_id }} {
+    background-color: {{ block.settings.info_box_bg }};
+    border-left: 4px solid {{ block.settings.accent_color }};
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+  }
+
+  .ai-bundle-info-title-{{ ai_gen_id }} {
+    font-size: 16px;
+    font-weight: 700;
+    color: {{ block.settings.heading_color }};
+    margin-bottom: 12px;
+  }
+
+  .ai-bundle-info-list-{{ ai_gen_id }} {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ai-bundle-info-list-{{ ai_gen_id }} li {
+    font-size: 14px;
+    color: {{ block.settings.text_color }};
+    padding: 6px 0;
+    padding-left: 24px;
+    position: relative;
+  }
+
+  .ai-bundle-info-list-{{ ai_gen_id }} li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: {{ block.settings.accent_color }};
+    font-weight: 700;
+  }
+
+  .ai-bundle-selector-title-{{ ai_gen_id }} {
+    font-size: 18px;
+    font-weight: 700;
+    color: {{ block.settings.heading_color }};
+    margin-bottom: 16px;
+  }
+
+  .ai-bundle-options-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .ai-bundle-option-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 20px;
+    background-color: {{ block.settings.option_bg }};
+    border: 2px solid {{ block.settings.option_border }};
+    border-radius: {{ block.settings.option_border_radius }}px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .ai-bundle-option-{{ ai_gen_id }}:hover {
+    border-color: {{ block.settings.accent_color }};
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .ai-bundle-option-{{ ai_gen_id }}.selected {
+    border-color: {{ block.settings.accent_color }};
+    background-color: {{ block.settings.option_selected_bg }};
+    box-shadow: 0 4px 12px rgba(246, 139, 31, 0.15);
+  }
+
+  .ai-bundle-option-left-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+  }
+
+  .ai-bundle-radio-{{ ai_gen_id }} {
+    width: 22px;
+    height: 22px;
+    border: 2px solid {{ block.settings.option_border }};
+    border-radius: 50%;
+    position: relative;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+
+  .ai-bundle-option-{{ ai_gen_id }}.selected .ai-bundle-radio-{{ ai_gen_id }} {
+    border-color: {{ block.settings.accent_color }};
+  }
+
+  .ai-bundle-radio-{{ ai_gen_id }}:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 12px;
+    height: 12px;
+    background-color: {{ block.settings.accent_color }};
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+
+  .ai-bundle-option-{{ ai_gen_id }}.selected .ai-bundle-radio-{{ ai_gen_id }}:after {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .ai-bundle-option-info-{{ ai_gen_id }} {
+    flex: 1;
+  }
+
+  .ai-bundle-option-name-{{ ai_gen_id }} {
+    font-size: 16px;
+    font-weight: 600;
+    color: {{ block.settings.heading_color }};
+    margin-bottom: 4px;
+  }
+
+  .ai-bundle-option-desc-{{ ai_gen_id }} {
+    font-size: 13px;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-bundle-option-right-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .ai-bundle-quantity-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .ai-bundle-quantity-label-{{ ai_gen_id }} {
+    font-size: 14px;
+    color: {{ block.settings.text_color }};
+    white-space: nowrap;
+  }
+
+  .ai-bundle-quantity-select-{{ ai_gen_id }} {
+    padding: 8px 12px;
+    border: 1px solid {{ block.settings.option_border }};
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #ffffff;
+    cursor: pointer;
+    min-width: 70px;
+  }
+
+  .ai-bundle-price-{{ ai_gen_id }} {
+    font-size: 22px;
+    font-weight: 700;
+    color: {{ block.settings.accent_color }};
+    white-space: nowrap;
+    min-width: 80px;
+    text-align: right;
+  }
+
+  .ai-bundle-add-btn-{{ ai_gen_id }} {
+    width: 100%;
+    padding: 18px 32px;
+    background-color: {{ block.settings.button_bg }};
+    color: {{ block.settings.button_text_color }};
+    border: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .ai-bundle-add-btn-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_bg }};
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(246, 139, 31, 0.3);
+  }
+
+  .ai-bundle-add-btn-{{ ai_gen_id }}:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-bundle-grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    .ai-bundle-left-{{ ai_gen_id }} {
+      position: static;
+    }
+
+    .ai-bundle-right-{{ ai_gen_id }} {
+      padding: 30px 20px;
+    }
+
+    .ai-bundle-trust-bar-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .ai-bundle-option-{{ ai_gen_id }} {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .ai-bundle-option-right-{{ ai_gen_id }} {
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .ai-bundle-price-{{ ai_gen_id }} {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-bundle-title-{{ ai_gen_id }} {
+      font-size: 24px;
+    }
+
+    .ai-bundle-thumbnail-{{ ai_gen_id }} {
+      width: 60px;
+      height: 60px;
+    }
+
+    .ai-bundle-trust-number-{{ ai_gen_id }} {
+      font-size: 20px;
+    }
+  }
+{% endstyle %}
+
+<hotel-bundle-selector-{{ ai_gen_id }} class="ai-bundle-section-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-bundle-container-{{ ai_gen_id }}">
+    <div class="ai-bundle-grid-{{ ai_gen_id }}">
+      <div class="ai-bundle-left-{{ ai_gen_id }}">
+        <div class="ai-bundle-main-image-{{ ai_gen_id }}">
+          {% if block.settings.main_image %}
+            <img
+              src="{{ block.settings.main_image | image_url: width: 800 }}"
+              alt="{{ block.settings.main_image.alt | escape }}"
+              loading="lazy"
+              width="800"
+              height="600"
+            >
+          {% else %}
+            <div style="background-color: #f4f4f4; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center;">
+              {{ 'image' | placeholder_svg_tag }}
+            </div>
+          {% endif %}
+        </div>
+
+        <div class="ai-bundle-thumbnails-{{ ai_gen_id }}">
+          <button class="ai-bundle-nav-btn-{{ ai_gen_id }} ai-bundle-nav-prev-{{ ai_gen_id }}" aria-label="Previous">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+
+          <div class="ai-bundle-thumbnails-wrapper-{{ ai_gen_id }}">
+            {% if block.settings.main_image %}
+              <div class="ai-bundle-thumbnail-{{ ai_gen_id }} active" data-index="0">
+                <img src="{{ block.settings.main_image | image_url: width: 200 }}" alt="Thumbnail 1">
+              </div>
+            {% endif %}
+            {% if block.settings.thumbnail_2 %}
+              <div class="ai-bundle-thumbnail-{{ ai_gen_id }}" data-index="1">
+                <img src="{{ block.settings.thumbnail_2 | image_url: width: 200 }}" alt="Thumbnail 2">
+              </div>
+            {% endif %}
+            {% if block.settings.thumbnail_3 %}
+              <div class="ai-bundle-thumbnail-{{ ai_gen_id }}" data-index="2">
+                <img src="{{ block.settings.thumbnail_3 | image_url: width: 200 }}" alt="Thumbnail 3">
+              </div>
+            {% endif %}
+            {% if block.settings.thumbnail_4 %}
+              <div class="ai-bundle-thumbnail-{{ ai_gen_id }}" data-index="3">
+                <img src="{{ block.settings.thumbnail_4 | image_url: width: 200 }}" alt="Thumbnail 4">
+              </div>
+            {% endif %}
+            {% if block.settings.thumbnail_5 %}
+              <div class="ai-bundle-thumbnail-{{ ai_gen_id }}" data-index="4">
+                <img src="{{ block.settings.thumbnail_5 | image_url: width: 200 }}" alt="Thumbnail 5">
+              </div>
+            {% endif %}
+          </div>
+
+          <button class="ai-bundle-nav-btn-{{ ai_gen_id }} ai-bundle-nav-next-{{ ai_gen_id }}" aria-label="Next">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <div class="ai-bundle-trust-bar-{{ ai_gen_id }}">
+          <div class="ai-bundle-trust-item-{{ ai_gen_id }}">
+            <div class="ai-bundle-trust-icon-{{ ai_gen_id }}">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+            </div>
+            <div class="ai-bundle-trust-number-{{ ai_gen_id }}">{{ block.settings.trust_1_number }}</div>
+            <div class="ai-bundle-trust-text-{{ ai_gen_id }}">{{ block.settings.trust_1_text }}</div>
+          </div>
+
+          <div class="ai-bundle-trust-item-{{ ai_gen_id }}">
+            <div class="ai-bundle-trust-icon-{{ ai_gen_id }}">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+              </svg>
+            </div>
+            <div class="ai-bundle-trust-number-{{ ai_gen_id }}">{{ block.settings.trust_2_number }}</div>
+            <div class="ai-bundle-trust-text-{{ ai_gen_id }}">{{ block.settings.trust_2_text }}</div>
+          </div>
+
+          <div class="ai-bundle-trust-item-{{ ai_gen_id }}">
+            <div class="ai-bundle-trust-icon-{{ ai_gen_id }}">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="ai-bundle-trust-number-{{ ai_gen_id }}">{{ block.settings.trust_3_number }}</div>
+            <div class="ai-bundle-trust-text-{{ ai_gen_id }}">{{ block.settings.trust_3_text }}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ai-bundle-right-{{ ai_gen_id }}">
+        <h2 class="ai-bundle-title-{{ ai_gen_id }}">{{ block.settings.section_title }}</h2>
+
+        <div class="ai-bundle-info-box-{{ ai_gen_id }}">
+          <div class="ai-bundle-info-title-{{ ai_gen_id }}">{{ block.settings.info_box_title }}</div>
+          <ul class="ai-bundle-info-list-{{ ai_gen_id }}">
+            {% if block.settings.feature_1 != blank %}
+              <li>{{ block.settings.feature_1 }}</li>
+            {% endif %}
+            {% if block.settings.feature_2 != blank %}
+              <li>{{ block.settings.feature_2 }}</li>
+            {% endif %}
+            {% if block.settings.feature_3 != blank %}
+              <li>{{ block.settings.feature_3 }}</li>
+            {% endif %}
+            {% if block.settings.feature_4 != blank %}
+              <li>{{ block.settings.feature_4 }}</li>
+            {% endif %}
+            {% if block.settings.feature_5 != blank %}
+              <li>{{ block.settings.feature_5 }}</li>
+            {% endif %}
+            {% if block.settings.feature_6 != blank %}
+              <li>{{ block.settings.feature_6 }}</li>
+            {% endif %}
+          </ul>
+        </div>
+
+        <div class="ai-bundle-selector-title-{{ ai_gen_id }}">{{ block.settings.selector_title }}</div>
+
+        <div class="ai-bundle-options-{{ ai_gen_id }}">
+          {% if block.settings.bundle_1_name != blank %}
+            <div class="ai-bundle-option-{{ ai_gen_id }}" data-bundle="1" data-variant-id="{{ block.settings.bundle_1_variant_id }}">
+              <div class="ai-bundle-option-left-{{ ai_gen_id }}">
+                <div class="ai-bundle-radio-{{ ai_gen_id }}"></div>
+                <div class="ai-bundle-option-info-{{ ai_gen_id }}">
+                  <div class="ai-bundle-option-name-{{ ai_gen_id }}">{{ block.settings.bundle_1_name }}</div>
+                  {% if block.settings.bundle_1_desc != blank %}
+                    <div class="ai-bundle-option-desc-{{ ai_gen_id }}">{{ block.settings.bundle_1_desc }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="ai-bundle-option-right-{{ ai_gen_id }}">
+                <div class="ai-bundle-quantity-{{ ai_gen_id }}">
+                  <label class="ai-bundle-quantity-label-{{ ai_gen_id }}">Qty:</label>
+                  <select class="ai-bundle-quantity-select-{{ ai_gen_id }}">
+                    {% for i in (1..10) %}
+                      <option value="{{ i }}">{{ i }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <div class="ai-bundle-price-{{ ai_gen_id }}">{{ block.settings.bundle_1_price }}</div>
+              </div>
+            </div>
+          {% endif %}
+
+          {% if block.settings.bundle_2_name != blank %}
+            <div class="ai-bundle-option-{{ ai_gen_id }}" data-bundle="2" data-variant-id="{{ block.settings.bundle_2_variant_id }}">
+              <div class="ai-bundle-option-left-{{ ai_gen_id }}">
+                <div class="ai-bundle-radio-{{ ai_gen_id }}"></div>
+                <div class="ai-bundle-option-info-{{ ai_gen_id }}">
+                  <div class="ai-bundle-option-name-{{ ai_gen_id }}">{{ block.settings.bundle_2_name }}</div>
+                  {% if block.settings.bundle_2_desc != blank %}
+                    <div class="ai-bundle-option-desc-{{ ai_gen_id }}">{{ block.settings.bundle_2_desc }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="ai-bundle-option-right-{{ ai_gen_id }}">
+                <div class="ai-bundle-quantity-{{ ai_gen_id }}">
+                  <label class="ai-bundle-quantity-label-{{ ai_gen_id }}">Qty:</label>
+                  <select class="ai-bundle-quantity-select-{{ ai_gen_id }}">
+                    {% for i in (1..10) %}
+                      <option value="{{ i }}">{{ i }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <div class="ai-bundle-price-{{ ai_gen_id }}">{{ block.settings.bundle_2_price }}</div>
+              </div>
+            </div>
+          {% endif %}
+
+          {% if block.settings.bundle_3_name != blank %}
+            <div class="ai-bundle-option-{{ ai_gen_id }}" data-bundle="3" data-variant-id="{{ block.settings.bundle_3_variant_id }}">
+              <div class="ai-bundle-option-left-{{ ai_gen_id }}">
+                <div class="ai-bundle-radio-{{ ai_gen_id }}"></div>
+                <div class="ai-bundle-option-info-{{ ai_gen_id }}">
+                  <div class="ai-bundle-option-name-{{ ai_gen_id }}">{{ block.settings.bundle_3_name }}</div>
+                  {% if block.settings.bundle_3_desc != blank %}
+                    <div class="ai-bundle-option-desc-{{ ai_gen_id }}">{{ block.settings.bundle_3_desc }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="ai-bundle-option-right-{{ ai_gen_id }}">
+                <div class="ai-bundle-quantity-{{ ai_gen_id }}">
+                  <label class="ai-bundle-quantity-label-{{ ai_gen_id }}">Qty:</label>
+                  <select class="ai-bundle-quantity-select-{{ ai_gen_id }}">
+                    {% for i in (1..10) %}
+                      <option value="{{ i }}">{{ i }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <div class="ai-bundle-price-{{ ai_gen_id }}">{{ block.settings.bundle_3_price }}</div>
+              </div>
+            </div>
+          {% endif %}
+
+          {% if block.settings.bundle_4_name != blank %}
+            <div class="ai-bundle-option-{{ ai_gen_id }}" data-bundle="4" data-variant-id="{{ block.settings.bundle_4_variant_id }}">
+              <div class="ai-bundle-option-left-{{ ai_gen_id }}">
+                <div class="ai-bundle-radio-{{ ai_gen_id }}"></div>
+                <div class="ai-bundle-option-info-{{ ai_gen_id }}">
+                  <div class="ai-bundle-option-name-{{ ai_gen_id }}">{{ block.settings.bundle_4_name }}</div>
+                  {% if block.settings.bundle_4_desc != blank %}
+                    <div class="ai-bundle-option-desc-{{ ai_gen_id }}">{{ block.settings.bundle_4_desc }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="ai-bundle-option-right-{{ ai_gen_id }}">
+                <div class="ai-bundle-quantity-{{ ai_gen_id }}">
+                  <label class="ai-bundle-quantity-label-{{ ai_gen_id }}">Qty:</label>
+                  <select class="ai-bundle-quantity-select-{{ ai_gen_id }}">
+                    {% for i in (1..10) %}
+                      <option value="{{ i }}">{{ i }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <div class="ai-bundle-price-{{ ai_gen_id }}">{{ block.settings.bundle_4_price }}</div>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+
+        <button class="ai-bundle-add-btn-{{ ai_gen_id }}" disabled>
+          {{ block.settings.add_to_cart_label }}
+        </button>
+      </div>
+    </div>
+  </div>
+</hotel-bundle-selector-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class HotelBundleSelector{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.selectedBundle = null;
+        this.selectedQuantity = 1;
+        this.images = [];
+        this.currentImageIndex = 0;
+      }
+
+      connectedCallback() {
+        this.initializeElements();
+        this.setupImageGallery();
+        this.setupBundleSelection();
+        this.setupAddToCart();
+      }
+
+      initializeElements() {
+        this.mainImage = this.querySelector('.ai-bundle-main-image-{{ ai_gen_id }} img');
+        this.thumbnails = this.querySelectorAll('.ai-bundle-thumbnail-{{ ai_gen_id }}');
+        this.prevBtn = this.querySelector('.ai-bundle-nav-prev-{{ ai_gen_id }}');
+        this.nextBtn = this.querySelector('.ai-bundle-nav-next-{{ ai_gen_id }}');
+        this.thumbnailWrapper = this.querySelector('.ai-bundle-thumbnails-wrapper-{{ ai_gen_id }}');
+        this.bundleOptions = this.querySelectorAll('.ai-bundle-option-{{ ai_gen_id }}');
+        this.addToCartBtn = this.querySelector('.ai-bundle-add-btn-{{ ai_gen_id }}');
+      }
+
+      setupImageGallery() {
+        if (!this.mainImage) return;
+
+        this.thumbnails.forEach((thumb, index) => {
+          const img = thumb.querySelector('img');
+          if (img) {
+            this.images.push(img.src.replace('_200x', '_800x'));
+          }
+
+          thumb.addEventListener('click', () => {
+            this.currentImageIndex = index;
+            this.updateMainImage();
+            this.updateActiveThumbnail();
+          });
+        });
+
+        if (this.prevBtn) {
+          this.prevBtn.addEventListener('click', () => {
+            if (this.currentImageIndex > 0) {
+              this.currentImageIndex--;
+              this.updateMainImage();
+              this.updateActiveThumbnail();
+              this.scrollThumbnails();
+            }
+          });
+        }
+
+        if (this.nextBtn) {
+          this.nextBtn.addEventListener('click', () => {
+            if (this.currentImageIndex < this.images.length - 1) {
+              this.currentImageIndex++;
+              this.updateMainImage();
+              this.updateActiveThumbnail();
+              this.scrollThumbnails();
+            }
+          });
+        }
+
+        this.updateNavigationButtons();
+      }
+
+      updateMainImage() {
+        if (this.mainImage && this.images[this.currentImageIndex]) {
+          this.mainImage.src = this.images[this.currentImageIndex];
+        }
+        this.updateNavigationButtons();
+      }
+
+      updateActiveThumbnail() {
+        this.thumbnails.forEach((thumb, index) => {
+          if (index === this.currentImageIndex) {
+            thumb.classList.add('active');
+          } else {
+            thumb.classList.remove('active');
+          }
+        });
+      }
+
+      updateNavigationButtons() {
+        if (this.prevBtn) {
+          this.prevBtn.disabled = this.currentImageIndex === 0;
+        }
+        if (this.nextBtn) {
+          this.nextBtn.disabled = this.currentImageIndex === this.images.length - 1;
+        }
+      }
+
+      scrollThumbnails() {
+        if (!this.thumbnailWrapper || !this.thumbnails[this.currentImageIndex]) return;
+        
+        const thumbnail = this.thumbnails[this.currentImageIndex];
+        const scrollLeft = thumbnail.offsetLeft - (this.thumbnailWrapper.offsetWidth / 2) + (thumbnail.offsetWidth / 2);
+        
+        this.thumbnailWrapper.scrollTo({
+          left: scrollLeft,
+          behavior: 'smooth'
+        });
+      }
+
+      setupBundleSelection() {
+        this.bundleOptions.forEach(option => {
+          const quantitySelect = option.querySelector('.ai-bundle-quantity-select-{{ ai_gen_id }}');
+          
+          option.addEventListener('click', (e) => {
+            if (e.target === quantitySelect) return;
+            
+            this.bundleOptions.forEach(opt => opt.classList.remove('selected'));
+            option.classList.add('selected');
+            
+            this.selectedBundle = {
+              variantId: option.dataset.variantId,
+              bundleNumber: option.dataset.bundle
+            };
+            
+            this.selectedQuantity = parseInt(quantitySelect.value);
+            this.updateAddToCartButton();
+          });
+
+          if (quantitySelect) {
+            quantitySelect.addEventListener('change', (e) => {
+              this.selectedQuantity = parseInt(e.target.value);
+            });
+          }
+        });
+      }
+
+      updateAddToCartButton() {
+        if (this.selectedBundle && this.selectedBundle.variantId) {
+          this.addToCartBtn.disabled = false;
+        } else {
+          this.addToCartBtn.disabled = true;
+        }
+      }
+
+      setupAddToCart() {
+        this.addToCartBtn.addEventListener('click', async () => {
+          if (!this.selectedBundle || !this.selectedBundle.variantId) return;
+
+          this.addToCartBtn.disabled = true;
+          this.addToCartBtn.textContent = 'Adding...';
+
+          try {
+            const formData = {
+              items: [{
+                id: this.selectedBundle.variantId,
+                quantity: this.selectedQuantity
+              }]
+            };
+
+            const response = await fetch('/cart/add.js', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify(formData)
+            });
+
+            if (response.ok) {
+              this.addToCartBtn.textContent = 'Added!';
+              
+              if (window.theme && window.theme.cart) {
+                window.theme.cart.refresh();
+              }
+              
+              setTimeout(() => {
+                this.addToCartBtn.textContent = '{{ block.settings.add_to_cart_label }}';
+                this.addToCartBtn.disabled = false;
+              }, 2000);
+            } else {
+              throw new Error('Failed to add to cart');
+            }
+          } catch (error) {
+            console.error('Error adding to cart:', error);
+            this.addToCartBtn.textContent = 'Error - Try Again';
+            setTimeout(() => {
+              this.addToCartBtn.textContent = '{{ block.settings.add_to_cart_label }}';
+              this.addToCartBtn.disabled = false;
+            }, 2000);
+          }
+        });
+      }
+    }
+
+    customElements.define('hotel-bundle-selector-{{ ai_gen_id }}', HotelBundleSelector{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Hotel bundle selector",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section settings"
+    },
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section title",
+      "default": "Choose Your Perfect Hotel Voucher"
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "label": "Container width",
+      "min": 1000,
+      "max": 1600,
+      "step": 50,
+      "unit": "px",
+      "default": 1200
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "header",
+      "content": "Images"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Main image"
+    },
+    {
+      "type": "image_picker",
+      "id": "thumbnail_2",
+      "label": "Thumbnail 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "thumbnail_3",
+      "label": "Thumbnail 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "thumbnail_4",
+      "label": "Thumbnail 4"
+    },
+    {
+      "type": "image_picker",
+      "id": "thumbnail_5",
+      "label": "Thumbnail 5"
+    },
+    {
+      "type": "header",
+      "content": "Trust bar"
+    },
+    {
+      "type": "text",
+      "id": "trust_1_number",
+      "label": "Trust item 1 number",
+      "default": "50,000+"
+    },
+    {
+      "type": "text",
+      "id": "trust_1_text",
+      "label": "Trust item 1 text",
+      "default": "Hotels"
+    },
+    {
+      "type": "text",
+      "id": "trust_2_number",
+      "label": "Trust item 2 number",
+      "default": "40+"
+    },
+    {
+      "type": "text",
+      "id": "trust_2_text",
+      "label": "Trust item 2 text",
+      "default": "Countries"
+    },
+    {
+      "type": "text",
+      "id": "trust_3_number",
+      "label": "Trust item 3 number",
+      "default": "100%"
+    },
+    {
+      "type": "text",
+      "id": "trust_3_text",
+      "label": "Trust item 3 text",
+      "default": "Covered"
+    },
+    {
+      "type": "header",
+      "content": "Information box"
+    },
+    {
+      "type": "text",
+      "id": "info_box_title",
+      "label": "Info box title",
+      "default": "Trusted 5 Star Provider since 1982"
+    },
+    {
+      "type": "text",
+      "id": "feature_1",
+      "label": "Feature 1",
+      "default": "Delivered instantly via email"
+    },
+    {
+      "type": "text",
+      "id": "feature_2",
+      "label": "Feature 2",
+      "default": "5-year validity"
+    },
+    {
+      "type": "text",
+      "id": "feature_3",
+      "label": "Feature 3",
+      "default": "14-day right of withdrawal"
+    },
+    {
+      "type": "text",
+      "id": "feature_4",
+      "label": "Feature 4",
+      "default": "Up to 5-Star comfort"
+    },
+    {
+      "type": "text",
+      "id": "feature_5",
+      "label": "Feature 5",
+      "default": "Transferable: Perfect for gifting or sharing"
+    },
+    {
+      "type": "text",
+      "id": "feature_6",
+      "label": "Feature 6"
+    },
+    {
+      "type": "header",
+      "content": "Bundle selector"
+    },
+    {
+      "type": "text",
+      "id": "selector_title",
+      "label": "Selector title",
+      "default": "Select Your Bundle"
+    },
+    {
+      "type": "header",
+      "content": "Bundle 1"
+    },
+    {
+      "type": "text",
+      "id": "bundle_1_name",
+      "label": "Name",
+      "default": "3 Nights - 2 People"
+    },
+    {
+      "type": "text",
+      "id": "bundle_1_desc",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "bundle_1_price",
+      "label": "Price",
+      "default": "€299"
+    },
+    {
+      "type": "text",
+      "id": "bundle_1_variant_id",
+      "label": "Variant ID",
+      "info": "Enter the Shopify variant ID for this bundle"
+    },
+    {
+      "type": "header",
+      "content": "Bundle 2"
+    },
+    {
+      "type": "text",
+      "id": "bundle_2_name",
+      "label": "Name",
+      "default": "7 Nights - 2 People"
+    },
+    {
+      "type": "text",
+      "id": "bundle_2_desc",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "bundle_2_price",
+      "label": "Price",
+      "default": "€599"
+    },
+    {
+      "type": "text",
+      "id": "bundle_2_variant_id",
+      "label": "Variant ID",
+      "info": "Enter the Shopify variant ID for this bundle"
+    },
+    {
+      "type": "header",
+      "content": "Bundle 3"
+    },
+    {
+      "type": "text",
+      "id": "bundle_3_name",
+      "label": "Name",
+      "default": "14 Nights - 2 People"
+    },
+    {
+      "type": "text",
+      "id": "bundle_3_desc",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "bundle_3_price",
+      "label": "Price",
+      "default": "€999"
+    },
+    {
+      "type": "text",
+      "id": "bundle_3_variant_id",
+      "label": "Variant ID",
+      "info": "Enter the Shopify variant ID for this bundle"
+    },
+    {
+      "type": "header",
+      "content": "Bundle 4"
+    },
+    {
+      "type": "text",
+      "id": "bundle_4_name",
+      "label": "Name",
+      "default": "365 Nights - Unlimited People"
+    },
+    {
+      "type": "text",
+      "id": "bundle_4_desc",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "bundle_4_price",
+      "label": "Price",
+      "default": "€1999"
+    },
+    {
+      "type": "text",
+      "id": "bundle_4_variant_id",
+      "label": "Variant ID",
+      "info": "Enter the Shopify variant ID for this bundle"
+    },
+    {
+      "type": "header",
+      "content": "Add to cart button"
+    },
+    {
+      "type": "text",
+      "id": "add_to_cart_label",
+      "label": "Button label",
+      "default": "Add to Cart"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Headings",
+      "default": "#014081"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#484848"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Accent",
+      "default": "#f68b1f"
+    },
+    {
+      "type": "color",
+      "id": "right_panel_bg",
+      "label": "Right panel background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "info_box_bg",
+      "label": "Info box background",
+      "default": "#fef7ef"
+    },
+    {
+      "type": "color",
+      "id": "trust_bar_bg",
+      "label": "Trust bar background",
+      "default": "#f5f5f5"
+    },
+    {
+      "type": "color",
+      "id": "option_bg",
+      "label": "Option background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "option_selected_bg",
+      "label": "Option selected background",
+      "default": "#fef7ef"
+    },
+    {
+      "type": "color",
+      "id": "option_border",
+      "label": "Option border",
+      "default": "#eeeeee"
+    },
+    {
+      "type": "color",
+      "id": "button_bg",
+      "label": "Button background",
+      "default": "#f68b1f"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_bg",
+      "label": "Button hover background",
+      "default": "#e07a0e"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "nav_button_bg",
+      "label": "Nav button background",
+      "default": "#f5f5f5"
+    },
+    {
+      "type": "color",
+      "id": "nav_button_hover_bg",
+      "label": "Nav button hover background",
+      "default": "#014081"
+    },
+    {
+      "type": "color",
+      "id": "nav_button_color",
+      "label": "Nav button icon",
+      "default": "#484848"
+    },
+    {
+      "type": "color",
+      "id": "nav_button_hover_color",
+      "label": "Nav button hover icon",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Border radius"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "label": "Image",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "thumbnail_border_radius",
+      "label": "Thumbnails",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "panel_border_radius",
+      "label": "Right panel",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "trust_bar_radius",
+      "label": "Trust bar",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "option_border_radius",
+      "label": "Bundle options",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Button",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title size",
+      "min": 20,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hotel bundle selector"
+    }
+  ]
+}
+{% endschema %}
