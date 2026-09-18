@@ -24,12 +24,14 @@ destinations, and complete the next step with confidence.
 -   Related Hotel Pass recommendations
 -   Student discount verification flow
 -   Company and WCS partner information
--   Terms, privacy, withdrawal policy, and Impressum pages
+-   Terms, Privacy Policy, Withdrawal Policy, and Impressum pages
 -   Electronic **Withdraw from Contract** flow
 -   Responsive footer, navigation, trust information, and payment
     indicators
 
 ------------------------------------------------------------------------
+
+# Website Pages
 
 ## 1. Homepage
 
@@ -39,112 +41,188 @@ options, how it works, Escape destinations, hotel discovery, partner
 trust, student discount, important information, FAQs, and customer
 reviews.
 
-![Gutscheinreisen24 Homepage](assets/11-homepage.png)
+![Gutscheinreisen24 Homepage](home-page.png)
 
 ------------------------------------------------------------------------
 
-## 2. Hotel Pass / Escape Product Experience
+```{=html}
+<table>
+```
+```{=html}
+<tr>
+```
+```{=html}
+<td width="50%" valign="top">
+```
+## 2. Hotel Pass / Escape Product
 
 Individual product pages provide a visual overview of the selected
 Escape, pricing, included benefits, purchase options, student discount
 information, and related products.
 
-The related-products area helps visitors continue exploring other
-available Escape options without returning to the main collection.
+`<img src="product-page.png" alt="Hotel Pass Escape Product Page" width="100%">`{=html}
 
-![Spain Escape Product Page](assets/01-spain-escape-product.png)
-
-------------------------------------------------------------------------
-
+```{=html}
+</td>
+```
+```{=html}
+<td width="50%" valign="top">
+```
 ## 3. Escape Collection
 
 The Escape collection presents available destination options in a clear
-card-based layout. Visitors can compare destinations and pricing and
-then continue to the relevant product page.
+card-based layout. Visitors can compare destinations and pricing before
+continuing to the relevant product page.
 
-![Escape Collection](assets/02-escape-collection.png)
+`<img src="category-page.png" alt="Escape Collection Page" width="100%">`{=html}
 
-------------------------------------------------------------------------
-
+```{=html}
+</td>
+```
+```{=html}
+</tr>
+```
+```{=html}
+<tr>
+```
+```{=html}
+<td width="50%" valign="top">
+```
 ## 4. Student Discount
 
-Eligible students can submit their details and supporting student/school
-certificate through a dedicated verification form to request the
+Eligible students can submit their details and supporting student or
+school certificate through a dedicated verification form to request the
 available discount.
 
-![Student Discount Verification](assets/03-student-discount.png)
+`<img src="student-page.png" alt="Student Discount Page" width="100%">`{=html}
 
-------------------------------------------------------------------------
-
+```{=html}
+</td>
+```
+```{=html}
+<td width="50%" valign="top">
+```
 ## 5. About Gutscheinreisen24
 
 The dedicated company page explains the Hotel Pass concept, flexibility,
 booking approach, the role of WCS, customer service, and the philosophy
 behind Gutscheinreisen24.
 
-![About Gutscheinreisen24](assets/04-about-gutscheinreisen24.png)
+`<img src="about-gutscheinreisen-page.png" alt="About Gutscheinreisen24 Page" width="100%">`{=html}
 
-------------------------------------------------------------------------
-
+```{=html}
+</td>
+```
+```{=html}
+</tr>
+```
+```{=html}
+<tr>
+```
+```{=html}
+<td width="50%" valign="top">
+```
 ## 6. About WCS
 
-A separate page clearly explains the role of **WCS -- World Consulting
+A separate page clearly explains the role of **WCS --- World Consulting
 Service Ltd Inc.** as the experienced Hotel Pass service partner and
 distinguishes WCS responsibilities from those of Gutscheinreisen24 / IPV
 GmbH.
 
-![About WCS](assets/05-about-wcs.png)
+`<img src="about-wcs-page.png" alt="About WCS Page" width="100%">`{=html}
 
-------------------------------------------------------------------------
-
+```{=html}
+</td>
+```
+```{=html}
+<td width="50%" valign="top">
+```
 ## 7. Terms of Service
 
 The Terms of Service page provides the contractual conditions governing
 Hotel Pass purchases and use.
 
-![Terms of Service](assets/06-terms-of-service.png)
+`<img src="terms-of-service-page.png" alt="Terms of Service Page" width="100%">`{=html}
 
-------------------------------------------------------------------------
-
+```{=html}
+</td>
+```
+```{=html}
+</tr>
+```
+```{=html}
+<tr>
+```
+```{=html}
+<td width="50%" valign="top">
+```
 ## 8. Privacy Policy
 
 The Privacy Policy explains how personal information is collected,
 processed, used, disclosed, retained, and protected, along with
 applicable customer rights and choices.
 
-![Privacy Policy](assets/07-privacy-policy.png)
+`<img src="privacy-policy-page.png" alt="Privacy Policy Page" width="100%">`{=html}
 
-------------------------------------------------------------------------
-
+```{=html}
+</td>
+```
+```{=html}
+<td width="50%" valign="top">
+```
 ## 9. Withdrawal Policy
 
 The Withdrawal Policy provides the relevant withdrawal information,
 effects of withdrawal, Hotel Pass deactivation details, and model
 withdrawal form information in both English and German sections.
 
-![Withdrawal Policy](assets/08-withdrawal-policy.png)
+`<img src="withdrawal-policy.png" alt="Withdrawal Policy Page" width="100%">`{=html}
 
-------------------------------------------------------------------------
-
+```{=html}
+</td>
+```
+```{=html}
+</tr>
+```
+```{=html}
+<tr>
+```
+```{=html}
+<td width="50%" valign="top">
+```
 ## 10. Impressum
 
 The Impressum provides the required company, representative, contact,
 registration, VAT, and Hotel Pass provider information.
 
-![Impressum](assets/09-impressum.png)
+`<img src="impressum-page.png" alt="Impressum Page" width="100%">`{=html}
 
-------------------------------------------------------------------------
-
+```{=html}
+</td>
+```
+```{=html}
+<td width="50%" valign="top">
+```
 ## 11. Electronic Withdrawal Form
 
 A dedicated **Confirm Withdrawal** page allows customers to submit their
 contract withdrawal electronically using their name, order number, email
 address, and withdrawal details.
 
-The withdrawal action is also made clearly accessible through the
-**Withdraw from Contract** button in the website footer.
+The withdrawal action is also clearly accessible through the **Withdraw
+from Contract** button in the website footer.
 
-![Confirm Withdrawal](assets/10-confirm-withdrawal.png)
+`<img src="confirm-withdrawal.png" alt="Confirm Withdrawal Page" width="100%">`{=html}
+
+```{=html}
+</td>
+```
+```{=html}
+</tr>
+```
+```{=html}
+</table>
+```
 
 ------------------------------------------------------------------------
 
@@ -176,7 +254,7 @@ reviews, legal links, footer accessibility, and clear calls to action.
 
 ## Project Status
 
-The supplied screenshots document the current website implementation and
+The screenshots above document the current website implementation and
 its main customer-facing pages.
 
 > **Note:** Legal and policy content shown on the website should always
