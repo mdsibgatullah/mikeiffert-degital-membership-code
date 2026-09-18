@@ -616,9 +616,10 @@
                     product: product,
                     section_id: section.id
                   %}
-                  <span> {{ product.price | money }} </span>
+                  <span class="iiiiiiiiii"> {{ product.price | money }} </span>
                 </div>
               {% endif %}
+              <p class="pd_page_mark">incl. Incl. VAT & digital delivery | Your special price compared to the regular WCS retail price</p>
               {% if block.settings.show_atc_button %}
                 {% liquid
                   assign btn_class = 'm-button--primary'

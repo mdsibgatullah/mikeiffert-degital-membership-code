@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "rich_text_KUqR98": {
+      "type": "rich-text",
+      "blocks": {
+        "text_WUDLx6": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Right of Withdrawal</h4><p>You have the right to withdraw from this contract within fourteen days without giving any reason.</p><p>The withdrawal period is fourteen days from the date on which the contract was concluded.</p><p>To exercise your right of withdrawal, you must inform us:</p><p><strong>IPV GmbH</strong><br/>Am Wiesengrund 1<br/>40764 Langenfeld<br/>Germany</p><p>Phone: +49 (0)2173 / 40 99 182<br/>Email: info@gutscheinreisen24.de</p><p>of your decision to withdraw from this contract by means of a clear statement, for example by email or by a letter sent by post.</p><p>You may use the model withdrawal form provided below, but use of this form is not mandatory.</p><p>In addition, you may exercise your right of withdrawal using the electronic withdrawal function provided on our website. The <strong>“Withdraw from Contract” </strong>function is permanently available during the statutory withdrawal period, prominently displayed and easily accessible via the footer of our website.</p><p>After selecting <strong>“Withdraw from Contract”</strong>, you can enter or confirm the information required for your withdrawal and subsequently submit your withdrawal electronically using the <strong>“Confirm Withdrawal”</strong> function.</p><p>After successful submission, you will<br/>immediately receive an acknowledgement of receipt on a durable medium, in particular by email. This confirmation will include at least the content of your withdrawal declaration and the date and time it was received.</p><p>To meet the withdrawal deadline, it is sufficient for you to send your notification concerning your exercise of the right of withdrawal before the withdrawal period has expired.</p><h4>Effects of Withdrawal</h4><p>If you withdraw from this contract, we will reimburse all payments received from you in connection with the withdrawn contract without undue delay and no later than fourteen days from the date on which we receive notification of your withdrawal.</p><p>We will generally use the same means of payment for the reimbursement that you used for the original transaction, unless expressly agreed otherwise with you.</p><p>In no event will you incur any fees as a result of this reimbursement.</p><p>As the Hotel Pass is provided exclusively in digital form, there are no costs for returning physical goods.</p><h4>Deactivation of the Hotel Pass Following Withdrawal</h4><p>In the event of a valid withdrawal, the Hotel Pass code associated with the withdrawn purchase contract will be blocked or deactivated.</p><p>The Hotel Pass can subsequently no longer be used for new hotel bookings.</p><h4>Hotel Pass Already Activated</h4><p>The mere activation or registration of the Hotel Pass does not automatically exclude the statutory right of withdrawal.</p><p>The statutory provisions concerning any compensation for services already provided at the consumer’s express request during the withdrawal period remain unaffected.</p><h4>Distinction from a Subsequent Hotel Booking</h4><p>This Withdrawal Policy applies exclusively to the contract for the purchase of the Hotel Pass<br/>from IPV GmbH.</p><p>A subsequent booking of a specific hotel stay constitutes a legally separate contract.</p><p>Under the applicable statutory provisions, there is generally no statutory right of withdrawal for contracts relating to accommodation services provided on a specific date or during a specific period.</p><p>Any amendment or cancellation of a specific hotel booking is subject to the cancellation and booking conditions communicated for the respective partner hotel at the time of booking.</p><h4>Model Withdrawal Form</h4><p>If you wish to withdraw from the contract, you may complete and submit this form to us.</p><p><strong>To:<br/></strong>IPV GmbH<br/>Am Wiesengrund 1<br/>40764 Langenfeld<br/>Germany<br/>Email: info@gutscheinreisen24.de</p><p>I/We (<em>) hereby give notice that I/We (</em>) withdraw from the contract concluded by me/us (*) for the purchase of the following Hotel Pass:</p><p><strong>Hotel Pass / Product:</strong><br/>_________________________________</p><p><strong>Order number (if available):</strong><br/>_________________________________</p><p><strong>Ordered on:</strong><br/>_________________________________</p><p><strong>Name of consumer(s):</strong><br/>_________________________________</p><p><strong>Address of consumer(s):</strong><br/>_________________________________</p><p><strong>Email address:</strong><br/>_________________________________</p><p><strong>Date:</strong><br/>_________________________________</p><p><strong>Signature of consumer(s):</strong><br/>(only if this form is submitted on paper)<br/>_________________________________</p><p>(*) Delete as appropriate.<br/>_________________________________</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_WUDLx6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_7YwpNL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_fGiF7X": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>DEUTSCHE Language</h3><h4>Widerrufsbelehrung Widerrufsrecht</h4><p>Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.</p><p>Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsabschlusses.</p><p>Um Ihr Widerrufsrecht auszuüben,müssen Sie uns</p><p><strong>IPV GmbH</strong><br/>Am Wiesengrund 1<br/>40764 Langenfeld<br/>Deutschland</p><p>Telefon: +49 (0)2173 / 40 99 182<br/>E-Mail: info@gutscheinreisen24.de</p><p>mittels einer eindeutigen Erklärung (z. B. per E-Mail oder durch einen mit der Post versandten Brief) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.</p><p>Sie können hierfür das nachstehende Muster-Widerrufsformular verwenden; die Verwendung des Formulars ist jedoch nicht vorgeschrieben.</p><p>Darüber hinaus können Sie Ihr Widerrufsrecht über die auf unserer Website bereitgestellte elektronische Widerrufsfunktion ausüben. Die Funktion <strong>„Vertrag widerrufen“</strong> ist auf unserer Website im Footer während der gesetzlichen Widerrufsfrist ständig verfügbar, hervorgehoben platziert und leicht zugänglich.</p><p>Nach Auswahl der Funktion <strong>„Vertrag widerrufen“</strong> können Sie die für den Widerruf erforderlichen Angaben eingeben bzw. bestätigen und Ihre Widerrufserklärung anschließend über die Funktion <strong>„Widerruf bestätigen“</strong> elektronisch übermitteln.</p><p>Nach erfolgreicher Übermittlung erhalten Sie unverzüglich auf einem dauerhaften Datenträger, insbesondere per E-Mail, eine Eingangsbestätigung. Diese enthält zumindest den Inhalt Ihrer Widerrufserklärung sowie Datum und Uhrzeit ihres Eingangs.</p><p>Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie Ihre Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.</p><h4>Folgen des Widerrufs</h4><p>Wenn Sie diesen Vertrag widerrufen, erstatten wir Ihnen alle Zahlungen, die wir von Ihnen im Zusammenhang mit dem widerrufenen Vertrag erhalten haben, unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag, an dem Ihre Mitteilung über den Widerruf dieses Vertrags bei uns eingegangen ist.</p><p>Für die Rückzahlung verwenden wir grundsätzlich dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, sofern mit Ihnen nicht ausdrücklich etwas anderes vereinbart wurde.</p><p>In keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.</p><p>Da der HotelPass ausschließlich digital bereitgestellt wird, entstehen keine Kosten für die Rücksendung von Waren.</p><h4>Sperrung des HotelPass nach Widerruf</h4><p>Im Falle eines wirksamen Widerrufs wird der dem widerrufenen Kaufvertrag zugeordnete HotelPass-Code gesperrt bzw. deaktiviert.</p><p>Der HotelPass kann anschließend nicht mehr für neue Hotelbuchungen verwendet werden.</p><h4>Bereits aktivierter HotelPass</h4><p>Die bloße Aktivierung bzw. Registrierung des HotelPass führt nicht automatisch zum Ausschluss des<br/>gesetzlichen Widerrufsrechts.</p><p>Die gesetzlichen Vorschriften über einen etwaigen Wertersatz für Leistungen, die auf ausdrücklichen Wunsch des Verbrauchers bereits während der Widerrufsfrist erbracht wurden, bleiben unberührt.</p><h4>Abgrenzung zur späteren Hotelbuchung</h4><p>Diese Widerrufsbelehrung betrifft ausschließlich den Vertrag über den Erwerb des HotelPass bei der IPV GmbH.</p><p>Die spätere Buchung eines konkreten Hotelaufenthalts ist ein hiervon rechtlich zu unterscheidender Vertrag.</p><p>Für Verträge über Beherbergungsleistungen, die für einen bestimmten Termin oder Zeitraum vorgesehen sind, besteht nach den gesetzlichen Bestimmungen grundsätzlich kein gesetzliches Widerrufsrecht.</p><p>Für eine Änderung oder Stornierung einer konkreten Hotelbuchung gelten die bei der jeweiligen Buchung mitgeteilten Stornierungs- und Buchungsbedingungen des jeweiligen Partnerhotels.</p><h4>Muster-Widerrufsformular</h4><p>Wenn Sie den Vertrag widerrufen wollen, können Sie dieses Formular ausfüllen und an uns übermitteln.</p><p><strong>An:<br/></strong>IPV GmbH<br/>Am Wiesengrund 1<br/>40764 Langenfeld<br/>Deutschland<br/>E-Mail: info@gutscheinreisen24.de</p><p>Hiermit widerrufe(n) ich/wir (<em>) den von mir/uns (</em>) abgeschlossenen Vertrag über den Erwerb des folgenden HotelPass:</p><p><strong>HotelPass / Produkt:</strong><br/>_________________________________</p><p><strong>Bestellnummer (soweit vorhanden):</strong><br/>_________________________________</p><p><strong>Bestellt am:</strong><br/>_________________________________</p><p><strong>Name des/der Verbraucher(s):</strong><br/>_________________________________</p><p><strong>Anschrift des/der Verbraucher(s):</strong><br/>_________________________________</p><p><strong>E-Mail-Adresse:</strong><br/>_________________________________</p><p><strong>Datum:</strong><br/>_________________________________</p><p><strong>Unterschrift des/der Verbraucher(s):</strong><br/><br/>(nur bei Mitteilung auf Papier)<br/>_________________________________</p><p>(*) Unzutreffendes streichen.<br/>_________________________________</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_fGiF7X"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_KUqR98",
+    "rich_text_7YwpNL"
+  ]
+}

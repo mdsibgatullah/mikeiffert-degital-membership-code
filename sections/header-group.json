@@ -11,6 +11,53 @@
   "type": "header",
   "name": "Header",
   "sections": {
+    "annoucement_jiqgTw": {
+      "type": "annoucement",
+      "blocks": {
+        "item_g6B8TM": {
+          "type": "item",
+          "settings": {
+            "message": "<p>SMART HOTEL PASS · <strong>FROM €59</strong></p>",
+            "message_link": "/#m-section-template--27181112394057__rich_text_VhkUtP"
+          }
+        },
+        "item_GBxn7G": {
+          "type": "item",
+          "settings": {
+            "message": "<p>SMART HOTEL PASS · <strong>FROM €59</strong></p>",
+            "message_link": "/#m-section-template--27181112394057__rich_text_VhkUtP"
+          }
+        }
+      },
+      "block_order": [
+        "item_g6B8TM",
+        "item_GBxn7G"
+      ],
+      "name": "Announcement bar",
+      "settings": {
+        "container": "container",
+        "color_scheme": "badge-new",
+        "show_announcement": true,
+        "homepage_only": true,
+        "show_close": false,
+        "show_divider": false,
+        "show_nav": false,
+        "autorotate": true,
+        "autorotate_speed": 3
+      }
+    },
+    "custom_liquid_PNxrdp": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        ".ilm_div {background: #134275; color: #fff; padding: 8px 20px; display: flex; justify-content: space-between;}"
+      ],
+      "name": "Custom liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"ilm_div\">\n<p>Your Smart Hotel Pass <b>From €59</b></p>\n<p><b>FROM €59</b> · Smart Hotel Pass </p>\n</div>",
+        "custom_class": ""
+      }
+    },
     "header": {
       "type": "header",
       "custom_css": [
@@ -18,8 +65,7 @@
         ".social-media-links {column-gap: 30px;}",
         ".m-section__header {margin-bottom: 50px;}",
         "@media (max-width: 576px) {.m-mixed-layout__inner {grid-template-columns: 1fr !important; } .swiper-slide {max-width: 350px; margin: 0 auto; }}",
-        "header.m-header__mobile {justify-content: center;}",
-        "span.m-menu-button {display: none;}"
+        "header.m-header__mobile {justify-content: center;}"
       ],
       "settings": {
         "color_scheme": "",
@@ -36,8 +82,8 @@
         "logo_transparent_svg": "",
         "logo_max_width": 300,
         "sticky_logo_max_width": 300,
-        "mobile_logo_max_width": 300,
-        "main_menu": "",
+        "mobile_logo_max_width": 200,
+        "main_menu": "main-menu",
         "secondary_menu": "",
         "mobile_menu": "",
         "uppercase_parent_level": false,
@@ -57,6 +103,8 @@
     }
   },
   "order": [
+    "annoucement_jiqgTw",
+    "custom_liquid_PNxrdp",
     "header"
   ]
 }

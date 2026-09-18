@@ -25,7 +25,7 @@
             "title": "<mark>One smart Hotel pass. </mark> <br>Endless Possibilities.",
             "description": "<p>Travel your way with flexible hotel stays in more than 50,000 participating hotels around the world. Choose your destination and travel dates whenever you're ready.</p>",
             "image_link": "",
-            "button_text": "Explore Hotel Passes",
+            "button_text": "Explore Hotel Passes from €59",
             "button_link": "/#m-section-template--27181112394057__rich_text_VhkUtP",
             "button_style": "m-button--primary",
             "button_size": "",
@@ -35,7 +35,7 @@
             "second_button_size": "",
             "show_footer": true,
             "footer_alignment": "center",
-            "footer_text": "<ul><li><strong>50,000</strong>+ Hotels globally</li><li><strong>Official </strong>Sales Platform</li><li><strong>High </strong>Accommodations Value</li><li><strong>Secure </strong>Checkout</li><li><strong>Digital</strong> Delivery</li></ul>",
+            "footer_text": "<ul><li><strong>50,000</strong>+ Hotels globally</li><li><strong>Hotels</strong> up to 5★</li><li><strong>High </strong>Accommodations Value</li><li><strong>Secure </strong>Checkout</li><li><strong>100,000</strong>+ Customers</li></ul>",
             "footer_button": "",
             "footer_link": "",
             "enable_preload_image": false
@@ -66,202 +66,6 @@
         "autorotate_speed": 4,
         "use_content_above": true,
         "custom_class": "sf-home__slideshow",
-        "animations": "inherit"
-      }
-    },
-    "icon_box_U9jyUG": {
-      "type": "icon-box",
-      "blocks": {
-        "iconbox_qWjYP4": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/product_3_1.webp",
-            "image_by_url": "",
-            "title": "Skiing weekend",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_MNUzK7": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/product_4_1.webp",
-            "image_by_url": "",
-            "title": "Hiking days",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_YhmRcX": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/product_10.webp",
-            "image_by_url": "",
-            "title": "Countryside days",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_YHbhHX": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/product_12.webp",
-            "image_by_url": "",
-            "title": "Romantic hideaway",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_pDRzT3": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/product_9.webp",
-            "image_by_url": "",
-            "title": "Beach vacation",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_M8Q8z9": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/product_6.webp",
-            "image_by_url": "",
-            "title": "Family holiday",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_caiKEV": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/product_7.webp",
-            "image_by_url": "",
-            "title": "City trip",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_m8gYMJ": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/product_11.webp",
-            "image_by_url": "",
-            "title": "Adventure travel",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "iconbox_qWjYP4",
-        "iconbox_MNUzK7",
-        "iconbox_YhmRcX",
-        "iconbox_YHbhHX",
-        "iconbox_pDRzT3",
-        "iconbox_M8Q8z9",
-        "iconbox_caiKEV",
-        "iconbox_m8gYMJ"
-      ],
-      "custom_css": [
-        ".m-icon-box {border-radius: 10px; height: 100%; border: 1px solid #f68b1f50;}",
-        ".m-icon-box__content {margin-top: 0 !important; padding: 5px 10px;}",
-        "p {max-width: 750px; margin: 0 auto;}",
-        ".m-icon-box__inner {position: relative;}",
-        "h3 {color: white;}",
-        ".m-icon-box__content {position: absolute; bottom: 0; width: 100%; background: linear-gradient(transparent, black); padding-top: 11px; border-radius: 0 0 10px 10px;}"
-      ],
-      "name": "Featured promotion",
-      "settings": {
-        "container": "container-fluid",
-        "color_scheme": "default",
-        "heading": "Where Will Your Next Journey Begin?",
-        "heading_size": "h2",
-        "subheading": "",
-        "description": "<p>Whether you're dreaming of relaxing beaches, exciting city breaks, unforgettable family holidays or romantic escapes, your smart Hotel Pass gives you the & flexibility freedom to explore the world on your own terms,</p>",
-        "header_alignment": "center",
-        "item_per_row": 4,
-        "item_gap": 20,
-        "item_gap_mobile": 16,
-        "card_style": "vertical",
-        "image_max_width": "",
-        "content_alignment": "center",
-        "hover_effect": "scaling-up",
-        "enable_slider": false,
-        "show_pagination": false,
-        "show_navigation": false,
-        "use_scroll_mobile": false,
-        "use_grid_column_mb": false,
-        "padding_top": 50,
-        "padding_bottom": 20,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "rich_text_PqpqHe": {
-      "type": "rich-text",
-      "blocks": {
-        "button_YCxkK4": {
-          "type": "button",
-          "settings": {
-            "button_label": "Find Your Perfect Hotel Pass",
-            "button_link": "/#m-section-template--27181112394057__rich_text_VhkUtP",
-            "button_style": "m-button--primary",
-            "button_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_YCxkK4"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "container": "container",
-        "color_scheme": "default",
-        "content_alignment": "center",
-        "padding_top": 20,
-        "padding_bottom": 60,
-        "custom_class": "",
         "animations": "inherit"
       }
     },
@@ -333,13 +137,132 @@
         "animations": "inherit"
       }
     },
+    "rich_text_VhkUtP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WUdm8b": {
+          "type": "heading",
+          "settings": {
+            "heading": "<mark>Choose Your</mark> Perfect Hotel Pass",
+            "heading_size": "h2"
+          }
+        },
+        "text_wq4TwV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose the Hotel Pass that perfectly fits your next adventure.<br/><strong>*The “Value” price represents the regular retail price provided by our service provider, WCS.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WUdm8b",
+        "text_wq4TwV"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "container": "container",
+        "color_scheme": "default",
+        "content_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 36,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_2_LLkWcn": {
+      "type": "image-with-text-2",
+      "custom_css": [
+        "{background: #fef7ef;}",
+        "ul {margin: 0;}",
+        "p {margin: 0;}",
+        "p strong {font-size: 22px;}",
+        "em strong {color: #f68b1f; text-shadow: 0.5px 0.5px #000000ba; font-style: normal; font-size: 28px; line-height: 1.5;}"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "color_scheme": "default",
+        "container": "container-fluid",
+        "hero_size": "adapt",
+        "show_overlay": false,
+        "image": "shopify://shop_images/banner_7.webp",
+        "image_link": "shopify://products/365-nights-for-2-people-unlimited-people",
+        "parallax": false,
+        "parallax_direction": "vertical",
+        "content_in_container": false,
+        "content_position": "left middle",
+        "text_alignment": "left",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "♛ Premium Product",
+        "text": "<h3>365 Hotel Nights</h3><p>For those who believe that flexibility is the greatest luxury, the <strong>365 Nights Smart Hotel Pass </strong>offers a completely....</p><ul><li>Unlimited Number Of Travelers</li><li>Unlimited Stay Duration</li><li>Annual Pass</li></ul><p><strong>Your Value* €1.999</strong><em><strong><br/>Our price: €249</strong></em></p>",
+        "button_label": "Get Your Hotel pass",
+        "button_link": "shopify://products/365-nights-for-2-people-unlimited-people",
+        "button_style": "m-button--primary",
+        "button_size": "m-button--large",
+        "text_alignment_mobile": "left",
+        "mb_image": "shopify://shop_images/banner_7.png",
+        "use_content_above": true,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true,
+        "enable_preload_image": false
+      }
+    },
+    "featured_collection_VewKcB": {
+      "type": "featured-collection",
+      "custom_css": [
+        "p {max-width: 860px; margin: 0 auto;}",
+        ".m-product-card__action {display: block;}",
+        "a.m-product-card__name {font-size: 26px;}",
+        ".container-fluid {display: grid;}",
+        ".m-section__header {order: 1; margin: 0; margin-top: 10px;}"
+      ],
+      "name": "Featured collection",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "<p><strong>*The “Value” price represents the regular retail price provided by our service provider, WCS.</strong></p>",
+        "header_alignment": "center",
+        "color_scheme": "default",
+        "container": "container-fluid",
+        "collection": "frontpage",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 3,
+        "items_per_row": 3,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "show_button_on_header": false,
+        "button_type": "link",
+        "button_text": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": true,
+        "use_scroll_mobile": false,
+        "item_gap_mobile": 26,
+        "padding_top": 36,
+        "padding_bottom": 50,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "icon_box_nQQpah": {
       "type": "icon-box",
       "blocks": {
         "iconbox_yGT83T": {
           "type": "iconbox",
           "settings": {
-            "card_color_scheme": "footer",
+            "card_color_scheme": "default",
             "image": "shopify://shop_images/email-icon.png",
             "image_by_url": "",
             "title": "Choose Your Hotel Pass",
@@ -354,7 +277,7 @@
         "iconbox_YEe3X4": {
           "type": "iconbox",
           "settings": {
-            "card_color_scheme": "footer",
+            "card_color_scheme": "default",
             "image": "shopify://shop_images/logo_7.png",
             "image_by_url": "",
             "title": "Activate Your Pass",
@@ -369,7 +292,7 @@
         "iconbox_Arr6w4": {
           "type": "iconbox",
           "settings": {
-            "card_color_scheme": "footer",
+            "card_color_scheme": "default",
             "image": "shopify://shop_images/flexible-redemption.png",
             "image_by_url": "",
             "title": "Select Your Hotel",
@@ -384,7 +307,7 @@
         "iconbox_EqABmr": {
           "type": "iconbox",
           "settings": {
-            "card_color_scheme": "footer",
+            "card_color_scheme": "default",
             "image": "shopify://shop_images/logo_3.png",
             "image_by_url": "",
             "title": "Book Your Stay",
@@ -399,11 +322,27 @@
         "iconbox_6QQUmP": {
           "type": "iconbox",
           "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/meal-allowance-icon.png",
+            "image_by_url": "",
+            "title": "Meals & Service Fees",
+            "description": "<p>Pay mandatory fees from approximately €25 per person/night, depending on the hotel category.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_cAYLHX": {
+          "type": "iconbox",
+          "disabled": true,
+          "settings": {
             "card_color_scheme": "footer",
             "image": "shopify://shop_images/meal-allowance-icon.png",
             "image_by_url": "",
             "title": "Settle Meals & Additional Services fees",
-            "description": "<p>Pay a mandatory meal & service fee per person/night dependance of the hotel category to cover the service cost of the hotel.</p>",
+            "description": "<p>Pay a mandatory meal and service fee starting from approximately €25 per person/night, depending on the hotel category.</p>",
             "link": "",
             "button_label": "",
             "button_link": "",
@@ -414,7 +353,7 @@
         "iconbox_nbp3PD": {
           "type": "iconbox",
           "settings": {
-            "card_color_scheme": "footer",
+            "card_color_scheme": "default",
             "image": "shopify://shop_images/logo_4.png",
             "image_by_url": "",
             "title": "Enjoy Your Hotel Stay",
@@ -433,13 +372,14 @@
         "iconbox_Arr6w4",
         "iconbox_EqABmr",
         "iconbox_6QQUmP",
+        "iconbox_cAYLHX",
         "iconbox_nbp3PD"
       ],
       "custom_css": [],
       "name": "Featured promotion",
       "settings": {
         "container": "container-fluid",
-        "color_scheme": "default",
+        "color_scheme": "footer",
         "heading": "How It<mark> Works.</mark>",
         "heading_size": "h2",
         "subheading": "",
@@ -463,119 +403,202 @@
         "animations": "inherit"
       }
     },
-    "rich_text_VhkUtP": {
-      "type": "rich-text",
+    "icon_box_U9jyUG": {
+      "type": "icon-box",
       "blocks": {
-        "heading_WUdm8b": {
-          "type": "heading",
+        "iconbox_qWjYP4": {
+          "type": "iconbox",
           "settings": {
-            "heading": "<mark>Choose Your</mark> Perfect Hotel Pass",
-            "heading_size": "h2"
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/man-woman-have-fun-rain-empty-coast.webp",
+            "image_by_url": "",
+            "title": "<mark><strong>TURKEY ESCAPE</strong></mark>",
+            "description": "<p>Sun · Culture · Mediterranean<br/><mark>3 · 7 · 14 Nights <strong>FROM €49</mark><br/>Discover →</strong></p>",
+            "link": "shopify://products/14-hotel-nights-for-two-copy",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
           }
         },
-        "text_wq4TwV": {
-          "type": "text",
+        "iconbox_MNUzK7": {
+          "type": "iconbox",
           "settings": {
-            "text": "<p>Choose the Hotel Pass that perfectly fits your next adventure.</p>"
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/two-friends-admiring-ancient-egyptian-monuments-pyramids-giza-great-sphinx-sunny-day_jpg.webp",
+            "image_by_url": "",
+            "title": "<mark><strong>EGYPT ESCAPE</strong></mark>",
+            "description": "<p>Red Sea · Sun · Discover<br/><mark>3 · 7 · 14 Nights <strong>FROM €49</mark><br/>Discover →</strong></p>",
+            "link": "shopify://products/egypt-escape",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_YhmRcX": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/couple-summer-concept-rocks-by-sea.webp",
+            "image_by_url": "",
+            "title": "<strong><mark>GREECE ESCAPE</mark></strong>",
+            "description": "<p>Islands · Sea · Mediterranean<br/><mark>3 · 7 · 14 Nights <strong>FROM €49</mark><br/>Discover →</strong></p>",
+            "link": "shopify://products/thailand-escape",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_YHbhHX": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/beautiful-young-couple-love-standing-building-rooftop-sunset.webp",
+            "image_by_url": "",
+            "title": "<mark><strong>SPAIN ESCAPE</strong></mark>",
+            "description": "<p>Sun · Cities · Mediterranean<br/><mark>3 · 7 · 14 Nights <strong>FROM €49</mark><br/>Discover →</strong></p>",
+            "link": "shopify://products/spain-escape",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_pDRzT3": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/summer-sun-portrait-cute-couple-having-romantic-vacation-tropical-island.webp",
+            "image_by_url": "",
+            "title": "<mark><strong>THAILAND ESCAPE</strong></mark>",
+            "description": "<p>Tropical · Culture · Paradise<br/><mark>3 · 7 · 14 Nights <strong>FROM €49</mark><br/>Discover →</strong></p>",
+            "link": "shopify://products/spain-escape-copy",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_M8Q8z9": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/couple-sitting-large-swing-bali.webp",
+            "image_by_url": "",
+            "title": "<mark><strong>Bali & INDONESIA ESCAPE</strong></mark>",
+            "description": "<p>EIslands · Nature · Paradise<br/><mark>3 · 7 · 14 Nights <strong>FROM €49</mark><br/>Discover →</strong></p>",
+            "link": "shopify://products/bali-indonesia-escape",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_caiKEV": {
+          "type": "iconbox",
+          "disabled": true,
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/product_7.webp",
+            "image_by_url": "",
+            "title": "City trip",
+            "description": "<p>Island · Sun · Mediterranean<br/>3 · 7 · 14 Nights <strong>FROM €49<br/>Discover →</strong></p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_m8gYMJ": {
+          "type": "iconbox",
+          "disabled": true,
+          "settings": {
+            "card_color_scheme": "default",
+            "image": "shopify://shop_images/product_11.webp",
+            "image_by_url": "",
+            "title": "Adventure travel",
+            "description": "<p>Island · Sun · Mediterranean<br/>3 · 7 · 14 Nights <strong>FROM €49<br/>Discover →</strong></p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
           }
         }
       },
       "block_order": [
-        "heading_WUdm8b",
-        "text_wq4TwV"
+        "iconbox_qWjYP4",
+        "iconbox_MNUzK7",
+        "iconbox_YhmRcX",
+        "iconbox_YHbhHX",
+        "iconbox_pDRzT3",
+        "iconbox_M8Q8z9",
+        "iconbox_caiKEV",
+        "iconbox_m8gYMJ"
       ],
-      "name": "Rich text",
+      "custom_css": [
+        ".m-icon-box {border-radius: 10px; height: 100%; border: 1px solid #f68b1f50;}",
+        ".m-icon-box__content {margin-top: 0 !important; padding: 5px 10px;}",
+        ".m-icon-box__content p {color: white;}",
+        "p {max-width: 750px; margin: 0 auto;}",
+        "mark {font-style: normal;}",
+        ".m-icon-box__inner {position: relative;}",
+        "h3 {color: white;}",
+        ".m-icon-box__content {position: absolute; bottom: 0; width: 100%; background: linear-gradient(transparent, black); padding-top: 11px; border-radius: 0 0 10px 10px;}"
+      ],
+      "name": "Featured promotion",
       "settings": {
-        "container": "container",
-        "color_scheme": "footer",
+        "container": "container-fluid",
+        "color_scheme": "default",
+        "heading": "<mark>Discover Our Smart Escapes</mark>",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "<p>Selected destinations. Special prices. More ways to escape. Choose your favourite Smart<mark> Escape and select between 3, 7 or 14 nights for two. <strong>FROM €49</strong></mark></p>",
+        "header_alignment": "center",
+        "item_per_row": 3,
+        "item_gap": 20,
+        "item_gap_mobile": 16,
+        "card_style": "vertical",
+        "image_max_width": "",
         "content_alignment": "center",
-        "padding_top": 44,
-        "padding_bottom": 36,
+        "hover_effect": "scaling-up",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 50,
+        "padding_bottom": 20,
         "custom_class": "",
         "animations": "inherit"
       }
     },
-    "image_with_text_2_LLkWcn": {
-      "type": "image-with-text-2",
-      "custom_css": [
-        "{background: #fef7ef;}",
-        "ul {margin-top: 0;}",
-        "p {margin: 0;}",
-        "p strong {font-size: 22px;}",
-        "em strong {color: #ffc000; text-shadow: 0.5px 0.5px #000000ba; font-style: normal; font-size: 28px; line-height: 1.5;}"
+    "rich_text_PqpqHe": {
+      "type": "rich-text",
+      "blocks": {
+        "button_YCxkK4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Your Perfect Hotel Pass",
+            "button_link": "/#m-section-template--27181112394057__rich_text_VhkUtP",
+            "button_style": "m-button--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_YCxkK4"
       ],
-      "name": "Image with text overlay",
+      "name": "Rich text",
       "settings": {
-        "color_scheme": "footer",
-        "container": "container-fluid",
-        "hero_size": "adapt",
-        "show_overlay": false,
-        "image": "shopify://shop_images/banner_7.webp",
-        "image_link": "shopify://products/365-nights-for-2-people-unlimited-people",
-        "parallax": false,
-        "parallax_direction": "vertical",
-        "content_in_container": false,
-        "content_position": "left middle",
-        "text_alignment": "left",
-        "text_size": "medium",
-        "text_color": "white",
-        "title": "",
-        "subtitle": "♛ Premium Product",
-        "text": "<h3>365 Hotel Nights</h3><p>For those who believe that flexibility is the greatest luxury, the <strong>365 Nights Smart Hotel Pass </strong>offers a completely....</p><ul><li>Unlimited Number Of Travelers</li><li>Unlimited Stay Duration</li><li>Annual Pass</li></ul><p><strong>Your Value* €1999,00</strong><em><strong><br/>Our price: €249,00</strong></em></p>",
-        "button_label": "Get Your Hotel pass",
-        "button_link": "shopify://products/365-nights-for-2-people-unlimited-people",
-        "button_style": "m-button--primary",
-        "button_size": "m-button--large",
-        "text_alignment_mobile": "left",
-        "mb_image": "shopify://shop_images/banner_7.png",
-        "use_content_above": true,
-        "custom_class": "",
-        "animations": "inherit",
-        "enable_bg_zoom_effect": true,
-        "enable_preload_image": false
-      }
-    },
-    "featured_collection_VewKcB": {
-      "type": "featured-collection",
-      "custom_css": [
-        "p {max-width: 860px; margin: 0 auto;}",
-        ".m-product-card__action {display: block;}",
-        "a.m-product-card__name {font-size: 26px;}"
-      ],
-      "name": "Featured collection",
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "color_scheme": "footer",
-        "container": "container-fluid",
-        "collection": "frontpage",
-        "enable_flashsale": false,
-        "show_countdown": false,
-        "product_to_show": 4,
-        "items_per_row": 3,
-        "item_gap": 30,
-        "pcard_layout": "",
-        "pcard_image_ratio": "",
-        "show_vendor": false,
-        "hide_title": false,
-        "enable_slider": false,
-        "show_pagination": false,
-        "show_navigation": false,
-        "show_button_on_header": false,
-        "button_type": "link",
-        "button_text": "",
-        "button_style": "m-button--primary",
-        "button_size": "",
-        "infinite_load": false,
-        "max_page_load": 3,
-        "mobile_disable_slider": true,
-        "use_scroll_mobile": false,
-        "item_gap_mobile": 26,
-        "padding_top": 36,
-        "padding_bottom": 70,
+        "container": "container",
+        "color_scheme": "default",
+        "content_alignment": "center",
+        "padding_top": 20,
+        "padding_bottom": 60,
         "custom_class": "",
         "animations": "inherit"
       }
@@ -590,7 +613,7 @@
             "image": "shopify://shop_images/banner1.webp",
             "heading": "Hotels <mark>with instant</mark> online booking",
             "heading_size": "h4",
-            "text": "<p><a href=\"https://www.gutscheinreisen24.de/check-hotels\" target=\"_blank\" title=\"https://www.gutscheinreisen24.de/check-hotels\"><strong>50,000+ Hotels Available</strong></a><strong><br/></strong>Enjoy instant access to a worldwide hotel selection with direct booking options.</p><h4>How It Works</h4><p><strong>1. Register Your Membership Code</strong><br/>Receive your personal Membership Code and register it once on our booking platform.</p><p><strong>2. Search Your Preferred Hotel</strong><br/>Browse through more than <strong>50,000 hotels worldwide</strong> and find your ideal stay.</p><p><strong>3. Enter Your Travel Details</strong><br/>Simply provide:</p><ul><li>Destination</li><li>Travel dates</li><li>Number of guests</li></ul><p><strong>4. View Available Hotels</strong><br/>The system will instantly display available hotels based on your preferences.</p><p><strong>5. Book Instantly & Enjoy Your Stay</strong><br/>Choose your preferred hotel and complete your booking directly through the platform.</p><p><a href=\"https://Gutscheinreisen24.de\" title=\"https://Gutscheinreisen24.de\"><em>Search & Book Hotels</em></a></p>",
+            "text": "<p><a href=\"https://www.gutscheinreisen24.de/check-hotels\" title=\"https://www.gutscheinreisen24.de/check-hotels\"><em>Search & book 50000+ Hotels</em></a></p><p>Enjoy instant access to a worldwide hotel selection with direct booking options.</p><h4>How It Works</h4><p><strong>1. Register Your Hotel Pass</strong> Receive your personal <strong>Hotel Pass </strong>and register it once on our booking platform.</p><p><strong>2. Search Your Preferred Hotel</strong><br/>Browse through more than <strong>50,000 hotels worldwide</strong> and find your ideal stay.</p><p><strong>3. Enter Your Travel Details</strong><br/>Simply provide:</p><ul><li>Destination</li><li>Travel dates</li><li>Number of guests</li></ul><p><strong>4. View Available Hotels</strong><br/>The system will instantly display available hotels based on your preferences.</p><p><strong>5. Book Instantly & Enjoy Your Stay</strong><br/>Choose your preferred hotel and complete your booking directly through the platform.</p>",
             "icon": "shopify://shop_images/logo_5_069021ae-4290-4756-a3be-75256f460e3c.png"
           }
         },
@@ -601,7 +624,7 @@
             "image": "shopify://shop_images/banner1.webp",
             "heading": "Hotels <mark>requiring advance</mark>booking",
             "heading_size": "h4",
-            "text": "<p><a href=\"https://www.gutscheinreisen24.de/hoteluebersicht.html\" target=\"_blank\" title=\"https://www.gutscheinreisen24.de/hoteluebersicht.html\"><strong>1,700+ Hotels Available</strong></a><strong><br/></strong>Choose from our exclusive hotel selection and request your preferred stay.</p><h4>How it works:</h4><p><strong>01 — Register Your Membership Code</strong><br/>Enter your Membership Code on our booking platform.</p><p><strong>02 — Choose Your Hotel</strong><br/>Browse the \"Hotels with Advance Booking\" collection and select your preferred hotel.</p><p><strong>03 — Request Your Booking</strong><br/>Submit your preferred travel dates and booking request online.</p><p><strong>04 — Availability Confirmation</strong><br/>We contact the hotel to confirm availability.</p><p><strong>05 — Enjoy Your Stay</strong><br/>Receive your booking confirmation and present it at the hotel upon arrival.<br/><br/><a href=\"https://Gutscheinreisen24.de\" title=\"https://Gutscheinreisen24.de\"><em>Search & Book Hotels</em></a></p>",
+            "text": "<p><a href=\"https://www.gutscheinreisen24.de/hoteluebersicht.html\" title=\"https://www.gutscheinreisen24.de/hoteluebersicht.html\"><em>Search & book 1,700 Hotels</em></a></p><p>Choose from our exclusive hotel selection and request your preferred stay.</p><h4>How it works:</h4><p><strong>01 — Register Your Hotel Pass</strong><br/>Enter your <strong>Hotel Pass </strong>on our booking platform.</p><p><strong>02 — Choose Your Hotel</strong><br/>Browse the \"Hotels with Advance Booking\" collection and select your preferred hotel.</p><p><strong>03 — Request Your Booking</strong><br/>Submit your preferred travel dates and booking request online.</p><p><strong>04 — Availability Confirmation</strong><br/>We contact the hotel to confirm availability.</p><p><strong>05 — Enjoy Your Stay</strong><br/>Receive your booking confirmation and present it at the hotel upon arrival.</p>",
             "icon": "shopify://shop_images/logo_4_36b75116-78e2-4f40-8d77-6417d40a03ff.png"
           }
         }
@@ -624,7 +647,7 @@
       "name": "Collection tabs",
       "settings": {
         "container": "container-fluid",
-        "color_scheme": "default",
+        "color_scheme": "footer",
         "header_alignment": "left",
         "heading": "<mark>Get inspired.</mark><br> Discover our Hotel partner.",
         "heading_size": "h3",
@@ -636,124 +659,6 @@
         "trigger_behavior": "click",
         "autoplay": false,
         "autoplay_duration": 5,
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "icon_box_3PPpdf": {
-      "type": "icon-box",
-      "blocks": {
-        "iconbox_CzryUA": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/logo_8.png",
-            "image_by_url": "",
-            "title": "Flexible Travel Planning",
-            "description": "<p><strong>01. </strong>Travel when it suits you. <strong>02. </strong>No pressure.<br/><strong>03. </strong>No fixed dates at the time of purchase.</p>",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_VmViRQ": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/4.png",
-            "image_by_url": "",
-            "title": "Worldwide Hotel Selection",
-            "description": "<p>Choose from thousands of participating hotels in popular destinations across the globe.</p>",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_RtfPNz": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/logo_10.png",
-            "image_by_url": "",
-            "title": "Excellent Value",
-            "description": "<p>Enjoy significant savings compared to standard hotel rates while keeping maximum flexibility.</p>",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_XpHEyR": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/logo_9.png",
-            "image_by_url": "",
-            "title": "Simple Purchasing & Booking",
-            "description": "<p>Start planning your next adventure by purchasing your individual hotel pass and booking your stay through our easy booking process.</p>",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_7XPjGH": {
-          "type": "iconbox",
-          "disabled": true,
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/logo_10.png",
-            "image_by_url": "",
-            "title": "A Gift That Creates Lasting Memories",
-            "description": "<p>The 365 Nights Hotel Pass is the perfect gift for birthdays, weddings, anniversaries, Christmas or simply to surprise someone special.<br/><strong>01. </strong>It also makes an excellent reward for employees, valued clients and business partners.<br/><strong>02.</strong> Before activation, the pass remains fully transferable.</p>",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "iconbox_CzryUA",
-        "iconbox_VmViRQ",
-        "iconbox_RtfPNz",
-        "iconbox_XpHEyR",
-        "iconbox_7XPjGH"
-      ],
-      "custom_css": [
-        ".m-icon-box {box-shadow: 0 0 4px #cfcfcf; padding: 15px 10px; border-radius: 10px; height: 100%; border: 1px solid #eb7f47;}",
-        "p {max-width: 800px; margin: 0 auto;}"
-      ],
-      "name": "Featured promotion",
-      "settings": {
-        "container": "container",
-        "color_scheme": "footer",
-        "heading": "More <mark>freedom.</mark> More <mark>flexibility.</mark> More <mark>hotel stays.</mark>",
-        "heading_size": "h2",
-        "subheading": "",
-        "description": "<p>The smart Hotel Pass gives you the flexibility to travel on your own schedule while enjoying a wide selection of participating hotels around the world.</p>",
-        "header_alignment": "center",
-        "item_per_row": 2,
-        "item_gap": 20,
-        "item_gap_mobile": 26,
-        "card_style": "vertical",
-        "image_max_width": "70px",
-        "content_alignment": "center",
-        "hover_effect": "none",
-        "enable_slider": false,
-        "show_pagination": false,
-        "show_navigation": false,
-        "use_scroll_mobile": false,
-        "use_grid_column_mb": false,
         "padding_top": 70,
         "padding_bottom": 70,
         "custom_class": "",
@@ -850,7 +755,8 @@
         ".m-icon-box {padding: 25px 10px; height: 100%; border: 1px solid #eb7f4750;}",
         ".m-icon-box__icon {overflow: unset; background-color: #f58b1f; border-radius: 10px; padding: 5px;}",
         ".m-mixed-layout__inner {display: flex; flex-wrap: wrap; justify-content: center;}",
-        ".m\\:column {width: 33%; min-width: 350px;}"
+        ".m\\:column {width: 33%; min-width: 350px;}",
+        "@media (max-width: 500px) {.m\\:column {min-width: 300px !important; }}"
       ],
       "name": "Featured promotion",
       "settings": {
@@ -875,237 +781,6 @@
         "use_grid_column_mb": true,
         "padding_top": 70,
         "padding_bottom": 70,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "icon_box_qqtnwt": {
-      "type": "icon-box",
-      "blocks": {
-        "iconbox_AfTQei": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/logo_7.png",
-            "image_by_url": "",
-            "title": "More than 50,000 participating hotels",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_QgJe8V": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "default",
-            "image": "shopify://shop_images/customer-support.png",
-            "image_by_url": "",
-            "title": "Dedicated Customer Support",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "iconbox_AfTQei",
-        "iconbox_QgJe8V"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".m-icon-box.m-icon-box--vertical {padding: 25px 10px; height: 100%;}",
-        ".m-icon-box__icon {overflow: unset; background-color: #f58b1f; border-radius: 10px; padding: 5px;}",
-        ".m-mixed-layout__inner {max-width: 950px; margin: 0 auto;}"
-      ],
-      "name": "Featured promotion",
-      "settings": {
-        "container": "container-fluid",
-        "color_scheme": "footer",
-        "heading": "",
-        "heading_size": "h2",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "item_per_row": 2,
-        "item_gap": 30,
-        "item_gap_mobile": 10,
-        "card_style": "vertical",
-        "image_max_width": "45px",
-        "content_alignment": "center",
-        "hover_effect": "none",
-        "enable_slider": false,
-        "show_pagination": false,
-        "show_navigation": false,
-        "use_scroll_mobile": false,
-        "use_grid_column_mb": true,
-        "padding_top": 36,
-        "padding_bottom": 70,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "rich_text_9Q67rb": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_DPxXFF": {
-          "type": "heading",
-          "settings": {
-            "heading": "Unlimited flexibility for every journey.",
-            "heading_size": "h2"
-          }
-        },
-        "text_PHVCar": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The 365 Hotel Pass gives you complete travel freedom throughout the year.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_DPxXFF",
-        "text_PHVCar"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h3 {margin-bottom: 0px;}"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "container": "container",
-        "color_scheme": "footer",
-        "content_alignment": "center",
-        "padding_top": 72,
-        "padding_bottom": 0,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "new_featured_product_AAy6mg": {
-      "type": "new-featured-product",
-      "blocks": {
-        "title_CfTBRj": {
-          "type": "title",
-          "settings": {}
-        },
-        "description_Jp3KaP": {
-          "type": "description",
-          "settings": {}
-        },
-        "custom_bundle_BPaUNk": {
-          "type": "custom-bundle",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title_CfTBRj",
-        "description_Jp3KaP",
-        "custom_bundle_BPaUNk"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "ol,ul {margin-top: 0;}",
-        "p {margin-bottom: 0px;}"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "container": "container",
-        "color_scheme": "footer",
-        "featured_product": "365-nights-for-2-people-unlimited-people",
-        "enable_variant_group_images": false,
-        "column_gap": 50,
-        "column_gap_mobile": 30,
-        "image_placement": "left",
-        "padding_top": 40,
-        "padding_bottom": 70,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "icon_box_NDBLkW": {
-      "type": "icon-box",
-      "blocks": {
-        "iconbox_wM36RV": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/logo.png",
-            "image_by_url": "",
-            "title": "Hotel pass",
-            "description": "<p>Choose yourinternational hotelvoucher conviently –your access to anaffordable trip</p>",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_K3C6N7": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/ChatGPT_Image_Jul_15_2026_09_31_59_AM.png",
-            "image_by_url": "",
-            "title": "Mealallowance",
-            "description": "<p>The mandatory meal fee applies to every voucher holder. The amount varies depending on the hotel category selected.</p>",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_c6h9hT": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/logo_1.png",
-            "image_by_url": "",
-            "title": "Hotel choice",
-            "description": "<p>Discover over 50Kverified hotels world wide – from charming botiques to 5star resorts</p>",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "iconbox_wM36RV",
-        "iconbox_K3C6N7",
-        "iconbox_c6h9hT"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "name": "Featured promotion",
-      "settings": {
-        "container": "container-fluid",
-        "color_scheme": "footer",
-        "heading": "<mark>Smart choice.</mark> Stay smarter. <br>Valuable access",
-        "heading_size": "h2",
-        "subheading": "",
-        "description": "<p>Your smart choice to acces a premium hotel for less.Ttransparent and easy pricing with high return. Your flexible way of traveling around the world.</p>",
-        "header_alignment": "center",
-        "item_per_row": 3,
-        "item_gap": 20,
-        "item_gap_mobile": 26,
-        "card_style": "vertical",
-        "image_max_width": "50px",
-        "content_alignment": "center",
-        "hover_effect": "none",
-        "enable_slider": false,
-        "show_pagination": false,
-        "show_navigation": false,
-        "use_scroll_mobile": false,
-        "use_grid_column_mb": false,
-        "padding_top": 70,
-        "padding_bottom": 30,
         "custom_class": "",
         "animations": "inherit"
       }
@@ -1137,158 +812,19 @@
         "show_image_reverse": false,
         "hover_effect": false,
         "image_animation": "none",
-        "image": "shopify://shop_images/ChatGPT_Image_Jul_16_2026_11_16_36_AM.png",
+        "image": "shopify://shop_images/student.webp",
         "link": "shopify://pages/student-form",
         "link_2": "shopify://pages/student-form",
         "second_image_offset_top": 10,
-        "title": "Students Save 25%",
+        "title": "Students Save 15%",
         "sub_title": "",
-        "text": "<p>Students receive an exclusive 25% discount on all Hotel Passes. Simply verity your student status before purchasing and enjoy the same flexibility at an even better price.</p><p><strong>*Students need to be 18 years old, student status can be verified via a valid student ID or a signed school certificate from the respective University or school.</strong></p>",
+        "text": "<p>Students receive an exclusive 15% discount on all Hotel Passes. Simply verity your student status before purchasing and enjoy the same flexibility at an even better price.</p><p><strong>*Students need to be 18 years old, student status can be verified via a valid student ID or a signed school certificate from the respective University or school.</strong></p>",
         "text_size": "medium",
         "content_alignment": "left",
         "button_label": "Verity Student Status",
         "button_link": "shopify://pages/student-form",
         "button_style": "m-button--primary",
         "button_size": "",
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "icon_box_74aMjP": {
-      "type": "icon-box",
-      "blocks": {
-        "iconbox_CFAre9": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/pexels-fotodruk-38440276.webp",
-            "image_by_url": "",
-            "title": "Spend a weekend in Italy.",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_zfQdmA": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/pexels-satheesh-cholakkal-17628918-6437645.webp",
-            "image_by_url": "",
-            "title": "Enjoy four relaxing days by the sea.",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_Can7wW": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/pexels-wolfgang-weiser-467045605-30762819.webp",
-            "image_by_url": "",
-            "title": "Take a week in the Austrian Alps.",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_UNhknd": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/pexels-masoodaslami-18701437.webp",
-            "image_by_url": "",
-            "title": "Plan several city breaks across Europe.",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_qgMQRQ": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/pexels-charan-sai-437193-2874998.webp",
-            "image_by_url": "",
-            "title": "Or simply travel whenever inspiration strikes.",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_QizdPV": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/pexels-charan-sai-437193-2874998.webp",
-            "image_by_url": "",
-            "title": "You choose your destination, your travel dates and the length of your stay — always subject to hotel availability",
-            "description": "",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "iconbox_CFAre9",
-        "iconbox_zfQdmA",
-        "iconbox_Can7wW",
-        "iconbox_UNhknd",
-        "iconbox_qgMQRQ",
-        "iconbox_QizdPV"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".m-icon-box {height: 100%; border: 1px solid #eb7f47; border-radius: 10px; background: #f58b1f10;}",
-        ".m-icon-box__icon {background-color: #f58b1f; border-radius: 10px 0 0 10px;}",
-        "p {max-width: 700px; margin: 0 auto;}",
-        ".m\\:blocks-radius {overflow: unset; -webkit-mask-image: unset;}",
-        ".m-icon-box__content {align-self: center; padding-right: 10px;}",
-        "responsive-image,.m-icon-box__inner,.m-hover-box__wrapper {height: 100%;}",
-        "@media (max-width: 992px) {.m-mixed-layout__inner {grid-template-columns: 1fr; max-width: 600px; margin: 0 auto; }}"
-      ],
-      "name": "Featured promotion",
-      "settings": {
-        "container": "container-fluid",
-        "color_scheme": "default",
-        "heading": "<mark> One Pass.</mark> Endless Possibilities.",
-        "heading_size": "h2",
-        "subheading": "",
-        "description": "<p><strong>The 365 Nights Hotel Pass offers a completely new way to travel.</strong><br/>Throughout your validity period, you are free to spread your hotel nights across as many trips as you like.</p>",
-        "header_alignment": "center",
-        "item_per_row": 2,
-        "item_gap": 20,
-        "item_gap_mobile": 26,
-        "card_style": "horizontal",
-        "image_max_width": "270px",
-        "content_alignment": "start",
-        "hover_effect": "none",
-        "enable_slider": false,
-        "show_pagination": false,
-        "show_navigation": false,
-        "use_scroll_mobile": false,
-        "use_grid_column_mb": false,
         "padding_top": 70,
         "padding_bottom": 70,
         "custom_class": "",
@@ -1574,20 +1110,15 @@
         "item_9Ahb4q",
         "item_AJEw4k"
       ],
-      "custom_css": [
-        ".is-expanded h3.m-collapsible--button.h5 {border-bottom: unset; border-radius: 10px 10px 0 0;}",
-        "h3.m-collapsible--button.h5 {border-bottom: 1px solid transparent;}",
-        "h3.m-collapsible--button.h5 {border: 1.5px solid #f5f5f5; border-radius: 10px; background-color: #fdefe0; padding: 15px;}",
-        ".m-collapsible--content {background-color: #dedede; padding: 0 15px; margin-bottom: 10px; border-radius: 0 0 10px 10px;}",
-        ".m-collapsible--content__inner {padding-bottom: 15px !important; color: #014081;}"
-      ],
+      "custom_css": [],
       "name": "Collapsible tabs",
       "settings": {
-        "container": "container",
+        "container": "container-fluid",
         "color_scheme": "footer",
-        "image_position": "left",
-        "column_gap": 100,
-        "heading": "Frequently Asked Questions",
+        "image": "shopify://shop_images/product_6_1.webp",
+        "image_position": "right",
+        "column_gap": 30,
+        "heading": "Frequently <mark>Asked Questions</mark>",
         "heading_size": "h3",
         "subheading": "",
         "description": "",
@@ -1599,167 +1130,246 @@
         "custom_class": ""
       }
     },
-    "banner_with_slider_bFc89C": {
-      "type": "banner-with-slider",
-      "blocks": {
-        "item_slide_AFgngH": {
-          "type": "item_slide",
-          "disabled": true,
-          "settings": {
-            "item_image": "shopify://shop_images/pexels-asadphoto-11340077.jpg",
-            "color_scheme": "",
-            "content_text_color": "black",
-            "content_position": "left middle",
-            "text_alignment": "left",
-            "subheading": "Hot this week",
-            "heading": "Chenille sweater with<br> raglan sleeves",
-            "description": "",
-            "text_size": "h2",
-            "button_text": "Shop Now",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "item_slide_6dPCBR": {
-          "type": "item_slide",
-          "settings": {
-            "item_image": "shopify://shop_images/Untitled_design_2.png",
-            "color_scheme": "",
-            "content_text_color": "black",
-            "content_position": "left middle",
-            "text_alignment": "left",
-            "subheading": "",
-            "heading": "",
-            "description": "",
-            "text_size": "h2",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_slide_AFgngH",
-        "item_slide_6dPCBR"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "m-banner-with-slide.md\\:m\\:grid.md\\:m\\:grid-2-cols {gap: 10px;}",
-        ".m-mixed-layout__inner {gap: 10px;}",
-        ".m-slider-controls {display: none;}"
-      ],
-      "name": "Image with slider 2",
-      "settings": {
-        "heading": "",
-        "heading_size": "h3",
-        "subheading": "",
-        "header_alignment": "center",
-        "layout": "layout-2",
-        "container": "container-fluid",
-        "color_scheme": "",
-        "slide_autoplay": false,
-        "pagination_position": "left",
-        "autorotate_speed": 5,
-        "columns_mobile": "2",
-        "use_scroll_mobile": false,
-        "banner_image_1": "shopify://shop_images/pexels-asadphoto-11340077.jpg",
-        "button_text_1": "",
-        "button_link_1": "",
-        "button_style_1": "m-button--white",
-        "button_size_1": "",
-        "banner_image_2": "shopify://shop_images/pexels-leticia-alvares-1805702-33359330.jpg",
-        "button_text_2": "",
-        "button_link_2": "",
-        "button_style_2": "m-button--white",
-        "button_size_2": "",
-        "banner_image_3": "shopify://shop_images/pexels-instasky-10539885.jpg",
-        "button_text_3": "",
-        "button_link_3": "",
-        "button_style_3": "m-button--white",
-        "button_size_3": "",
-        "banner_image_4": "shopify://shop_images/pexels-asadphoto-7663604.jpg",
-        "button_text_4": "",
-        "button_link_4": "",
-        "button_style_4": "m-button--white",
-        "button_size_4": "",
-        "padding_top": 0,
-        "padding_bottom": 50,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "testimonials_FyYnRA": {
+    "testimonials_9bEXMh": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_ETRQaC": {
+        "testimonial_xK3dM9": {
           "type": "testimonial",
           "settings": {
-            "title": "",
-            "description": "<p><em>\"Short dress in a printed viscose weave with a round neckline, opening with a button at the back of the Seams with small frill trims at the waist and on the sleeves and skirt. Unlined.\"</em></p>",
-            "footer": "",
-            "image": "shopify://shop_images/pexels-instasky-10539885.jpg",
+            "title": "2026",
+            "description": "<p>We were very satisfied, would have wished for a second dessert. some hangers more would have been great as well. The food and drinks were great, very tasty and all freshly prepared. You don't have to worry. However, a two waiters behind the counter at the pool bar at the evening events would be desirable.</p>",
+            "footer": "<p><strong>Family B. from Heidelberg</strong></p>",
             "image_text": "",
             "image_link": "",
             "product": ""
           }
         },
-        "testimonial_jXpMm6": {
+        "testimonial_JAeEmJ": {
           "type": "testimonial",
           "settings": {
-            "title": "",
-            "description": "<p><em>\"Short dress in a printed viscose weave with a round neckline, opening with a button at the back of the Seams with small frill trims at the waist and on the sleeves and skirt. Unlined.\"</em></p>",
-            "footer": "",
-            "image": "shopify://shop_images/pexels-instasky-10539885.jpg",
+            "title": "2026",
+            "description": "<p>The hotel made a neat impression. We like the location directly opposite the sandy beach and not far from the old town. Excellent that beach chairs and umbrellas are free and there are beach towels without a deposit.</p>",
+            "footer": "<p><strong>Family N. from Ansbach</strong></p>",
             "image_text": "",
             "image_link": "",
             "product": ""
           }
         },
-        "testimonial_RwiJAh": {
+        "testimonial_VkqrBR": {
           "type": "testimonial",
           "settings": {
-            "title": "",
-            "description": "<p><em>\"Short dress in a printed viscose weave with a round neckline, opening with a button at the back of the Seams with small frill trims at the waist and on the sleeves and skirt. Unlined.\"</em></p>",
-            "footer": "",
-            "image": "shopify://shop_images/pexels-instasky-10539885.jpg",
+            "title": "2026",
+            "description": "<p>Our 12 Holidays - and 2024 the hotel will also be booked again. Why? Why? You don’t have to worry about whether the holiday will be relaxing. Sun is guaranteed, here is my \"favorite diving base\", the entire team does everything possible to make the holiday in good memory.</p>",
+            "footer": "<p><strong>Family D. from Graz</strong></p>",
             "image_text": "",
             "image_link": "",
             "product": ""
           }
         },
-        "testimonial_tdcnMB": {
+        "testimonial_ieVAD3": {
           "type": "testimonial",
           "settings": {
-            "title": "",
-            "description": "<p><em>\"Short dress in a printed viscose weave with a round neckline, opening with a button at the back of the Seams with small frill trims at the waist and on the sleeves and skirt. Unlined.\"</em></p>",
-            "footer": "",
-            "image": "shopify://shop_images/pexels-instasky-10539885.jpg",
+            "title": "2026",
+            "description": "<p>For example, I walked around with my cousin in the whole hotel and occasionally looked into my hotel room TV very much in the bars but of course alcohol-free went swimming in the pool and also browned me and very often went to the beach with my cousin.</p>",
+            "footer": "<p><strong>Tom F. from Cottbus</strong></p>",
             "image_text": "",
             "image_link": "",
             "product": ""
           }
         },
-        "testimonial_3FCqBN": {
+        "testimonial_PdBEeM": {
           "type": "testimonial",
           "settings": {
-            "title": "",
-            "description": "<p><em>\"Short dress in a printed viscose weave with a round neckline, opening with a button at the back of the Seams with small frill trims at the waist and on the sleeves and skirt. Unlined.\"</em></p>",
-            "footer": "",
-            "image": "shopify://shop_images/pexels-leticia-alvares-1805702-33359330.jpg",
+            "title": "2026",
+            "description": "<p>Very nice staff, The hotel is located in a very central location. In about 10 minutes you are on the water and also at the shopping facilities. The decoration in the hotel leaves something to be desired. Unfortunately not much green in the reception hall.</p>",
+            "footer": "<p><strong>Jürgen W. from Haan</strong></p>",
             "image_text": "",
             "image_link": "",
             "product": ""
           }
         },
-        "testimonial_LQLmth": {
+        "testimonial_PiUhi9": {
           "type": "testimonial",
           "settings": {
-            "title": "",
-            "description": "<p><em>\"Short dress in a printed viscose weave with a round neckline, opening with a button at the back of the Seams with small frill trims at the waist and on the sleeves and skirt. Unlined.\"</em></p>",
-            "footer": "",
-            "image": "shopify://shop_images/pexels-leticia-alvares-1805702-33359330.jpg",
+            "title": "2026",
+            "description": "<p>The hotel is top very modern the rooms are very clean everything is in very good condition. The staff leaves nothing to be desired. Breakfast atmosphere, lunch and dinner very luxurious and delicious.</p>",
+            "footer": "<p><strong>Family K. from Oberammergau</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_Nc4jDe": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>Beautiful hotel, very clean rooms. The view is like paradise. The staff was always nice and very helpful and helpful. I will definitely come back and can recommend this hotel from the bottom of my heart.</p>",
+            "footer": "<p><strong>Ingeborg S. from Zurich</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_zjqqBD": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>Always happy! A really nice hotel. Small but fine with only a few rooms furnished with great attention to detail. Perfect for a few nice, relaxed days. We have been here 2x now and hopefully come back again!</p>",
+            "footer": "<p><strong>Hans-Jürgen S. from Graz</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_8exfC9": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>Food was fine. Fitness was cool outdoors. On the beach, the red flag was heeded</p>",
+            "footer": "<p><strong>Family R. from Buchenwald</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_ttRjrt": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>All super , we were thrilled by the quality of the hotel, friendliness, cleanliness and the rich food offer, we will be back.</p>",
+            "footer": "<p><strong>Michael S. from Regensburg</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_zETVE7": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>Great hotel. Great staff. Food is great too. Animation is top. Would keep coming back. Everyone super friendly.</p>",
+            "footer": "<p><strong>Family L. from Marktheidenfeld</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_7ARVwN": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>The location of the hotel was great. Beautiful family-run country hotel. The food was also delicious.</p>",
+            "footer": "<p><strong>Family V. from Görlitz</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_M734aC": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>Very nice hotel. Beach was nice. Plant a bit remote. Quiet, around nothing. Good animations during the day and in the evening.</p>",
+            "footer": "<p><strong>Georg K. from Niederaula</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_YYWyXi": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>Very well run hotel for years. Very good location in the village. Unfortunately, prices have tightened in recent years, especially the drink prices are too high. However, the food or the choice is excellent.</p>",
+            "footer": "<p><strong>Family F. from Munich</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_ALXcgJ": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>Very well run hotel for years. Very good location in the village. Unfortunately, prices have tightened in recent years, especially the drink prices are too high. However, the food or the choice is excellent.</p>",
+            "footer": "<p><strong>Family F. from Munich</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_XcprHi": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>The hotel is family run. Very nice care at check-in. Room always clean. Staff attentive and courteous.</p>",
+            "footer": "<p><strong>Family J. from St. Peter Ording</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_QDCiN6": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>Great food, very nice staff, nice wellness area, very nice environment. All the best, we'll definitely be back.</p>",
+            "footer": "<p><strong>Heike C. from Münster</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_DTPBLm": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>The hotel was just insanely beautiful. Everything was very clean, the staff was nice. The food was very varied and delicious. It has all voted The perfect hotel for a perfect holiday.</p>",
+            "footer": "<p><strong>Family K. from Iserlohn</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_jFxhpk": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>Simple clean rooms, quiet location, 10 minutes walk to the center. Very good food offer.</p>",
+            "footer": "<p><strong>Family P. from Soost</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_NBjgmi": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>Nicely landscaped hotel, large pool area, large rooms, could be a little cleaner, animation program in the evening was good</p>",
+            "footer": "<p><strong>Gerlinde N. from Saarbrücken</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_YGaVkj": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2026",
+            "description": "<p>The hotel has gotten a bit old. Man could slowly start to modernize the individual rooms. Otherwise, you can't say. Food fantastic</p>",
+            "footer": "<p><strong>Herbert G. from Gera</strong></p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_GtPbm8": {
+          "type": "testimonial",
+          "settings": {
+            "title": "2025",
+            "description": "<p>Great sports hotel with all amenities. Super set on cyclists and triathletes. 25m sports pool , swimming pool, bike cellar video monitored and alarm-proof, bike wash, gym, sauna</p>",
+            "footer": "<p><strong>Family A. from Potsdam</strong></p>",
             "image_text": "",
             "image_link": "",
             "product": ""
@@ -1767,219 +1377,53 @@
         }
       },
       "block_order": [
-        "testimonial_ETRQaC",
-        "testimonial_jXpMm6",
-        "testimonial_RwiJAh",
-        "testimonial_tdcnMB",
-        "testimonial_3FCqBN",
-        "testimonial_LQLmth"
+        "testimonial_xK3dM9",
+        "testimonial_JAeEmJ",
+        "testimonial_VkqrBR",
+        "testimonial_ieVAD3",
+        "testimonial_PdBEeM",
+        "testimonial_PiUhi9",
+        "testimonial_Nc4jDe",
+        "testimonial_zjqqBD",
+        "testimonial_8exfC9",
+        "testimonial_ttRjrt",
+        "testimonial_zETVE7",
+        "testimonial_7ARVwN",
+        "testimonial_M734aC",
+        "testimonial_YYWyXi",
+        "testimonial_ALXcgJ",
+        "testimonial_XcprHi",
+        "testimonial_QDCiN6",
+        "testimonial_DTPBLm",
+        "testimonial_jFxhpk",
+        "testimonial_NBjgmi",
+        "testimonial_YGaVkj",
+        "testimonial_GtPbm8"
       ],
-      "disabled": true,
       "custom_css": [
-        "mark {font-style: normal;}",
-        ".m-testimonials--layout-2 .m-testimonial__wrapper {text-align: start; padding: 20px;}",
-        ".m-testimonials--layout-2 .m-stars {justify-content: start; margin-bottom: 18px;}",
-        ".swiper-container.swiper-container-initialized {padding: 20px 0;}",
-        ".m-testimonial.m-scroll-trigger.animate--fade-in-up {border: 1px solid #e5e7eb; box-shadow: 0 4px 6px #0000001a;}",
-        "p {font-size: 16px;}",
-        "@media (min-width: 7768px) {responsive-image.m-image {width: 56px; height: 56px; border-radius: 50%; }}"
+        ".m-section__description {max-width: 1100px; margin: 0 auto; margin-top: 15px;}",
+        ".m-testimonial__wrapper.m-gradient {border: 1px solid #eb7f4750; border-radius: 15px;}",
+        ".m-testimonial__description.rte p {height: 225px; text-align: justify;}",
+        ".m-testimonials--layout-2 .m-testimonial__wrapper {padding: 15px 10px; text-align: center;}"
       ],
       "name": "Testimonials",
       "settings": {
-        "heading": "<mark>\nWhat our customers say –</mark><br>\nabout Smart Hotel Pass",
+        "heading": "What People <mark>Are Saying</mark>\n</br><h4>More than <b>100,000 customers </b> have trusted our service partner <b>WCS</b> since 1984.</h4>",
         "heading_size": "h2",
         "subheading": "",
-        "description": "",
+        "description": "We publish both positive and negative reviews to provide a transparent view and help you make your own assessment. Only recent reviews from the last 2 years are shown, while older ones are archived. Customer identities remain protected, with reviews published using abbreviations only.",
         "header_alignment": "center",
-        "container": "w-full",
+        "container": "container-fluid",
         "color_scheme": "default",
         "design": "testimonials-2",
         "show_stars": true,
-        "autorotate": false,
-        "show_navigation": true,
-        "show_pagination": true,
-        "star_color": "#fbbf24",
+        "autorotate": true,
+        "show_navigation": false,
+        "show_pagination": false,
+        "star_color": "#f68b1f",
         "item_color_scheme": "footer",
         "padding_top": 50,
-        "padding_bottom": 50,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "image_with_text_PycMiX": {
-      "type": "image-with-text",
-      "disabled": true,
-      "custom_css": [
-        ".m-image-with-text__content {background-color: #fff;}",
-        ".m-content-box {padding: 25px;}",
-        ".m-image-with-text__image-first {border-radius: 0px;}",
-        ".m-image-with-text__inner {border-radius: 10px; border: 1px solid #f68b1f50; overflow: hidden;}",
-        ".m-image-with-text__image-first,responsive-image.m-image {height: 100%;}",
-        ".m-image-with-text__image {padding: 0px !important;}",
-        "@media screen and (max-width: 768px) {.m-content-box {padding: 15px; }}"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "heading": "",
-        "heading_size": "h3",
-        "subheading": "",
-        "container": "container-fluid",
-        "color_scheme": "footer",
-        "item_gap": 0,
-        "item_gap_mobile": 0,
-        "layout": "left",
-        "image_column_size": "6",
-        "image_overlap": false,
-        "show_image_reverse": false,
-        "hover_effect": false,
-        "image_animation": "none",
-        "image": "shopify://shop_images/pexels-mikhail-nilov-8319468.jpg",
-        "link": "",
-        "link_2": "",
-        "second_image_offset_top": 10,
-        "title": "What's Included",
-        "sub_title": "",
-        "text": "<p><strong>Your 365 Nights Hotel Pass includes:</strong></p><ol><li>Hotel accommodation for <strong>2 guests </strong></li><li>Flexible use throughout a <strong>365-day</strong> travel period</li><li>Access to <strong>50,000+ hotels </strong>worldwide</li><li>Hotels in <strong>180+ countries</strong></li><li>Properties up to<strong> 5-star</strong> standard</li><li>Freedom to divide your hotel nights across multiple trips</li><li>Instant <strong>digital delivery</strong> by email</li><li>Fully transferable before activation</li><li>Registration period of at least <strong>5 years</strong></li><li>No shipping or handling fees</li></ol>",
-        "text_size": "small",
-        "content_alignment": "left",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "m-button--link",
-        "button_size": "",
-        "padding_top": 70,
         "padding_bottom": 70,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "image_with_text_QwymkU": {
-      "type": "image-with-text",
-      "disabled": true,
-      "custom_css": [
-        ".m-image-with-text__content {background-color: #fff;}",
-        ".m-content-box {padding: 25px;}",
-        ".m-image-with-text__image-first {border-radius: 0px;}",
-        ".m-image-with-text__inner {border-radius: 10px; overflow: hidden;}",
-        ".m-image-with-text__image-first,responsive-image.m-image {height: 100%;}",
-        ".m-image-with-text__image {padding: 0px !important;}",
-        "@media screen and (max-width: 768px) {.m-content-box {padding: 15px; }}"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "heading": "",
-        "heading_size": "h3",
-        "subheading": "",
-        "container": "container-fluid",
-        "color_scheme": "footer",
-        "item_gap": 0,
-        "item_gap_mobile": 0,
-        "layout": "right",
-        "image_column_size": "6",
-        "image_overlap": false,
-        "show_image_reverse": false,
-        "hover_effect": false,
-        "image_animation": "none",
-        "image": "shopify://shop_images/Untitled_1000_x_650_px.png",
-        "link": "",
-        "link_2": "",
-        "second_image_offset_top": 10,
-        "title": "Trusted by More Than 100,000 Travellers Since 1984",
-        "sub_title": "",
-        "text": "<p>For over four decades, we have helped travellers discover exceptional hotel experiences around the world.<br/>Reliable. Flexible. Worldwide.</p>",
-        "text_size": "small",
-        "content_alignment": "left",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "m-button--link",
-        "button_size": "",
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "icon_box_mqrkHQ": {
-      "type": "icon-box",
-      "blocks": {
-        "iconbox_TJn3K9": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/Monaco_3.jpg",
-            "image_by_url": "",
-            "title": "Choose your Value",
-            "description": "<p>1. select student or regular pass<br/>2. Choose your hotel pass for 2, 3, 5, or 7 nights</p>",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_Kb6Nne": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/Vietnam.jpg",
-            "image_by_url": "",
-            "title": "Buy your Voucher",
-            "description": "<p>1. Pay your hotel pass<br/>2. You’ll receive your voucher instantly via email</p>",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
-        "iconbox_htBTir": {
-          "type": "iconbox",
-          "settings": {
-            "card_color_scheme": "",
-            "image": "shopify://shop_images/Sudafrika_2.jpg",
-            "image_by_url": "",
-            "title": "Select your hotel",
-            "description": "<p>1. direct bookable<br/>2. Hotels with lead time</p>",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "iconbox_TJn3K9",
-        "iconbox_Kb6Nne",
-        "iconbox_htBTir"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".m-icon-box {box-shadow: 0 0 4px #cfcfcf; padding-bottom: 20px; border-radius: 10px; height: 100%;}",
-        ".m-icon-box__icon {border-radius: 10px 10px 0 0;}"
-      ],
-      "name": "Featured promotion",
-      "settings": {
-        "container": "container-fluid",
-        "color_scheme": "",
-        "heading": "<mark>Your smart hotel pass process</mark><br> easy transparent pricing\n<br><br>\n<h4>\n<mark>\nChoose your value – buy your voucher – select your hotel</mark> enjoy your trip\n</h4>",
-        "heading_size": "h3",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "item_per_row": 3,
-        "item_gap": 20,
-        "item_gap_mobile": 30,
-        "card_style": "vertical",
-        "image_max_width": "",
-        "content_alignment": "center",
-        "hover_effect": "scaling-up",
-        "enable_slider": false,
-        "show_pagination": false,
-        "show_navigation": false,
-        "use_scroll_mobile": false,
-        "use_grid_column_mb": false,
-        "padding_top": 70,
-        "padding_bottom": 40,
         "custom_class": "",
         "animations": "inherit"
       }
@@ -1987,29 +1431,19 @@
   },
   "order": [
     "1621243260e1af0c20",
-    "icon_box_U9jyUG",
-    "rich_text_PqpqHe",
     "rich_text_bBXUzJ",
     "video_bmwBpJ",
-    "icon_box_nQQpah",
     "rich_text_VhkUtP",
     "image_with_text_2_LLkWcn",
     "featured_collection_VewKcB",
+    "icon_box_nQQpah",
+    "icon_box_U9jyUG",
+    "rich_text_PqpqHe",
     "collection_tabs_fbhbG4",
-    "icon_box_3PPpdf",
     "icon_box_qaqzeU",
-    "icon_box_qqtnwt",
-    "rich_text_9Q67rb",
-    "new_featured_product_AAy6mg",
-    "icon_box_NDBLkW",
     "image_with_text_7tR7Bx",
-    "icon_box_74aMjP",
     "icon_box_DikR4J",
     "collapsible_tabs_twTdYh",
-    "banner_with_slider_bFc89C",
-    "testimonials_FyYnRA",
-    "image_with_text_PycMiX",
-    "image_with_text_QwymkU",
-    "icon_box_mqrkHQ"
+    "testimonials_9bEXMh"
   ]
 }

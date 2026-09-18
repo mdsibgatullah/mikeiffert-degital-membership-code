@@ -1,0 +1,71 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "rich_text_KUqR98": {
+      "type": "rich-text",
+      "blocks": {
+        "text_WUDLx6": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Wer ist WCS?</h4><p>Hinter unserem HotelPass steht mit <strong>WCS – World Consulting Service Ltd Inc.</strong> ein erfahrener Partner im Bereich Hotelgutscheine und flexible Hotelkonzepte.</p><p>WCS mit Sitz in Wilmington, Delaware (USA), ist Herausgeber der dem HotelPass zugrunde liegenden Hotelgutscheine und Jahreskarten und bildet die Schnittstelle zu den teilnehmenden Partnerhotels. Das Unternehmen stellt die technische Infrastruktur für die Registrierung der HotelPässe bereit und übernimmt im Rahmen der späteren Hotelbuchungen die Vermittlung zwischen HotelPass Inhaber und Partnerhotel.</p><p>Das von WCS aufgebaute Konzept verfolgt dabei einen einfachen Ansatz: Teilnehmende Hotels stellen HotelPass Gästen spezielle Zimmerkontingente zur Verfügung. Dadurch können vorhandene Hotelkapazitäten genutzt und HotelPass Inhabern attraktive Möglichkeiten für ihre Hotelaufenthalte angeboten werden.</p><h4>Erfahrung, auf die wir setzen</h4><p>Das Hotelgutschein-Konzept von WCS blickt nach Angaben der von WCS betriebenen bzw. betreuten Angebote auf eine Historie bis <strong>1984</strong> zurück.</p><p>Diese langjährige Erfahrung und das dahinterstehende internationale Hotelkonzept waren für uns wichtige Gründe, WCS als Leistungspartner für unseren HotelPass zu wählen.</p><p>Unsere Kunden profitieren damit von zwei klar getrennten Kompetenzen:</p><p><strong>IPV GmbH / Gutscheinreisen24</strong> steht für den Verkauf des HotelPass, eine transparente Produktdarstellung und persönlichen Kundenservice aus Deutschland.</p><p><strong>WCS – World Consulting Service Ltd Inc.</strong> stellt das Hotelgutschein-System, die Registrierungs- und Buchungsinfrastruktur sowie die Verbindung zu den teilnehmenden Partnerhotels bereit.</p><h4>Transparenz auch bei der Buchung</h4><p>Die teilnehmenden Hotels können bereits vor dem Kauf und vor der Registrierung des HotelPass eingesehen werden. So können Sie sich vor Ihrer Entscheidung selbst ein Bild von den verfügbaren Hotels und Möglichkeiten machen.</p><p>Nach Registrierung und Aktivierung Ihres HotelPasses stehen Ihnen – abhängig vom jeweiligen Partnerhotel-\u000bzwei Buchungswege zur Verfügung Nach Registrierung und Aktivierung. HotelPass stehen Ihnen – abhängig vom jeweiligen Partnerhotel – zwei Buchungswege zur Verfügung:</p><p><strong>Hotels direkt buchbar</strong><br/>Verfügbare Termine können direkt ausgewählt und gebucht werden.</p><p><strong>Hotels mit Buchungsvoranfrage</strong><br/>Sie übermitteln zunächst Ihren gewünschten Reisezeitraum. WCS stimmt die Verfügbarkeit mit dem jeweiligen Partnerhotel ab und übermittelt Ihnen<br/>anschließend die entsprechende Rückmeldung bzw. Buchungsbestätigung.</p><p>WCS tritt bei der konkreten Hotelbuchung als Vermittler auf. Der Beherbergungsvertrag selbst kommt unmittelbar zwischen Ihnen und dem jeweiligen Partnerhotel zustande.</p><h4>Ein starkes Konzept – zwei<br/>erfahrene Partner</h4><p>Mit der Zusammenarbeit von IPV und WCS verbinden wir ein etabliertes Hotelgutschein-System und ein internationales Partnerhotel-Konzept mit persönlichem Kundenservice aus Deutschland.</p><p>Denn für uns bedeutet Vertrauen nicht nur, attraktive Hotelmöglichkeiten anzubieten. Es bedeutet auch, transparent zu erklären, wie unser HotelPass funktioniert, wer hinter dem Konzept steht und an wen Sie sich bei Fragen wenden können.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_WUDLx6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_3PhKwD": {
+      "type": "rich-text",
+      "blocks": {
+        "text_wdnbyK": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Right of Withdrawal</h4><p>You have the right to withdraw from this contract within fourteen days without giving any reason.</p><p>The withdrawal period is fourteen days from the date on which the contract was concluded.</p><p>To exercise your right of withdrawal, you must inform us:</p><p><strong>IPV GmbH</strong><br/>Am Wiesengrund 1<br/>40764 Langenfeld<br/>Germany</p><p>Phone: +49 (0)2173 / 40 99 182<br/>Email: info@gutscheinreisen24.de</p><p>of your decision to withdraw from this contract by means of a clear statement, for example by email or by a letter sent by post.</p><p>You may use the model withdrawal form provided below, but use of this form is not mandatory.</p><p>In addition, you may exercise your right of withdrawal using the electronic withdrawal function provided on our website. The <strong>“Withdraw from Contract” </strong>function is permanently available during the statutory withdrawal period, prominently displayed and easily accessible via the footer of our website.</p><p>After selecting <strong>“Withdraw from Contract”</strong>, you can enter or confirm the information required for your withdrawal and subsequently submit your withdrawal electronically using the <strong>“Confirm Withdrawal”</strong> function.</p><p>After successful submission, you will<br/>immediately receive an acknowledgement of receipt on a durable medium, in particular by email. This confirmation will include at least the content of your withdrawal declaration and the date and time it was received.</p><p>To meet the withdrawal deadline, it is sufficient for you to send your notification concerning your exercise of the right of withdrawal before the withdrawal period has expired.</p><h4>Effects of Withdrawal</h4><p>If you withdraw from this contract, we will reimburse all payments received from you in connection with the withdrawn contract without undue delay and no later than fourteen days from the date on which we receive notification of your withdrawal.</p><p>We will generally use the same means<br/>of payment for the reimbursement that you used for the original transaction,<br/>unless expressly agreed otherwise with you.</p><p>In no event will you incur any fees as a result of this reimbursement.</p><p>As the Hotel Pass is provided exclusively in digital form, there are no costs for returning physical goods.</p><h4>Deactivation of the Hotel Pass Following Withdrawal</h4><p>In the event of a valid withdrawal, the Hotel Pass code associated with the withdrawn purchase contract will be blocked or deactivated.</p><p>The Hotel Pass can subsequently no longer be used for new hotel bookings.</p><h4>Hotel Pass Already Activated</h4><p>The mere activation or registration of the Hotel Pass does not automatically exclude the statutory right of withdrawal.</p><p>The statutory provisions concerning any compensation for services already provided at the consumer’s express request during the withdrawal period remain unaffected.</p><h4>Distinction from a Subsequent Hotel Booking</h4><p>This Withdrawal Policy applies exclusively to the contract for the purchase of the Hotel Pass<br/>from IPV GmbH.</p><p>A subsequent booking of a specific hotel stay constitutes a legally separate contract.</p><p>Under the applicable statutory provisions, there is generally no statutory right of withdrawal for contracts relating to accommodation services provided on a specific date or during a specific period.</p><p>Any amendment or cancellation of a specific hotel booking is subject to the cancellation and booking conditions communicated for the respective partner hotel at the time of booking.</p><h4>Model Withdrawal Form</h4><p>If you wish to withdraw from the contract, you may complete and submit this form to us.</p><p><strong>To:<br/></strong>IPV GmbH<br/>Am Wiesengrund 1<br/>40764 Langenfeld<br/>Germany<br/>Email: info@gutscheinreisen24.de</p><p>I/We (<em>) hereby give notice that I/We (</em>) withdraw from the contract concluded by me/us (*) for the purchase of the following Hotel Pass:</p><p><strong>Hotel Pass / Product:</strong><br/>_________________________________</p><p><strong>Order number (if available):</strong><br/>_________________________________</p><p><strong>Ordered on:</strong><br/>_________________________________</p><p><strong>Name of consumer(s):</strong><br/>_________________________________</p><p><strong>Address of consumer(s):</strong><br/>_________________________________</p><p><strong>Email address:</strong><br/>_________________________________</p><p><strong>Date:</strong><br/>_________________________________</p><p><strong>Signature of consumer(s):</strong><br/>(only if this form is submitted on paper)<br/>_________________________________</p><p>(*) Delete as appropriate.<br/>_________________________________</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_wdnbyK"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_KUqR98",
+    "rich_text_3PhKwD"
+  ]
+}

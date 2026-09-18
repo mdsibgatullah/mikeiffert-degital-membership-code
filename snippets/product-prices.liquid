@@ -72,12 +72,12 @@
         {% if settings.currency_code_enabled %}
           {{ compare_at_price | money_with_currency }}
         {% else %}
-          Your Value* {{ compare_at_price | money }}
+          <span class="iiiiiiiiii">Your Value*</span> {{ compare_at_price | money }}
         {% endif %}
       </s>
     {%- endunless -%}
     <span class="m-price-item m-price-item--sale m-price-item--last ilm_price_price {{ price_text_size }}">
-      Our Price {{ money_price }}
+      <span class="iiiiiiiiii">Our price</span>  {{ money_price }}
     </span>
   </div>
   <div class="m-price__unit-wrapper{% if selected_variant.unit_price_measurement == nil %} m:hidden{% endif %}">

@@ -115,6 +115,7 @@
             <span class="ilm_pd_image_title">{{ product.title }}</span>
             <span class="ilm_pd_image_compare">Your Value* {{ product.compare_at_price | money }}</span>
             <span class="ilm_pd_image_price">Our price {{ product.price | money }}</span>
+            <small class="ilm_pd_image_inc">Incl. VAT & digital delivery</small>
             <div class="ilm_pd_image_tag_wrap">
               {% for tag in product.tags %}
                 {% if tag contains 'tag__' %}

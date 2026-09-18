@@ -92,46 +92,119 @@
       {% endif %}
       {% if image != blank %}<div class="m-collapsible__content-wrapper">{% endif %}
       {% render 'index-section-header', section_settings: section.settings %}
-      <div class="m-collapsible-section__wrapper{% if template == 'product' %} m-product-collapsible{% endif %}{% if animated %} m-scroll-trigger animate--{{ animation_effect }}{% endif %}">
-        {% for block in section.blocks %}
-          <collapsible-tab
-            class="m-collapsible no-js-hidden"
-            data-block-id="collapsible-tab-{{ block.id }}"
-            {% if block.settings.open %}
-              open="true"
-            {% endif %}
-          >
-            <h3 class="m-collapsible--button {{ block.settings.text_size }}" data-trigger>
-              <span>{{ block.settings.header }}</span>
-              <span class="m-collapsible--icon">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.5306 6.53073L8.5306 11.5307C8.46092 11.6007 8.37813 11.6561 8.28696 11.694C8.1958 11.7318 8.09806 11.7513 7.99935 11.7513C7.90064 11.7513 7.8029 11.7318 7.71173 11.694C7.62057 11.6561 7.53778 11.6007 7.4681 11.5307L2.4681 6.53073C2.3272 6.38984 2.24805 6.19874 2.24805 5.99948C2.24805 5.80023 2.3272 5.60913 2.4681 5.46823C2.60899 5.32734 2.80009 5.24818 2.99935 5.24818C3.19861 5.24818 3.3897 5.32734 3.5306 5.46823L7.99997 9.93761L12.4693 5.46761C12.6102 5.32671 12.8013 5.24756 13.0006 5.24756C13.1999 5.24756 13.391 5.32671 13.5318 5.46761C13.6727 5.60851 13.7519 5.7996 13.7519 5.99886C13.7519 6.19812 13.6727 6.38921 13.5318 6.53011L13.5306 6.53073Z" fill="currentColor"/>
-                </svg>
-              </span>
-            </h3>
-            <div class="m-collapsible--content" data-content hidden>
-              <div class="m-collapsible--content__inner">
-                {% case block.type %}
-                  {% when 'item' %}
-                    <div class="rte">
-                      {{ block.settings.content }}
-                      {{ block.settings.content_page.content }}
-                    </div>
-                  {% when 'liquid' %}
-                    {{ block.settings.custom_liquid }}
-                  {% else %}
 
-                {% endcase %}
+      <div class="ilm_seven">
+        <div class="m-collapsible-section__wrapper{% if template == 'product' %} m-product-collapsible{% endif %}{% if animated %} m-scroll-trigger animate--{{ animation_effect }}{% endif %}">
+          {% for block in section.blocks limit: 7 %}
+            <collapsible-tab
+              class="m-collapsible no-js-hidden"
+              data-block-id="collapsible-tab-{{ block.id }}"
+              {% if block.settings.open %}
+                open="true"
+              {% endif %}
+            >
+              <h3 class="m-collapsible--button {{ block.settings.text_size }}" data-trigger>
+                <span>{{ block.settings.header }}</span>
+                <span class="m-collapsible--icon">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.5306 6.53073L8.5306 11.5307C8.46092 11.6007 8.37813 11.6561 8.28696 11.694C8.1958 11.7318 8.09806 11.7513 7.99935 11.7513C7.90064 11.7513 7.8029 11.7318 7.71173 11.694C7.62057 11.6561 7.53778 11.6007 7.4681 11.5307L2.4681 6.53073C2.3272 6.38984 2.24805 6.19874 2.24805 5.99948C2.24805 5.80023 2.3272 5.60913 2.4681 5.46823C2.60899 5.32734 2.80009 5.24818 2.99935 5.24818C3.19861 5.24818 3.3897 5.32734 3.5306 5.46823L7.99997 9.93761L12.4693 5.46761C12.6102 5.32671 12.8013 5.24756 13.0006 5.24756C13.1999 5.24756 13.391 5.32671 13.5318 5.46761C13.6727 5.60851 13.7519 5.7996 13.7519 5.99886C13.7519 6.19812 13.6727 6.38921 13.5318 6.53011L13.5306 6.53073Z" fill="currentColor"/>
+                  </svg>
+                </span>
+              </h3>
+              <div class="m-collapsible--content" data-content hidden>
+                <div class="m-collapsible--content__inner">
+                  {% case block.type %}
+                    {% when 'item' %}
+                      <div class="rte">
+                        {{ block.settings.content }}
+                        {{ block.settings.content_page.content }}
+                      </div>
+                    {% when 'liquid' %}
+                      {{ block.settings.custom_liquid }}
+                    {% else %}
+  
+                  {% endcase %}
+                </div>
               </div>
-            </div>
-          </collapsible-tab>
-        {% endfor %}
+            </collapsible-tab>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="ilm_full">
+        <div class="m-collapsible-section__wrapper{% if template == 'product' %} m-product-collapsible{% endif %}{% if animated %} m-scroll-trigger animate--{{ animation_effect }}{% endif %}">
+          {% for block in section.blocks %}
+            <collapsible-tab
+              class="m-collapsible no-js-hidden"
+              data-block-id="collapsible-tab-{{ block.id }}"
+              {% if block.settings.open %}
+                open="true"
+              {% endif %}
+            >
+              <h3 class="m-collapsible--button {{ block.settings.text_size }}" data-trigger>
+                <span>{{ block.settings.header }}</span>
+                <span class="m-collapsible--icon">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.5306 6.53073L8.5306 11.5307C8.46092 11.6007 8.37813 11.6561 8.28696 11.694C8.1958 11.7318 8.09806 11.7513 7.99935 11.7513C7.90064 11.7513 7.8029 11.7318 7.71173 11.694C7.62057 11.6561 7.53778 11.6007 7.4681 11.5307L2.4681 6.53073C2.3272 6.38984 2.24805 6.19874 2.24805 5.99948C2.24805 5.80023 2.3272 5.60913 2.4681 5.46823C2.60899 5.32734 2.80009 5.24818 2.99935 5.24818C3.19861 5.24818 3.3897 5.32734 3.5306 5.46823L7.99997 9.93761L12.4693 5.46761C12.6102 5.32671 12.8013 5.24756 13.0006 5.24756C13.1999 5.24756 13.391 5.32671 13.5318 5.46761C13.6727 5.60851 13.7519 5.7996 13.7519 5.99886C13.7519 6.19812 13.6727 6.38921 13.5318 6.53011L13.5306 6.53073Z" fill="currentColor"/>
+                  </svg>
+                </span>
+              </h3>
+              <div class="m-collapsible--content" data-content hidden>
+                <div class="m-collapsible--content__inner">
+                  {% case block.type %}
+                    {% when 'item' %}
+                      <div class="rte">
+                        {{ block.settings.content }}
+                        {{ block.settings.content_page.content }}
+                      </div>
+                    {% when 'liquid' %}
+                      {{ block.settings.custom_liquid }}
+                    {% else %}
+  
+                  {% endcase %}
+                </div>
+              </div>
+            </collapsible-tab>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="faq_show_more">
+        <button id="ilm_faq_show_btn">Read More</button>
       </div>
       {% if image != blank %}</div>{% endif %}
       {% if image != blank %}</div>{% endif %}
     </div>
   </section>
 {% endif %}
+
+{% style %}
+  .ilm_full {
+    display: none;
+  }
+{% endstyle %}
+
+<script>
+  var ilmFaqBtn = document.getElementById('ilm_faq_show_btn');
+  var ilmFull = document.querySelector('.ilm_full');
+  var ilmSeven = document.querySelector('.ilm_seven');
+  var isOpen = false;
+
+  if (ilmFaqBtn) {
+    ilmFaqBtn.addEventListener('click', function () {
+      if (!isOpen) {
+        ilmFull.style.display = 'block';
+        ilmSeven.style.display = 'none';
+        ilmFaqBtn.textContent = 'Read Less';
+      } else {
+        ilmFull.style.display = 'none';
+        ilmSeven.style.display = 'block';
+        ilmFaqBtn.textContent = 'Read More';
+      }
+
+      isOpen = !isOpen;
+    });
+  }
+</script>
 
 {% schema %}
 {
@@ -199,7 +272,7 @@
       "content": "Section header"
     },
     {
-      "type": "text",
+      "type": "liquid",
       "id": "heading",
       "label": "Heading"
     },

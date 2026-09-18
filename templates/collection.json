@@ -57,15 +57,17 @@
       "custom_css": [
         ".m-banner-promotion {order: 3 !important; margin-top: 30px; margin-bottom: 0;}",
         ".m-collection-filters-form {margin-bottom: 0;}",
-        "span.m-price-item {color: white;}",
+        "span.m-price-item {color: #f68b1f;}",
         ".m-product-card__action {display: block;}",
-        "@media (max-width: 576px) {.m-collection-products {display: grid; grid-template-columns: 1fr; } .m-product-item {max-width: 350px; width: 100%; margin: 0 auto 15px; }}"
+        "@media (max-width: 576px) {.m-collection-products {display: grid; grid-template-columns: 1fr; } .m-product-item {max-width: 350px; width: 100%; margin: 0 auto 15px; }}",
+        ".m-product-card__action {z-index: 8;}",
+        "a.m-product-form {background-color: #f68b1f; color: white;}"
       ],
       "settings": {
         "container": "container-fluid",
         "grid_layout": "grid",
-        "grid_columns": "2",
-        "show_columns_switcher": false,
+        "grid_columns": "3",
+        "show_columns_switcher": true,
         "pagination_limit": 12,
         "paginate_type": "paginate",
         "show_sorting": true,

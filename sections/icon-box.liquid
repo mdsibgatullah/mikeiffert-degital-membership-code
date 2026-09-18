@@ -202,11 +202,23 @@
 
                     <div class="m-icon-box__content m:flex-1 {{ text_alignment }}">
                       {% if block.settings.title != blank %}
-                        <h3 class="m-icon-box__heading h4">{{ block.settings.title }}</h3>
+                        <h3 class="m-icon-box__heading h4">
+                          {% comment %} {{ block.settings.title  | link_to: block.settings.link }} {% endcomment %}
+                           {% if block.settings.link != blank %}
+                            {{ block.settings.title | link_to: block.settings.link }}
+                          {% else %}
+                            {{ block.settings.title }}
+                          {% endif %}
+                        </h3>
                       {% endif %}
                       {% if block.settings.description != blank %}
                         <div class="m-icon-box__description rte m:text-color-subtext">
-                          {{ block.settings.description }}
+                          {% comment %} {{ block.settings.description | link_to: block.settings.link }} {% endcomment %}
+                           {% if block.settings.link != blank %}
+                            {{ block.settings.description | link_to: block.settings.link }}
+                          {% else %}
+                            {{ block.settings.description }}
+                          {% endif %}
                         </div>
                       {% endif %}
                       {% if block.settings.button_label != blank %}
@@ -319,7 +331,7 @@
       "label": "Subheading"
     },
     {
-      "type": "richtext",
+      "type": "liquid",
       "id": "description",
       "label": "Description"
     },
@@ -569,13 +581,13 @@
           "info": "Enter an image URL with extension .svg, .png or .jpg"
         },
         {
-          "type": "text",
+          "type": "liquid",
           "id": "title",
           "label": "Heading",
           "default": "This is heading text"
         },
         {
-          "type": "richtext",
+          "type": "liquid",
           "id": "description",
           "label": "Description",
           "default": "<p>Tell about your service.</p>"

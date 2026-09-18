@@ -123,26 +123,12 @@
           "type": "description",
           "settings": {}
         },
-        "price_pnLCDr": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-            "show_saving": false,
-            "sale_badge_type": "percentage"
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "size_title": "Size"
-          }
-        },
-        "collapsible_tab_kMPKfW": {
+        "collapsible_tab_87PUJa": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Exceptional Value",
-            "content": "{{ product.metafields.custom.exceptional_values | metafield_tag }}",
-            "ilm_collaps_icons": "shopify://shop_images/logo_da2b03f8-114c-4937-ac95-18a72f380377.png",
+            "content": "{{ product.metafields.custom.included_benefits | metafield_tag }}",
+            "ilm_collaps_icons": "shopify://shop_images/logo_3_004b6d3c-8cb7-467c-8f02-77fd9f361441.png",
             "liquid": "",
             "default_open": false
           }
@@ -157,12 +143,12 @@
             "default_open": false
           }
         },
-        "collapsible_tab_87PUJa": {
+        "collapsible_tab_kMPKfW": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Included Benefits",
-            "content": "{{ product.metafields.custom.included_benefits | metafield_tag }}",
-            "ilm_collaps_icons": "shopify://shop_images/logo_3_004b6d3c-8cb7-467c-8f02-77fd9f361441.png",
+            "content": "{{ product.metafields.custom.exceptional_values | metafield_tag }}",
+            "ilm_collaps_icons": "shopify://shop_images/logo_da2b03f8-114c-4937-ac95-18a72f380377.png",
             "liquid": "",
             "default_open": false
           }
@@ -196,12 +182,40 @@
             "custom_liquid": "<p class=\"pd_page_mark\"><b>incl. Incl. VAT & digital delivery | Your special price compared to the regular WCS retail price</b></p>"
           }
         },
+        "price_Qn77n8": {
+          "type": "price",
+          "settings": {
+            "show_saving": false,
+            "sale_badge_type": "percentage"
+          }
+        },
+        "text_AMR4jK": {
+          "type": "text",
+          "settings": {
+            "text": "2 persons double room. Your special price compared to the regular WCS retail price*",
+            "text_style": "body"
+          }
+        },
+        "text_UtXnAq": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Your special price compared to the regular WCS retail price*",
+            "text_style": "body"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_title": "Size"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_quantity_selector": true,
             "show_atc_button": true,
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
         },
@@ -226,14 +240,16 @@
       "block_order": [
         "title",
         "description_qx7WRP",
-        "price_pnLCDr",
-        "variant_picker",
-        "collapsible_tab_kMPKfW",
-        "collapsible_tab_QMXRhA",
         "collapsible_tab_87PUJa",
+        "collapsible_tab_QMXRhA",
+        "collapsible_tab_kMPKfW",
         "collapsible_tab_7cPJVF",
         "collapsible_tab_pCdJjA",
         "custom_liquid_GApPbQ",
+        "price_Qn77n8",
+        "text_AMR4jK",
+        "text_UtXnAq",
+        "variant_picker",
         "buy_buttons",
         "image_Qwi4AA",
         "addons"
@@ -265,6 +281,104 @@
         "sticky_atc_wishtlist": false,
         "sticky_atc_compare": false,
         "heading": "If you like less overnight stays (like 3,7 or 14), please choose"
+      }
+    },
+    "rich_text_9agDP9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9engUW": {
+          "type": "heading",
+          "settings": {
+            "heading": "FIND YOUR HOTEL",
+            "heading_size": "h3"
+          }
+        },
+        "text_JKXQw8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Planning your escape? Check currently available hotels for your preferred destination and travel dates.</p>"
+          }
+        },
+        "button_iK7Cza": {
+          "type": "button",
+          "settings": {
+            "button_label": "CHECK HOTEL AVAILABILITY →",
+            "button_link": "/#m-collection-tabs--template--27181112394057__collection_tabs_fbhbG4",
+            "button_style": "m-button--primary",
+            "button_size": "m-button--small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9engUW",
+        "text_JKXQw8",
+        "button_iK7Cza"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p {max-width: 550px; margin: 0 auto;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "container": "container",
+        "color_scheme": "footer",
+        "content_alignment": "center",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "icon_box_Rr7kRm": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_DrkYxw": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "footer",
+            "image_by_url": "",
+            "title": "FIND YOUR HOTEL",
+            "description": "<p>Planning your escape? Check currently available hotels for your preferred destination and travel dates.</p>",
+            "link": "",
+            "button_label": "CHECK HOTEL AVAILABILITY →",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "m-button--small"
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_DrkYxw"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p {max-width: 550px; margin: 0 auto;}"
+      ],
+      "name": "Featured promotion",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "footer",
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "item_per_row": 1,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "vertical",
+        "image_max_width": "0px",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 54,
+        "padding_bottom": 70,
+        "custom_class": "",
+        "animations": "inherit"
       }
     },
     "icon_box_Y6FcWN": {
@@ -347,7 +461,7 @@
         "show_navigation": false,
         "use_scroll_mobile": false,
         "use_grid_column_mb": false,
-        "padding_top": 0,
+        "padding_top": 18,
         "padding_bottom": 70,
         "custom_class": "",
         "animations": "inherit"
@@ -358,7 +472,9 @@
       "custom_css": [
         ".m-product-card__action {display: block;}",
         ".m-product-card__tags {top: 62px;}",
-        "@media (max-width: 550px) {.m\\:grid.m\\:grid-2-cols {grid-template-columns: 1fr; }}"
+        "@media (max-width: 550px) {.m\\:grid.m\\:grid-2-cols {grid-template-columns: 1fr; }}",
+        ".m-product-card__action {z-index: 8;}",
+        "a.m-product-form {background-color: #f68b1f; color: white;}"
       ],
       "name": "Product recommendations",
       "settings": {
@@ -713,6 +829,8 @@
     "1784094098f8f7da21",
     "rich_text_XxNYbh",
     "main",
+    "rich_text_9agDP9",
+    "icon_box_Rr7kRm",
     "icon_box_Y6FcWN",
     "product_recommendations_fBqPrc",
     "video_gxBznW",

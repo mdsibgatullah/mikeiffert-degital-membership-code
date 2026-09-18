@@ -127,12 +127,13 @@
         "custom_text_XRhLCF": {
           "type": "custom_text",
           "settings": {
-            "title": "Contact",
+            "title": "",
+            "image": "shopify://shop_images/Logo_Transparent_15d86cb3-6380-42ba-95cc-f3a5709d81d8.png",
             "image_max": "200px",
-            "description": "<p>Customer Support<br/>Email<br/>Telephone<br/>Business Hours</p>",
-            "width": "25%",
-            "order_first": false,
-            "open_default": false
+            "description": "<p>Customer Support<br/>Email<br/>Telephone<br/>Business Hours</p><p><br/><a href=\"/pages/withdrawal\" title=\"Withdrawal\"><em><strong>Withdraw from Contract</strong></em></a></p>",
+            "width": "33%",
+            "order_first": true,
+            "open_default": true
           }
         },
         "menu_JLKrBr": {
@@ -169,8 +170,8 @@
             "show_social": true,
             "show_agree_checkbox": false,
             "width": "33%",
-            "order_first": true,
-            "open_default": true
+            "order_first": false,
+            "open_default": false
           }
         }
       },
@@ -181,7 +182,10 @@
         "newsletter_CVGfVp"
       ],
       "custom_css": [
-        "span.m-footer__copyright {font-size: 20px !important;}"
+        "span.m-footer__copyright {font-size: 20px !important;}",
+        "p a em {background: #f68b1f; padding: 8px 16px; border-radius: 50px; transition: 0.4s;}",
+        "p a em:hover {box-shadow: 0 0 0 2px #f68b1f;}",
+        ".social-media-links {margin-top: 10px !important;}"
       ],
       "settings": {
         "color_scheme": "dark",

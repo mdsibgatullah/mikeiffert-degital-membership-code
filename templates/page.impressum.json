@@ -1,0 +1,45 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "rich_text_KUqR98": {
+      "type": "rich-text",
+      "blocks": {
+        "text_WUDLx6": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Angaben gemäß § 5 DDG</h4><p><strong>IPV GmbH</strong><br/> Am Wiesengrund 1<br/> 40764 Langenfeld<br/> Deutschland</p><p><strong>Vertreten durch:</strong><br/> Geschäftsführer Mike Iffert<br/><br/><strong>Kontakt</strong><br/> Telefon: +49 (0)2173 / 40 99 182<br/> E-Mail: info@gutscheinreisen24.de<br/><br/><strong>Registereintrag</strong><br/> Registergericht: Amtsgericht Düsseldorf<br/> Handelsregisternummer: HRB 19928<br/><br/><strong>Umsatzsteuer-Identifikationsnummer<br/></strong>Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: <br/>DE 119362398</p><p><br/><strong>Anbieter des HotelPass</strong> <br/>Anbieter und Verkäufer der über den Online-Shop angebotenen HotelPass Produkte ist die IPV GmbH.<br/>Die IPV GmbH verkauft die HotelPass-Produkte im eigenen Namen und auf eigene Rechnung.</p><p><strong>Verbraucherstreitbeilegung</strong><br/>[Dieser Abschnitt wird nach Klärung der Mitarbeiterzahl und der Teilnahmebereitschaft der IPV GmbH an einem Streitbeilegungsverfahren abschließend ergänzt.]</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_WUDLx6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "",
+        "content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_KUqR98"
+  ]
+}
