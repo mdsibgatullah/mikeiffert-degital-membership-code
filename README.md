@@ -260,37 +260,6 @@ footer accessibility, and calls to action.
 
 ------------------------------------------------------------------------
 
-# 📁 Screenshot Files
-
-All screenshots are stored directly in the **same main project directory
-as this `README.md` file**.
-
-``` text
-README.md
-home-page.png
-product-page.png
-category-page.png
-student-page.png
-about-gutscheinreisen-page.png
-about-wcs-page.png
-terms-of-service-page.png
-privacy-policy-page.png
-withdrawal-policy.png
-impressum-page.png
-confirm-withdrawal.png
-```
-
-Because the screenshots and `README.md` are in the same directory, the
-README uses simple relative image paths such as:
-
-``` markdown
-![Gutscheinreisen24 Homepage](home-page.png)
-```
-
-No separate `assets/` or image folder is required.
-
-------------------------------------------------------------------------
-
 ## Gutscheinreisen24
 
 **Smart Hotel Pass · Flexible Travel · Clear Customer Experience**
