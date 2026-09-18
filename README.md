@@ -1,269 +1,300 @@
 # Gutscheinreisen24 --- Smart Hotel Pass
 
-A clean, customer-focused travel e-commerce experience for discovering
-and purchasing flexible **Hotel Passes** and destination-based
-**Escape** offers.
+A clean and customer-focused travel e-commerce experience for
+discovering and purchasing flexible **Smart Hotel Passes** and
+destination-based **Escape** offers.
 
-This project presents the main storefront, product experience, student
-discount flow, company information, legal pages, and electronic
-withdrawal process in a consistent responsive design.
+The website combines product discovery, Hotel Pass details, student
+discount verification, company information, legal information, and an
+electronic withdrawal process in one consistent experience.
 
 ------------------------------------------------------------------------
 
-## Website Overview
+## ✨ Website Highlights
 
-The website is designed around a simple goal: help visitors quickly
-understand the Hotel Pass concept, compare available offers, discover
-destinations, and complete the next step with confidence.
-
-### Key Highlights
-
--   Smart Hotel Pass options with clear pricing and benefits
+-   Flexible Smart Hotel Pass offers
 -   Destination-based Escape products
--   Responsive product and collection layouts
+-   Clear pricing and product benefits
+-   Responsive product and category pages
 -   Related Hotel Pass recommendations
--   Student discount verification flow
--   Company and WCS partner information
--   Terms, Privacy Policy, Withdrawal Policy, and Impressum pages
--   Electronic **Withdraw from Contract** flow
--   Responsive footer, navigation, trust information, and payment
+-   Student discount verification
+-   Gutscheinreisen24 and WCS information
+-   Terms of Service and Privacy Policy
+-   Withdrawal Policy and Impressum
+-   Electronic **Withdraw from Contract** process
+-   Responsive navigation, footer, trust information, and payment
     indicators
 
 ------------------------------------------------------------------------
 
-# Website Pages
+# 🏠 Homepage
 
-## 1. Homepage
+The homepage introduces the **Smart Hotel Pass** concept and guides
+visitors through the complete customer journey.
 
-The homepage introduces the Smart Hotel Pass concept and guides visitors
-through the complete customer journey: value proposition, Hotel Pass
-options, how it works, Escape destinations, hotel discovery, partner
-trust, student discount, important information, FAQs, and customer
-reviews.
+Visitors can explore:
+
+-   Smart Hotel Pass options
+-   How the Hotel Pass works
+-   Escape destinations
+-   Partner hotels
+-   WCS trust information
+-   Student discount
+-   Important travel information
+-   Frequently asked questions
+-   Customer reviews
+-   Main calls to action
 
 ![Gutscheinreisen24 Homepage](home-page.png)
 
 ------------------------------------------------------------------------
 
-```{=html}
-<table>
-```
-```{=html}
-<tr>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-## 2. Hotel Pass / Escape Product
+# 🏨 Product Page
 
-Individual product pages provide a visual overview of the selected
-Escape, pricing, included benefits, purchase options, student discount
-information, and related products.
+Each individual Hotel Pass / Escape product page provides visitors with
+the information they need before purchasing.
 
-`<img src="product-page.png" alt="Hotel Pass Escape Product Page" width="100%">`{=html}
+The product experience includes:
 
-```{=html}
-</td>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-## 3. Escape Collection
+-   Destination imagery
+-   Hotel Pass pricing
+-   Product benefits
+-   Available options
+-   Quantity selection
+-   Add to Cart and Buy Now actions
+-   Student discount information
+-   Related Escape recommendations
 
-The Escape collection presents available destination options in a clear
-card-based layout. Visitors can compare destinations and pricing before
-continuing to the relevant product page.
+![Hotel Pass Product Page](product-page.png)
 
-`<img src="category-page.png" alt="Escape Collection Page" width="100%">`{=html}
+------------------------------------------------------------------------
 
-```{=html}
-</td>
-```
-```{=html}
-</tr>
-```
-```{=html}
-<tr>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-## 4. Student Discount
+# 🌍 Escape Category Page
 
-Eligible students can submit their details and supporting student or
-school certificate through a dedicated verification form to request the
-available discount.
+The category page allows visitors to browse the available **Escape
+destinations** in a clean product-grid layout.
 
-`<img src="student-page.png" alt="Student Discount Page" width="100%">`{=html}
+Each product card clearly presents the destination, Hotel Pass value,
+current price, and a direct action to view the available options.
 
-```{=html}
-</td>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-## 5. About Gutscheinreisen24
+![Escape Category Page](category-page.png)
 
-The dedicated company page explains the Hotel Pass concept, flexibility,
-booking approach, the role of WCS, customer service, and the philosophy
-behind Gutscheinreisen24.
+------------------------------------------------------------------------
 
-`<img src="about-gutscheinreisen-page.png" alt="About Gutscheinreisen24 Page" width="100%">`{=html}
+# 🎓 Student Discount
 
-```{=html}
-</td>
-```
-```{=html}
-</tr>
-```
-```{=html}
-<tr>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-## 6. About WCS
+A dedicated student verification page allows eligible students to
+request the available discount.
 
-A separate page clearly explains the role of **WCS --- World Consulting
-Service Ltd Inc.** as the experienced Hotel Pass service partner and
-distinguishes WCS responsibilities from those of Gutscheinreisen24 / IPV
-GmbH.
+The form includes:
 
-`<img src="about-wcs-page.png" alt="About WCS Page" width="100%">`{=html}
+-   Full name
+-   Email
+-   Phone
+-   Student/school certificate upload
+-   Verification submission
 
-```{=html}
-</td>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-## 7. Terms of Service
+After successful verification, the customer can receive an individual
+discount code by email.
 
-The Terms of Service page provides the contractual conditions governing
-Hotel Pass purchases and use.
+![Student Discount Page](student-page.png)
 
-`<img src="terms-of-service-page.png" alt="Terms of Service Page" width="100%">`{=html}
+------------------------------------------------------------------------
 
-```{=html}
-</td>
-```
-```{=html}
-</tr>
-```
-```{=html}
-<tr>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-## 8. Privacy Policy
+# 🏢 About Gutscheinreisen24
+
+The **About Gutscheinreisen24** page explains the idea behind the Hotel
+Pass, the flexibility offered to customers, how the booking concept
+works, and the service philosophy behind the platform.
+
+It also explains the relationship between Gutscheinreisen24, IPV GmbH,
+participating hotels, and WCS.
+
+![About Gutscheinreisen24](about-gutscheinreisen-page.png)
+
+------------------------------------------------------------------------
+
+# 🤝 About WCS
+
+The **About WCS** page explains the role of **WCS -- World Consulting
+Service Ltd Inc.** within the Hotel Pass concept.
+
+The page helps visitors understand:
+
+-   Who WCS is
+-   WCS's role in the Hotel Pass system
+-   Partner-hotel infrastructure
+-   Registration and booking processes
+-   The distinction between WCS and Gutscheinreisen24 / IPV GmbH
+
+![About WCS](about-wcs-page.png)
+
+------------------------------------------------------------------------
+
+# 📑 Terms of Service
+
+The Terms of Service page presents the contractual conditions associated
+with purchasing and using the Hotel Pass.
+
+It provides customers with detailed information about the service,
+payment, activation, validity, booking, withdrawal, responsibilities,
+and other contractual conditions.
+
+![Terms of Service](terms-of-service-page.png)
+
+------------------------------------------------------------------------
+
+# 🔐 Privacy Policy
 
 The Privacy Policy explains how personal information is collected,
-processed, used, disclosed, retained, and protected, along with
-applicable customer rights and choices.
+processed, used, disclosed, retained, and protected.
 
-`<img src="privacy-policy-page.png" alt="Privacy Policy Page" width="100%">`{=html}
+It also provides information about customer rights, Shopify-related data
+processing, third-party services, international transfers, and privacy
+choices.
 
-```{=html}
-</td>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-## 9. Withdrawal Policy
-
-The Withdrawal Policy provides the relevant withdrawal information,
-effects of withdrawal, Hotel Pass deactivation details, and model
-withdrawal form information in both English and German sections.
-
-`<img src="withdrawal-policy.png" alt="Withdrawal Policy Page" width="100%">`{=html}
-
-```{=html}
-</td>
-```
-```{=html}
-</tr>
-```
-```{=html}
-<tr>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-## 10. Impressum
-
-The Impressum provides the required company, representative, contact,
-registration, VAT, and Hotel Pass provider information.
-
-`<img src="impressum-page.png" alt="Impressum Page" width="100%">`{=html}
-
-```{=html}
-</td>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-## 11. Electronic Withdrawal Form
-
-A dedicated **Confirm Withdrawal** page allows customers to submit their
-contract withdrawal electronically using their name, order number, email
-address, and withdrawal details.
-
-The withdrawal action is also clearly accessible through the **Withdraw
-from Contract** button in the website footer.
-
-`<img src="confirm-withdrawal.png" alt="Confirm Withdrawal Page" width="100%">`{=html}
-
-```{=html}
-</td>
-```
-```{=html}
-</tr>
-```
-```{=html}
-</table>
-```
+![Privacy Policy](privacy-policy-page.png)
 
 ------------------------------------------------------------------------
 
-## Responsive & UX Considerations
+# ↩️ Withdrawal Policy
 
-The interface is designed to remain consistent across desktop, tablet,
-and mobile layouts. Particular attention has been given to product
-presentation, navigation, related products, FAQ visibility, customer
-reviews, legal links, footer accessibility, and clear calls to action.
+The Withdrawal Policy provides customers with information about their
+right of withdrawal and the applicable process.
 
-------------------------------------------------------------------------
+The page includes:
 
-## Main Website Sections
+-   Right of withdrawal
+-   Effects of withdrawal
+-   Hotel Pass deactivation
+-   Information for activated Hotel Passes
+-   Distinction from later hotel bookings
+-   Model withdrawal form
+-   English and German withdrawal information
 
-  Area                      Purpose
-  ------------------------- --------------------------------------------------
-  Smart Hotel Pass          Present the core Hotel Pass offers
-  Escape                    Showcase destination-based products
-  Student Discount          Verify student eligibility
-  About Gutscheinreisen24   Explain the brand and Hotel Pass concept
-  About WCS                 Explain the service partner and responsibilities
-  Terms & Conditions        Present contractual terms
-  Privacy Policy            Explain personal-data handling
-  Withdrawal Policy         Present withdrawal information
-  Impressum                 Provide company/legal identification
-  Withdraw from Contract    Enable electronic withdrawal submission
+![Withdrawal Policy](withdrawal-policy.png)
 
 ------------------------------------------------------------------------
 
-## Project Status
+# ⚖️ Impressum
 
-The screenshots above document the current website implementation and
-its main customer-facing pages.
+The Impressum provides the business and legal identification information
+for Gutscheinreisen24 / IPV GmbH.
 
-> **Note:** Legal and policy content shown on the website should always
-> be reviewed and approved by the business's qualified legal adviser
-> before production use, especially when legal requirements or business
-> processes change.
+It includes company details, contact information, company registration
+information, VAT identification, and information about the Hotel Pass
+provider.
+
+![Impressum](impressum-page.png)
 
 ------------------------------------------------------------------------
 
-### Gutscheinreisen24
+# ✅ Confirm Withdrawal
 
-**Smart Hotel Pass · Flexible travel · Clear customer journey**
+The website includes a dedicated electronic **Withdraw from Contract**
+process.
+
+Customers can access the withdrawal function from the footer and submit
+the information required to identify their order and withdrawal request.
+
+The form includes:
+
+-   First name
+-   Last name
+-   Order number
+-   Email
+-   Withdrawal reason/details
+-   Confirm Withdrawal action
+
+![Confirm Withdrawal Page](confirm-withdrawal.png)
+
+------------------------------------------------------------------------
+
+# 📱 Responsive Experience
+
+The website is designed to provide a consistent experience across:
+
+**Desktop · Tablet · Mobile**
+
+Special attention has been given to product presentation, navigation,
+Hotel Pass recommendations, FAQ visibility, reviews, legal information,
+footer accessibility, and calls to action.
+
+------------------------------------------------------------------------
+
+# 🗂️ Main Website Pages
+
+  -----------------------------------------------------------------------
+  Page                                Purpose
+  ----------------------------------- -----------------------------------
+  **Home**                            Introduces Smart Hotel Pass and the
+                                      overall customer journey
+
+  **Product Page**                    Presents individual Hotel Pass /
+                                      Escape details
+
+  **Category Page**                   Displays available Escape
+                                      destinations
+
+  **Student Discount**                Handles student discount
+                                      verification
+
+  **About Gutscheinreisen24**         Explains the brand and Hotel Pass
+                                      concept
+
+  **About WCS**                       Explains the service partner and
+                                      its responsibilities
+
+  **Terms of Service**                Presents contractual terms
+
+  **Privacy Policy**                  Explains personal-data handling
+
+  **Withdrawal Policy**               Provides withdrawal information
+
+  **Impressum**                       Provides company and legal
+                                      identification
+
+  **Confirm Withdrawal**              Enables electronic withdrawal
+                                      submission
+  -----------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+# 📁 Screenshot Files
+
+All screenshots are stored directly in the **same main project directory
+as this `README.md` file**.
+
+``` text
+README.md
+home-page.png
+product-page.png
+category-page.png
+student-page.png
+about-gutscheinreisen-page.png
+about-wcs-page.png
+terms-of-service-page.png
+privacy-policy-page.png
+withdrawal-policy.png
+impressum-page.png
+confirm-withdrawal.png
+```
+
+Because the screenshots and `README.md` are in the same directory, the
+README uses simple relative image paths such as:
+
+``` markdown
+![Gutscheinreisen24 Homepage](home-page.png)
+```
+
+No separate `assets/` or image folder is required.
+
+------------------------------------------------------------------------
+
+## Gutscheinreisen24
+
+**Smart Hotel Pass · Flexible Travel · Clear Customer Experience**
+
+> **Note:** Legal and policy content should be reviewed and approved by
+> the business or its qualified legal adviser before production use
+> whenever applicable requirements or business processes change.
